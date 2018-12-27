@@ -241,4 +241,7 @@
   'RainLab\\Blog\\Components\\Posts' => 'plugins/rainlab/blog/components/Posts.php',
   'RainLab\\Blog\\Components\\Categories' => 'plugins/rainlab/blog/components/Categories.php',
   'RainLab\\Blog\\Components\\RssFeed' => 'plugins/rainlab/blog/components/RssFeed.php',
+  'backend\\Controllers\\index' => 'modules/backend/controllers/index.php',
+  'backend\\Controllers\\auth' => 'modules/backend/controllers/auth.php',
+  'cms\\Controllers\\index' => 'modules/cms/controllers/index.php',
 );
