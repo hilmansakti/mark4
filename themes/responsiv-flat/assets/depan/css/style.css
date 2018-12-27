@@ -4,7 +4,7 @@ div#app {
 
 /* Carousel Styles */
 .carousel-indicators.carousel-bawah {
-    bottom: 0px;
+    bottom: 50px;
 }
 
 .carousel-indicators > li {
@@ -50,12 +50,16 @@ div#app {
 }
 
 .carousel-inner.carousel-bawah {
-    margin-bottom: 70px;
+    margin-bottom: 80px;
 }
 
 .carousel-inner img {
     width: 100%;
     /*max-height: 460px*/
+}
+
+img.img2 {
+    max-height: 240px;
 }
 
 .content-kanan {
@@ -64,13 +68,13 @@ div#app {
 
 .carousel-control {
     position: absolute;
-    top: 25.5px;
+    /*top: 25.5px;*/
     bottom: 0;
-    left: 0;
+    /*left: 0;*/
     /*background: #000000;*/
     font-size: 5px;
-    background: none !important;
-    color: #fff !important;
+    background: none;
+    color: #fff;
     text-align: center;
 }
 
@@ -97,9 +101,32 @@ a.kanan.carousel-control, a.kiri.carousel-control {
     left: 80%;
 }
 
+.left2 {
+    left: 70%;
+}
+
+.right2 {
+    right: 20%;
+}
+
+/*
+a.left2.carousel-control, a.right2.carousel-control {
+    color: #000;
+}
+*/
+
 .carousel-control:hover,
 .carousel-control:focus {
     color: #fff;
+}
+
+.left2 {
+    float: left;
+}
+
+.right2 {
+    float: right;
+    position: absolute;
 }
 
 .carousel-control .glyphicon-chevron-left,
@@ -270,6 +297,15 @@ div > .isi-kanan > img {
     text-align: center;
 }
 
+
+a.btn.bulat {
+    border-radius: 50px;
+    /*background-color: transparent;*/
+}
+
+a.btn.active.bulat {
+
+}
 
 
 /*
