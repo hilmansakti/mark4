@@ -73,10 +73,8 @@ class Mailer extends MailerBase
             $this->addContent($message, $view, $plain, $raw, $data);
         }
 
-        if ($callback !== null) {
-            call_user_func($callback, $message);
-        }
-        
+        call_user_func($callback, $message);
+
         if (isset($this->to['address'])) {
             $this->setGlobalTo($message);
         }
@@ -267,9 +265,7 @@ class Mailer extends MailerBase
 
         $mailable->view($view)->withSerializedData($data);
 
-        if ($callback !== null) {
-            call_user_func($callback, $mailable);
-        }
+        call_user_func($callback, $mailable);
 
         return $mailable;
     }

@@ -308,8 +308,6 @@
     }
 
     Popup.prototype.hide = function() {
-        if (!this.isOpen) return
-
         this.triggerEvent('popupHide') // Deprecated
         this.triggerEvent('hide.oc.popup')
 

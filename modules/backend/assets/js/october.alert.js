@@ -65,7 +65,7 @@ $(window).on('ajaxConfirmMessage', function(event, message){
  * Override "Sweet Alert" functions to translate default buttons
  */
 
-$(document).ready(function(){
+$(document).on('ready', function(){
     if (!window.swal) return
 
     var swal = window.swal

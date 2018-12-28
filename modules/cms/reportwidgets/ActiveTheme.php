@@ -1,7 +1,6 @@
 <?php namespace Cms\ReportWidgets;
 
 use Lang;
-use BackendAuth;
 use Cms\Classes\Theme;
 use Cms\Models\MaintenanceSetting;
 use Backend\Classes\ReportWidgetBase;
@@ -65,7 +64,5 @@ class ActiveTheme extends ReportWidgetBase
 
         $this->vars['theme'] = $theme;
         $this->vars['inMaintenance'] = MaintenanceSetting::get('is_enabled');
-        $this->vars['canManage'] = BackendAuth::getUser()->hasAccess('cms.manage_themes');
-        $this->vars['canConfig'] = BackendAuth::getUser()->hasAccess('cms.manage_theme_options');
     }
 }

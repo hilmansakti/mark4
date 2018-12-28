@@ -1,9 +1,6 @@
 <?php namespace Backend\Controllers;
 
-use Lang;
-use Flash;
 use Backend;
-use Redirect;
 use BackendMenu;
 use BackendAuth;
 use Backend\Models\UserGroup;
@@ -71,7 +68,7 @@ class Users extends Controller
             $query->where('is_superuser', false);
         }
     }
-
+    
     /**
      * Prevents non-superusers from even seeing the is_superuser filter
      */
@@ -83,16 +80,6 @@ class Users extends Controller
     }
 
     /**
-     * Strike out deleted records
-     */
-    public function listInjectRowClass($record, $definition = null)
-    {
-        if ($record->trashed()) {
-            return 'strike';
-        }
-    }
-
-    /**
      * Extends the form query to prevent non-superusers from accessing superusers at all
      */
     public function formExtendQuery($query)
@@ -100,9 +87,6 @@ class Users extends Controller
         if (!$this->user->isSuperUser()) {
             $query->where('is_superuser', false);
         }
-
-        // Ensure soft-deleted records can still be managed
-        $query->withTrashed();
     }
 
     /**
@@ -116,18 +100,6 @@ class Users extends Controller
         }
 
         return $this->asExtension('FormController')->update($recordId, $context);
-    }
-
-    /**
-     * Handle restoring users
-     */
-    public function update_onRestore($recordId)
-    {
-        $this->formFindModelObject($recordId)->restore();
-
-        Flash::success(Lang::get('backend::lang.form.restore_success', ['name' => Lang::get('backend::lang.user.name')]));
-
-        return Redirect::refresh();
     }
 
     /**

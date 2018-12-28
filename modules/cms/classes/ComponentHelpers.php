@@ -36,43 +36,41 @@ class ComponentHelpers
         }
 
         $properties = $component->defineProperties();
-        if (is_array($properties)) {
-            foreach ($properties as $name => $params) {
-                $property = [
-                    'property'              => $name,
-                    'title'                 => array_get($params, 'title', $name),
-                    'type'                  => array_get($params, 'type', 'string'),
-                    'showExternalParam'     => array_get($params, 'showExternalParam', true)
-                ];
+        foreach ($properties as $name => $params) {
+            $property = [
+                'property'              => $name,
+                'title'                 => array_get($params, 'title', $name),
+                'type'                  => array_get($params, 'type', 'string'),
+                'showExternalParam'     => array_get($params, 'showExternalParam', true)
+            ];
 
-                foreach ($params as $name => $value) {
-                    if (isset($property[$name])) {
-                        continue;
-                    }
-                    $property[$name] = $value;
+            foreach ($params as $name => $value) {
+                if (isset($property[$name])) {
+                    continue;
                 }
-
-                /*
-                 * Translate human values
-                 */
-                $translate = ['title', 'description', 'options', 'group', 'validationMessage'];
-                foreach ($property as $name => $value) {
-                    if (!in_array($name, $translate)) {
-                        continue;
-                    }
-
-                    if (is_array($value)) {
-                        array_walk($property[$name], function (&$_value, $key) {
-                            $_value = Lang::get($_value);
-                        });
-                    }
-                    else {
-                        $property[$name] = Lang::get($value);
-                    }
-                }
-
-                $result[] = $property;
+                $property[$name] = $value;
             }
+
+            /*
+             * Translate human values
+             */
+            $translate = ['title', 'description', 'options', 'group', 'validationMessage'];
+            foreach ($property as $name => $value) {
+                if (!in_array($name, $translate)) {
+                    continue;
+                }
+
+                if (is_array($value)) {
+                    array_walk($property[$name], function (&$_value, $key) {
+                        $_value = Lang::get($_value);
+                    });
+                }
+                else {
+                    $property[$name] = Lang::get($value);
+                }
+            }
+
+            $result[] = $property;
         }
 
         if ($returnArray)

@@ -6,7 +6,6 @@ use Cache;
 use Config;
 use Storage;
 use Request;
-use Url;
 use October\Rain\Filesystem\Definitions as FileDefinitions;
 use ApplicationException;
 use SystemException;
@@ -539,9 +538,7 @@ class MediaLibrary
     {
         $path = $this->validatePath($path);
 
-        $fullPath = $this->storagePath.implode("/", array_map("rawurlencode", explode("/", $path)));
-
-        return Url::to($fullPath);
+        return $this->storagePath.$path;
     }
 
     /**

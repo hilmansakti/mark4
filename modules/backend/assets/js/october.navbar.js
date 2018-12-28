@@ -10,7 +10,7 @@
  */
 
 (function($){
-    $(window).on('load', function() {
+    $(window).load(function() {
         $('nav.navbar').each(function(){
             var
                 navbar = $(this),

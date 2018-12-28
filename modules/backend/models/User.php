@@ -13,8 +13,6 @@ use October\Rain\Auth\Models\User as UserBase;
  */
 class User extends UserBase
 {
-    use \October\Rain\Database\Traits\SoftDelete;
-
     /**
      * @var string The database table used by the model.
      */
@@ -28,17 +26,6 @@ class User extends UserBase
         'login' => 'required|between:2,255|unique:backend_users',
         'password' => 'required:create|between:4,255|confirmed',
         'password_confirmation' => 'required_with:password|between:4,255'
-    ];
-
-    /**
-     * @var array Attributes that should be cast to dates
-     */
-    protected $dates = [
-        'activated_at',
-        'last_login',
-        'created_at',
-        'updated_at',
-        'deleted_at',
     ];
 
     /**

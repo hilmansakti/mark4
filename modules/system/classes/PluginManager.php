@@ -5,7 +5,6 @@ use App;
 use Str;
 use File;
 use Lang;
-use Log;
 use View;
 use Config;
 use Schema;
@@ -122,28 +121,17 @@ class PluginManager
         $className = $namespace.'\Plugin';
         $classPath = $path.'/Plugin.php';
 
-        try {
-            // Autoloader failed?
-            if (!class_exists($className)) {
-                include_once $classPath;
-            }
+        // Autoloader failed?
+        if (!class_exists($className)) {
+            include_once $classPath;
+        }
 
-            // Not a valid plugin!
-            if (!class_exists($className)) {
-                return;
-            }
-
-            $classObj = new $className($this->app);
-        } catch (\Throwable $e) {
-            Log::error('Plugin ' . $className . ' could not be instantiated.', [
-                'message' => $e->getMessage(),
-                'file' => $e->getFile(),
-                'line' => $e->getLine(),
-                'trace' => $e->getTraceAsString()
-            ]);
+        // Not a valid plugin!
+        if (!class_exists($className)) {
             return;
         }
 
+        $classObj = new $className($this->app);
         $classId = $this->getIdentifier($classObj);
 
         /*

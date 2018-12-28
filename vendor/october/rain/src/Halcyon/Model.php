@@ -283,20 +283,6 @@ class Model extends Extendable implements ArrayAccess, Arrayable, Jsonable, Json
     }
 
     /**
-     * Adds an attribute to the purgeable attributes list
-     * @param  array|string|null  $attributes
-     * @return $this
-     */
-    public function addPurgeable($attributes = null)
-    {
-        $attributes = is_array($attributes) ? $attributes : func_get_args();
-
-        $this->purgeable = array_merge($this->purgeable, $attributes);
-
-        return $this;
-    }
-
-    /**
      * The settings is attribute contains everything that should
      * be saved to the settings area.
      * @return array
@@ -312,11 +298,9 @@ class Model extends Extendable implements ArrayAccess, Arrayable, Jsonable, Json
             'code'
         ];
 
-        $dynPropNames = array_keys(array_diff_key($this->getDynamicProperties(), ['purgeable' => 0]));
-
         return array_diff_key(
             $this->attributes,
-            array_flip(array_merge($defaults, $this->purgeable, $dynPropNames))
+            array_flip(array_merge($defaults, $this->purgeable))
         );
     }
 
@@ -811,11 +795,6 @@ class Model extends Extendable implements ArrayAccess, Arrayable, Jsonable, Json
      */
     public function setRawAttributes(array $attributes, $sync = false)
     {
-        // merge dynamic properties to the base attributes
-        if ($sync) {
-            $attributes = array_merge($this->attributes, $attributes);
-        }
-
         $this->attributes = $attributes;
 
         if ($sync) {

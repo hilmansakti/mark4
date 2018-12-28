@@ -56,9 +56,6 @@ return [
         'weekdays' => ['Zondag', 'Maandag', 'Dinsdag', 'Woensdag', 'Donderdag', 'Vrijdag', 'Zaterdag'],
         'weekdaysShort' => ['Zo', 'Ma', 'Di', 'Wo', 'Do', 'Vr', 'Za']
     ],
-    'colorpicker' => [
-        'choose' => 'OK',
-    ],
     'filter' => [
         'group' => [
             'all' => 'alle'
@@ -70,14 +67,7 @@ return [
             'date_placeholder' => 'Datum',
             'after_placeholder' => 'Na',
             'before_placeholder' => 'Voor'
-        ],
-        'numbers' => [
-            'all' => 'alle',
-            'filter_button_text' => 'Filteren',
-            'reset_button_text'  => 'Resetten',
-            'min_placeholder' => 'Minimum',
-            'max_placeholder' => 'Maximum',
-        ],
+        ]
     ],
     'eventlog' => [
         'show_stacktrace' => 'Toon stacktrace',
@@ -92,7 +82,7 @@ return [
             'openWith' => 'Openen met',
             'remember_choice' => 'Onthoudt de geselecteerde optie voor deze browser-sessie',
             'open' => 'Openen',
-            'cancel' => 'Annuleren',
-        ],
-    ],
+            'cancel' => 'Annuleren'
+        ]
+    ]
 ];

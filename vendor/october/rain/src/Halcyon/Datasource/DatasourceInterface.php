@@ -40,11 +40,9 @@ interface DatasourceInterface
      * @param  string  $fileName
      * @param  string  $extension
      * @param  array   $content
-     * @param  string  $oldFileName Defaults to null
-     * @param  string  $oldExtension Defaults to null
      * @return int
      */
-    public function update($dirName, $fileName, $extension, $content, $oldFileName = null, $oldExtension = null);
+    public function update($dirName, $fileName, $extension, $content);
 
     /**
      * Run a delete statement against the datasource.

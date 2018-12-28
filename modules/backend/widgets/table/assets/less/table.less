@@ -476,7 +476,9 @@ html.cssanimations {
         cursor: pointer;
         outline: none;
 
-        &:focus {
+        &:hover,
+        &:focus,
+        &.selected {
             background: @color-focus;
             color: white;
         }

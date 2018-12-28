@@ -510,7 +510,7 @@ class Manager
 
         $this->user = null;
 
-        Session::flush();
+        Session::forget($this->sessionKey);
         Cookie::queue(Cookie::forget($this->sessionKey));
     }
 

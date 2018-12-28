@@ -33,11 +33,8 @@ class EditorSetting extends Model
      * @var mixed Settings form field defitions
      */
     public $settingsFields = 'fields.yaml';
-    
-    /**
-     * @var string The key to store rendered CSS in the cache under
-     */
-    public $cacheKey = 'backend::editor.custom_css';
+
+    const CACHE_KEY = 'backend::editor.custom_css';
 
     protected $defaultHtmlAllowEmptyTags = 'textarea, a, iframe, object, video, style, script';
 
@@ -103,7 +100,7 @@ class EditorSetting extends Model
 
     public function afterSave()
     {
-        Cache::forget(self::instance()->cacheKey);
+        Cache::forget(self::CACHE_KEY);
     }
 
     protected function makeStylesForTable($arr)
@@ -160,14 +157,13 @@ class EditorSetting extends Model
 
     public static function renderCss()
     {
-        $cacheKey = self::instance()->cacheKey;
-        if (Cache::has($cacheKey)) {
-            return Cache::get($cacheKey);
+        if (Cache::has(self::CACHE_KEY)) {
+            return Cache::get(self::CACHE_KEY);
         }
 
         try {
             $customCss = self::compileCss();
-            Cache::forever($cacheKey, $customCss);
+            Cache::forever(self::CACHE_KEY, $customCss);
         }
         catch (Exception $ex) {
             $customCss = '/* ' . $ex->getMessage() . ' */';

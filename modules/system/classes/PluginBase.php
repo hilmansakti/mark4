@@ -203,49 +203,17 @@ class PluginBase extends ServiceProviderBase
     }
 
     /**
-     * Registers any mail layouts implemented by this plugin.
-     * The layouts must be returned in the following format:
-     *
-     *     return [
-     *         'marketing'    => 'acme.blog::layouts.marketing',
-     *         'notification' => 'acme.blog::layouts.notification',
-     *     ];
-     *
-     * @return array
-     */
-    public function registerMailLayouts()
-    {
-        return [];
-    }
-
-    /**
      * Registers any mail templates implemented by this plugin.
      * The templates must be returned in the following format:
      *
      *     return [
-     *         'acme.blog::mail.welcome',
-     *         'acme.blog::mail.forgot_password',
+     *         ['acme.blog::mail.welcome' => 'This is a description of the welcome template'],
+     *         ['acme.blog::mail.forgot_password' => 'This is a description of the forgot password template'],
      *     ];
      *
      * @return array
      */
     public function registerMailTemplates()
-    {
-        return [];
-    }
-
-    /**
-     * Registers any mail partials implemented by this plugin.
-     * The partials must be returned in the following format:
-     *
-     *     return [
-     *         'tracking'  => 'acme.blog::partials.tracking',
-     *         'promotion' => 'acme.blog::partials.promotion',
-     *     ];
-     *
-     * @return array
-     */
-    public function registerMailPartials()
     {
         return [];
     }
