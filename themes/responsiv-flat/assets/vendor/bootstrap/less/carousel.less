@@ -106,13 +106,29 @@
   // animation if you trip this while in the middle of another animation.
 
   // Set gradients for backgrounds
+  
   &.left {
-    #gradient > .horizontal(@start-color: rgba(0,0,0,.5); @end-color: rgba(0,0,0,.0001));
+    /*#gradient > .horizontal(@start-color: rgba(0,0,0,.5); @end-color: rgba(0,0,0,.0001));*/
   }
   &.right {
     left: auto;
     right: 0;
-    #gradient > .horizontal(@start-color: rgba(0,0,0,.0001); @end-color: rgba(0,0,0,.5));
+    /*#gradient > .horizontal(@start-color: rgba(0,0,0,.0001); @end-color: rgba(0,0,0,.5));*/
+  }
+
+  &.car1 {
+    margin-top: 80%; 
+    font-size: 25px;
+    width: 35px;
+    height: 35px;
+  }
+
+  &.left.car1 {
+    margin-left:70%;
+  }
+
+  &.right.car1 {
+    margin-right: 13%;
   }
 
   // Hover/focus state
@@ -123,6 +139,8 @@
     text-decoration: none;
     .opacity(.9);
   }
+
+
 
   // Toggles
   .icon-prev,
@@ -206,7 +224,7 @@
   }
   .active {
     margin: 0;
-    width:  12px;
+    width:  40pxpx;
     height: 12px;
     background-color: @carousel-indicator-active-bg;
   }
@@ -230,6 +248,7 @@
     text-shadow: none; // No shadow for button elements in carousel-caption
   }
 }
+
 
 
 // Scale up controls for tablets and up
@@ -260,7 +279,7 @@
   .carousel-caption {
     left: 20%;
     right: 20%;
-    padding-bottom: 30px;
+    padding-bottom: 30%;
   }
 
   // Move up the indicators
