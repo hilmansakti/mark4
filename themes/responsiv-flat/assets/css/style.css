@@ -3,3 +3,22 @@
 a.left.carousel-control.car1 {
     margin-top: 90%;
 }
+
+.row > .col-md-6 {
+    padding-left: 5px;
+}
+#myCarousel.carousel, .kanan {
+    height: 53rem;
+}
+
+.konten-atas {
+    height: 50%; padding-bottom: 2%;
+}
+
+.konten-bawah {
+    height: 50%; padding-top: 2%; display: flex;
+}
+
+.konten-bawah > a > img {
+    width: 50%;
+}
