@@ -2,4 +2,4 @@
 *.log
 /storage/*.key
 /storage/*
-/config/database.php
+#/config/database.php
