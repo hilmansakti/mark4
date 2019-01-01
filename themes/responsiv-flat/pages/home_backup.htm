@@ -15,7 +15,6 @@ is_hidden = 0
                     <ol class="carousel-indicators">
                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                         <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
                     </ol>
                     
                     <!-- Wrapper for slides -->
@@ -74,209 +73,550 @@ is_hidden = 0
                     <span>
                         Our Products
                     </span>
-                </h3>
+                </h3>               
 
-                <div id="" class="text-center">
-                    <ul class="list-inline">
-                        <li>
-                            <a class="btn btn-default active bulat" href="" data-toggle="tab"
-                            data-title="On Sale Products">On Sale Product</a>
-                        </li>
-                        <li>
-                            <a class="btn btn-default bulat" href="" data-toggle="tab"
-                            data-title="Featured Products">Featured Products</a>
-                        </li>
-                        <li>
-                            <a class="btn btn-default bulat" href="" data-toggle="tab"
-                            data-title="Top Rated Products">Top Rated Products</a>
-                        </li>
-                    </ul>
+                <div class="text-center">
+                    <ul class="nav nav-pills list-inline">
+                        <li class="text-center active"><a class="btn btn-default bulat" data-toggle="pill" href="#osp">On Sale Product</a></li>
+                        <li class="text-center"><a class="btn btn-default bulat" data-toggle="pill" href="#fp">Featured Products</a></li>
+                        <li class="text-center"><a class="btn btn-default bulat" data-toggle="pill" href="#trp">Top Rated Products</a></li>
+                    </ul>   
                 </div>
-                <!-- Carousel indicators -->
-                <ol id="e-carousel" class="carousel-indicators">
-                    <li data-target="#e-carousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#e-carousel" data-slide-to="1"></li>
-                    <li data-target="#e-carousel" data-slide-to="2"></li>
-                </ol>   
-                <!-- Wrapper for carousel items -->
-                <div id="e-carousel" class="carousel-inner">
-                    <div id="e-carousel" class="item carousel-item active">
-                        <div class="row">
-                            <div class="col-sm-3">
-                                <div id="e-carousel" class="thumb-wrapper">
-                                    <div id="e-carousel" class="img-box">
-                                        <img id="e-carousel" src="themes/responsiv-flat/assets/images/ipad.jpg" class="img-responsive img-fluid" alt="">
+
+                <br>
+
+                <div class="tab-content">
+                    <div id="osp" class="tab-pane fade in active">
+                        <div id="e-crsl" class="carousel slide crsl" data-ride="crsl" data-interval="0">
+                            <!-- crsl indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#e-crsl" data-slide-to="0" class="active"></li>
+                                <li data-target="#e-crsl" data-slide-to="1"></li>
+                                <li data-target="#e-crsl" data-slide-to="2"></li>
+                            </ol>   
+                            <!-- Wrapper for crsl items -->
+                            <div class="carousel-inner">
+                                <div class="item carousel-item active">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="themes/responsiv-flat/assets/images/ipad.jpg" class="img-responsive img-fluid" alt="">
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <h4>Apple iPad</h4>
+                                                    <p class="item-price"><strike>$400.00</strike> <span>$369.00</span></p>
+                                                    <a href="#" class="btn btn-primary">Detail Barang</a>
+                                                </div>						
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="themes/responsiv-flat/assets/images/headphone.jpg" class="img-responsive img-fluid" alt="">
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <h4>Sony Headphone</h4>
+                                                    <p class="item-price"><strike>$25.00</strike> <span>$23.99</span></p>
+                                                    <a href="#" class="btn btn-primary">Detail Barang</a>
+                                                </div>						
+                                            </div>
+                                        </div>		
+                                        <div class="col-sm-3">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="themes/responsiv-flat/assets/images/macbook-air.jpg" class="img-responsive img-fluid" alt="">
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <h4>Macbook Air</h4>
+                                                    <p class="item-price"><strike>$899.00</strike> <span>$649.00</span></p>
+                                                    <a href="#" class="btn btn-primary">Detail Barang</a>
+                                                </div>						
+                                            </div>
+                                        </div>								
+                                        <div class="col-sm-3">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="themes/responsiv-flat/assets/images/nikon.jpg" class="img-responsive img-fluid" alt="">
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <h4>Nikon DSLR</h4>
+                                                    <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
+                                                    <a href="#" class="btn btn-primary">Detail Barang</a>
+                                                </div>						
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div id="e-carousel" class="thumb-content">
-                                        <h4>Apple iPad</h4>
-                                        <p id="e-carousel" class="item-price"><strike>$400.00</strike> <span>$369.00</span></p>
-                                        <a id="e-carousel" href="#" class="btn btn-primary">Detail Barang</a>
-                                    </div>						
+                                </div>
+                                <div class="item carousel-item ">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="themes/responsiv-flat/assets/images/macbook-air.jpg" class="img-responsive img-fluid" alt="">
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <h4>Macbook Air</h4>
+                                                    <p class="item-price"><strike>$899.00</strike> <span>$649.00</span></p>
+                                                    <a href="#" class="btn btn-primary">Detail Barang</a>
+                                                </div>						
+                                            </div>
+                                        </div>								
+                                        <div class="col-sm-3">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="themes/responsiv-flat/assets/images/nikon.jpg" class="img-responsive img-fluid" alt="">
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <h4>Nikon DSLR</h4>
+                                                    <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
+                                                    <a href="#" class="btn btn-primary">Detail Barang</a>
+                                                </div>						
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="themes/responsiv-flat/assets/images/ipad.jpg" class="img-responsive img-fluid" alt="">
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <h4>Apple iPad</h4>
+                                                    <p class="item-price"><strike>$400.00</strike> <span>$369.00</span></p>
+                                                    <a href="#" class="btn btn-primary">Detail Barang</a>
+                                                </div>						
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="themes/responsiv-flat/assets/images/headphone.jpg" class="img-responsive img-fluid" alt="">
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <h4>Sony Headphone</h4>
+                                                    <p class="item-price"><strike>$25.00</strike> <span>$23.99</span></p>
+                                                    <a href="#" class="btn btn-primary">Detail Barang</a>
+                                                </div>						
+                                            </div>
+                                        </div>		
+                                    </div>
+                                </div>
+                                <div class="item carousel-item">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="themes/responsiv-flat/assets/images/headphone.jpg" class="img-responsive img-fluid" alt="">
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <h4>Sony Headphone</h4>
+                                                    <p class="item-price"><strike>$25.00</strike> <span>$23.99</span></p>
+                                                    <a href="#" class="btn btn-primary">Detail Barang</a>
+                                                </div>						
+                                            </div>
+                                        </div>		
+                                        <div class="col-sm-3">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="themes/responsiv-flat/assets/images/macbook-air.jpg" class="img-responsive img-fluid" alt="">
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <h4>Macbook Air</h4>
+                                                    <p class="item-price"><strike>$899.00</strike> <span>$649.00</span></p>
+                                                    <a href="#" class="btn btn-primary">Detail Barang</a>
+                                                </div>						
+                                            </div>
+                                        </div>								
+                                        <div class="col-sm-3">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="themes/responsiv-flat/assets/images/nikon.jpg" class="img-responsive img-fluid" alt="">
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <h4>Nikon DSLR</h4>
+                                                    <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
+                                                    <a href="#" class="btn btn-primary">Detail Barang</a>
+                                                </div>						
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="themes/responsiv-flat/assets/images/ipad.jpg" class="img-responsive img-fluid" alt="">
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <h4>Apple iPad</h4>
+                                                    <p class="item-price"><strike>$400.00</strike> <span>$369.00</span></p>
+                                                    <a href="#" class="btn btn-primary">Detail Barang</a>
+                                                </div>						
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-sm-3">
-                                <div class="thumb-wrapper">
-                                    <div class="img-box">
-                                        <img src="themes/responsiv-flat/assets/images/headphone.jpg" class="img-responsive img-fluid" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <h4>Sony Headphone</h4>
-                                        <p class="item-price"><strike>$25.00</strike> <span>$23.99</span></p>
-                                        <a href="#" class="btn btn-primary">Detail Barang</a>
-                                    </div>						
-                                </div>
-                            </div>		
-                            <div class="col-sm-3">
-                                <div class="thumb-wrapper">
-                                    <div class="img-box">
-                                        <img src="themes/responsiv-flat/assets/images/macbook-air.jpg" class="img-responsive img-fluid" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <h4>Macbook Air</h4>
-                                        <p class="item-price"><strike>$899.00</strike> <span>$649.00</span></p>
-                                        <a href="#" class="btn btn-primary">Detail Barang</a>
-                                    </div>						
-                                </div>
-                            </div>								
-                            <div class="col-sm-3">
-                                <div class="thumb-wrapper">
-                                    <div class="img-box">
-                                        <img src="themes/responsiv-flat/assets/images/nikon.jpg" class="img-responsive img-fluid" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <h4>Nikon DSLR</h4>
-                                        <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
-                                        <a href="#" class="btn btn-primary">Detail Barang</a>
-                                    </div>						
-                                </div>
-                            </div>
+                            <!-- crsl controls -->
+                            <a class="carousel-control left crsl-prev" href="#e-crsl" data-slide="prev">
+                                <i class="fa fa-arrow-left black"></i>
+                            </a>
+                            <a class="carousel-control right crsl-next" href="#e-crsl" data-slide="next">
+                                <i class="fa fa-arrow-right black"></i>
+                            </a>
                         </div>
                     </div>
-                    <div class="item carousel-item ">
-                        <div class="row">
-                            <div class="col-sm-3">
-                                <div class="thumb-wrapper">
-                                    <div class="img-box">
-                                        <img src="themes/responsiv-flat/assets/images/macbook-air.jpg" class="img-responsive img-fluid" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <h4>Macbook Air</h4>
-                                        <p class="item-price"><strike>$899.00</strike> <span>$649.00</span></p>
-                                        <a href="#" class="btn btn-primary">Detail Barang</a>
-                                    </div>						
-                                </div>
-                            </div>								
-                            <div class="col-sm-3">
-                                <div class="thumb-wrapper">
-                                    <div class="img-box">
-                                        <img src="themes/responsiv-flat/assets/images/nikon.jpg" class="img-responsive img-fluid" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <h4>Nikon DSLR</h4>
-                                        <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
-                                        <a href="#" class="btn btn-primary">Detail Barang</a>
-                                    </div>						
-                                </div>
-                            </div>
-                            <div class="col-sm-3">
-                                <div class="thumb-wrapper">
-                                    <div class="img-box">
-                                        <img src="themes/responsiv-flat/assets/images/ipad.jpg" class="img-responsive img-fluid" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <h4>Apple iPad</h4>
-                                        <p class="item-price"><strike>$400.00</strike> <span>$369.00</span></p>
-                                        <a href="#" class="btn btn-primary">Detail Barang</a>
-                                    </div>						
-                                </div>
-                            </div>
-                            <div class="col-sm-3">
-                                <div class="thumb-wrapper">
-                                    <div class="img-box">
-                                        <img src="themes/responsiv-flat/assets/images/headphone.jpg" class="img-responsive img-fluid" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <h4>Sony Headphone</h4>
-                                        <p class="item-price"><strike>$25.00</strike> <span>$23.99</span></p>
-                                        <a href="#" class="btn btn-primary">Detail Barang</a>
-                                    </div>						
-                                </div>
-                            </div>		
-                        </div>
+                    <div id="fp" class="tab-pane fade">
+                        <h3>Menu 1</h3>
+                        <p>Some content in menu 1.</p>
                     </div>
-                    <div class="item carousel-item">
-                        <div class="row">
-                            <div class="col-sm-3">
-                                <div class="thumb-wrapper">
-                                    <div class="img-box">
-                                        <img src="themes/responsiv-flat/assets/images/headphone.jpg" class="img-responsive img-fluid" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <h4>Sony Headphone</h4>
-                                        <p class="item-price"><strike>$25.00</strike> <span>$23.99</span></p>
-                                        <a href="#" class="btn btn-primary">Detail Barang</a>
-                                    </div>						
-                                </div>
-                            </div>		
-                            <div class="col-sm-3">
-                                <div class="thumb-wrapper">
-                                    <div class="img-box">
-                                        <img src="themes/responsiv-flat/assets/images/macbook-air.jpg" class="img-responsive img-fluid" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <h4>Macbook Air</h4>
-                                        <p class="item-price"><strike>$899.00</strike> <span>$649.00</span></p>
-                                        <a href="#" class="btn btn-primary">Detail Barang</a>
-                                    </div>						
-                                </div>
-                            </div>								
-                            <div class="col-sm-3">
-                                <div class="thumb-wrapper">
-                                    <div class="img-box">
-                                        <img src="themes/responsiv-flat/assets/images/nikon.jpg" class="img-responsive img-fluid" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <h4>Nikon DSLR</h4>
-                                        <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
-                                        <a href="#" class="btn btn-primary">Detail Barang</a>
-                                    </div>						
-                                </div>
-                            </div>
-                            <div class="col-sm-3">
-                                <div class="thumb-wrapper">
-                                    <div class="img-box">
-                                        <img src="themes/responsiv-flat/assets/images/ipad.jpg" class="img-responsive img-fluid" alt="">
-                                    </div>
-                                    <div class="thumb-content">
-                                        <h4>Apple iPad</h4>
-                                        <p class="item-price"><strike>$400.00</strike> <span>$369.00</span></p>
-                                        <a href="#" class="btn btn-primary">Detail Barang</a>
-                                    </div>						
-                                </div>
-                            </div>
-                            
-                        </div>
+                    <div id="trp" class="tab-pane fade">
+                        <h3>Menu 2</h3>
+                        <p>Some content in menu 2.</p>
                     </div>
                 </div>
-                <!-- Carousel controls -->
-                <a class="carousel-control left carousel-control-prev" href="#e-carousel" data-slide="prev">
-                    <i class="fa fa-angle-left"></i>
-                </a>
-                <a class="carousel-control right carousel-control-next" href="#e-carousel" data-slide="next">
-                    <i class="fa fa-angle-right"></i>
-                </a>
-            </div>
             </div>
         </div>
     </div>
 </section>
 
+<br>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="text-center">
+                    <span>
+                        Top Categories
+                    </span>
+                </h3>               
+                <div class="text-center">
+                    <a href="" class="btn btn-default bulat">View All</a>
+                </div>
+                
+                <div id="crsl2" class="carousel slide crsl" data-ride="crsl2" data-interval="0">
+                    <!-- crsl indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#crsl2" data-slide-to="0" class="active"></li>
+                        <li data-target="#crsl2" data-slide-to="1"></li>
+                    </ol>   
+
+                    <br>
+
+                    <div class="carousel-inner">
+                        <div class="item carousel-item active"> 
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="themes/responsiv-flat/assets/images/ipad.jpg" class="img-responsive img-fluid" alt="">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Apple iPad</h4>
+                                            <p class="item-price"><strike>$400.00</strike> <span>$369.00</span></p>
+                                            <a href="#" class="btn btn-primary">Detail Barang</a>
+                                        </div>						
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="themes/responsiv-flat/assets/images/headphone.jpg" class="img-responsive img-fluid" alt="">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Sony Headphone</h4>
+                                            <p class="item-price"><strike>$25.00</strike> <span>$23.99</span></p>
+                                            <a href="#" class="btn btn-primary">Detail Barang</a>
+                                        </div>						
+                                    </div>
+                                </div>		
+                                <div class="col-sm-4">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="themes/responsiv-flat/assets/images/macbook-air.jpg" class="img-responsive img-fluid" alt="">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Macbook Air</h4>
+                                            <p class="item-price"><strike>$899.00</strike> <span>$649.00</span></p>
+                                            <a href="#" class="btn btn-primary">Detail Barang</a>
+                                        </div>						
+                                    </div>
+                                </div>								
+                            </div>
+                        </div>
+                        <div class="item carousel-item ">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="themes/responsiv-flat/assets/images/macbook-air.jpg" class="img-responsive img-fluid" alt="">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Macbook Air</h4>
+                                            <p class="item-price"><strike>$899.00</strike> <span>$649.00</span></p>
+                                            <a href="#" class="btn btn-primary">Detail Barang</a>
+                                        </div>						
+                                    </div>
+                                </div>								
+                                <div class="col-sm-4">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="themes/responsiv-flat/assets/images/nikon.jpg" class="img-responsive img-fluid" alt="">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Nikon DSLR</h4>
+                                            <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
+                                            <a href="#" class="btn btn-primary">Detail Barang</a>
+                                        </div>						
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="themes/responsiv-flat/assets/images/ipad.jpg" class="img-responsive img-fluid" alt="">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Apple iPad</h4>
+                                            <p class="item-price"><strike>$400.00</strike> <span>$369.00</span></p>
+                                            <a href="#" class="btn btn-primary">Detail Barang</a>
+                                        </div>						
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a class="carousel-control left crsl-prev" href="#crsl2" data-slide="prev">
+                        <i class="fa fa-arrow-left black"></i>
+                    </a>
+                    <a class="carousel-control right crsl-next" href="#crsl2" data-slide="next">
+                        <i class="fa fa-arrow-right black"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<br>
+
+<div class="text-center">
+    <p><i class="fa fa-pen-square"></i> How‘re we doing? Give us a feedback.</p>
+    <p>It’s very important to us to improve your experiences, many thanks for your contributions.</p>
+</div>
 
 <br />
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                    <div id="crsl3" class="carousel slide crsl" data-ride="crsl3" data-interval="0">
+                    <!-- crsl indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#crsl3" data-slide-to="0" class="active"></li>
+                        <li data-target="#crsl3" data-slide-to="1"></li>
+                    </ol>   
+
+                    <br>
+
+                    <div class="carousel-inner">
+                        <div class="item carousel-item active"> 
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="themes/responsiv-flat/assets/images/ipad.jpg" class="img-responsive img-fluid" alt="">
+                                        </div>						
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="themes/responsiv-flat/assets/images/macbook-air.jpg" class="img-responsive img-fluid" alt="">
+                                        </div>	
+                                    </div>
+                                </div>								
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="themes/responsiv-flat/assets/images/headphone.jpg" class="img-responsive img-fluid" alt="">
+                                        </div>
+                                    </div>
+                                </div>		
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="themes/responsiv-flat/assets/images/macbook-air.jpg" class="img-responsive img-fluid" alt="">
+                                        </div>
+                                    </div>
+                                </div>								
+                            </div>
+                        </div>
+                        <div class="item carousel-item ">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="themes/responsiv-flat/assets/images/nikon.jpg" class="img-responsive img-fluid" alt="">
+                                        </div>				
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="themes/responsiv-flat/assets/images/macbook-air.jpg" class="img-responsive img-fluid" alt="">
+                                        </div>				
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="themes/responsiv-flat/assets/images/macbook-air.jpg" class="img-responsive img-fluid" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="themes/responsiv-flat/assets/images/ipad.jpg" class="img-responsive img-fluid" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a class="carousel-control left crsl-prev" href="#crsl3" data-slide="prev">
+                        <i class="fa fa-arrow-left black"></i>
+                    </a>
+                    <a class="carousel-control right crsl-next" href="#crsl3" data-slide="next">
+                        <i class="fa fa-arrow-right black"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-center">
+                    <h3 class="">
+                        Recent Post
+                    </h3>
+                    <p>In dapibus vel ante in auctor. Suspendisse nec nisi vel lorem vulputate elementum.</p>
+                </div>
+                <br>
+                <div id="crsl4" class="carousel slide crsl" data-ride="crsl4" data-interval="0">
+                    <!-- crsl indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#crsl4" data-slide-to="0" class="active"></li>
+                        <li data-target="#crsl4" data-slide-to="1"></li>
+                        <li data-target="#crsl4" data-slide-to="2"></li>
+                    </ol>   
+                    <!-- Wrapper for crsl items -->
+                    <div class="carousel-inner">
+                        <div class="item carousel-item active">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="themes/responsiv-flat/assets/images/ipad.jpg" class="img-responsive img-fluid" alt="">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4><a href="">Apple iPad</a></h4>
+                                            <h5><a href="">Read more <i class="fa fa-arrow-right"></i></a></h5>
+                                        </div>						
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="themes/responsiv-flat/assets/images/headphone.jpg" class="img-responsive img-fluid" alt="">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4><a href="">Apple iPad</a></h4>
+                                            <h5><a href="">Read more <i class="fa fa-arrow-right"></i></a></h5>
+                                        </div>						
+                                    </div>
+                                </div>		
+                            </div>
+                        </div>
+                        <div class="item carousel-item ">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="themes/responsiv-flat/assets/images/macbook-air.jpg" class="img-responsive img-fluid" alt="">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4><a href="">Apple iPad</a></h4>
+                                            <h5><a href="">Read more <i class="fa fa-arrow-right"></i></a></h5>
+                                        </div>						
+                                    </div>
+                                </div>								
+                                <div class="col-sm-6">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="themes/responsiv-flat/assets/images/nikon.jpg" class="img-responsive img-fluid" alt="">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4><a href="">Apple iPad</a></h4>
+                                            <h5><a href="">Read more <i class="fa fa-arrow-right"></i></a></h5>
+                                        </div>						
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item carousel-item ">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="themes/responsiv-flat/assets/images/macbook-air.jpg" class="img-responsive img-fluid" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4><a href="">Apple iPad</a></h4>
+                                                <h5><a href="">Read more <i class="fa fa-arrow-right"></i></a></h5>
+                                            </div>						
+                                        </div>
+                                    </div>								
+                                    <div class="col-sm-6">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="themes/responsiv-flat/assets/images/nikon.jpg" class="img-responsive img-fluid" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h3 class="title"><a href="">Apple iPad</a></h3>
+                                                <p><a href="">Read more <i class="fa fa-arrow-right"></i></a></p>
+                                            </div>						
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <!-- crsl controls -->
+                    <a class="carousel-control left crsl-prev" href="#crsl4" data-slide="prev">
+                        <i class="fa fa-arrow-left black"></i>
+                    </a>
+                    <a class="carousel-control right crsl-next" href="#crsl4" data-slide="next">
+                        <i class="fa fa-arrow-right black"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<br>
 
 {% put scripts %}
 <script type="tex/javascript">
     $('.carousel').carousel({
+        interval: 1000
+    });
+    $('.crsl').carousel({
         interval: 1000
     });
 </script>
