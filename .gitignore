@@ -1,5 +1,5 @@
 .DS_Store
-*.log
-/storage/*.key
-/storage/*
+#*.log
+#/storage/*.key
+#/storage/*
 #/config/database.php
