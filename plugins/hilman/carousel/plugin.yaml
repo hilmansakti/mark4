@@ -1,0 +1,6 @@
+plugin:
+    name: 'hilman.carousel::lang.plugin.name'
+    description: 'hilman.carousel::lang.plugin.description'
+    author: hilman
+    icon: oc-icon-adjust
+    homepage: ''

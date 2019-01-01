@@ -4,7 +4,7 @@ layout = "default"
 is_hidden = 0
 ==
 {% put styles %}
-    <link type="text/css" href="themes/responsiv-flat/assets/css/style.css">
+    <link href="themes/responsiv-flat/assets/css/style.css" rel="stylesheet">
 {% endput %}
 <section >
     <div class="container">
@@ -13,31 +13,30 @@ is_hidden = 0
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
                     </ol>
-                
+                    
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
-                            <a href=""><img src="https://demo.thembay.com/puca_ohio/wp-content/uploads/revslider/ohio-home-05/h5_slider_01.jpg" alt="Chania"></a>
+                            <img src="https://demo.thembay.com/puca_ohio/wp-content/uploads/revslider/ohio-home-05/h5_slider_02.jpg" alt="Chania">
                             <div class="carousel-caption">
-                            <h3>Los Angeles</h3>
-                            <p>LA is always so much fun!</p>
-                            <a href="" class="btn btn-default btn-caro">ini button</a>
+                                <h3>Los Angeles</h3>
+                                <p>LA is always so much fun!</p>
                             </div>
                         </div>
                     
                         <div class="item">
-                            <a href=""><img src="https://demo.thembay.com/puca_ohio/wp-content/uploads/revslider/ohio-home-05/h5_slider_02.jpg" alt="Chicago"></a>
+                            <img src="https://demo.thembay.com/puca_ohio/wp-content/uploads/revslider/ohio-home-05/h5_slider_02.jpg" alt="Chicago">
                             <div class="carousel-caption">
                                 <h3>Chicago</h3>
                                 <p>Thank you, Chicago!</p>
-                                <a href="" class="btn btn-default btn-caro">ini button</a>
                             </div>
                         </div>
                     </div>
-                
+                    
                     <!-- Left and right controls -->
                     <a class="left carousel-control car1" href="#myCarousel" data-slide="prev">
                         <span class="fa fa-arrow-left"></span>
@@ -51,12 +50,13 @@ is_hidden = 0
             </div>
             <div class="col-md-6">
                 <div class="kanan">
-                    <div class="konten-atas">
-                        <a href=""><img src="https://demo.thembay.com/puca_ohio/wp-content/uploads/2018/03/h5_banner_01.jpg" alt="" style="width: 100%; height: 50%"></a>
+                    <div class="konten-atas atas">
+                        <a href=""><img src="https://demo.thembay.com/puca_ohio/wp-content/uploads/2018/03/h5_banner_01.jpg" alt="" style=""></a>
                     </div>
-                    <div class="konten-bawah">
-                        <a href=""><img src="https://demo.thembay.com/puca_ohio/wp-content/uploads/2018/03/h5_banner_02.jpg" alt=""></a>
-                        <a href=""><img src="https://demo.thembay.com/puca_ohio/wp-content/uploads/2018/03/h5_banner_03.jpg" alt=""></a>
+                    <!--<div style="height: 50%; padding-top: 2%; display: flex;">-->
+                    <div class="konten-bawah bawah">
+                        <a href=""><img id="kiri" src="https://demo.thembay.com/puca_ohio/wp-content/uploads/2018/03/h5_banner_02.jpg" alt=""></a>
+                        <a href=""><img id="kanan"src="https://demo.thembay.com/puca_ohio/wp-content/uploads/2018/03/h5_banner_03.jpg" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -64,86 +64,213 @@ is_hidden = 0
     </div>
 </section>
 
-<section class="home-title">
+<br>
+
+<section>
     <div class="container">
         <div class="row">
-            <div class="col-sm-4">
-                <h3>Percobaan ku di sore</h3>
-                <p>You have the design, you have the code. We've created the product that will help your startup to look even better.</p>
-                <div class="signup-form">
-                    <form>
-                        <div class="form-group">
-                            <input class="form-control" type="text" placeholder="Your E-mail">
-                        </div>
-                        <div class="form-group">
-                            <div>
-                                <input type="password" class="form-control" placeholder="Password">
-                            </div>
-                            <div>
-                                <input type="password" class="form-control" placeholder="Confirmation">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="btn btn-block btn-info">Sign Up</button>
-                        </div>
-                    </form>
+            <div class="col-md-12">
+                <h3 class="text-center">
+                    <span>
+                        Our Products
+                    </span>
+                </h3>
+
+                <div id="" class="text-center">
+                    <ul class="list-inline">
+                        <li>
+                            <a class="btn btn-default active bulat" href="" data-toggle="tab"
+                            data-title="On Sale Products">On Sale Product</a>
+                        </li>
+                        <li>
+                            <a class="btn btn-default bulat" href="" data-toggle="tab"
+                            data-title="Featured Products">Featured Products</a>
+                        </li>
+                        <li>
+                            <a class="btn btn-default bulat" href="" data-toggle="tab"
+                            data-title="Top Rated Products">Top Rated Products</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="additional-links">
-                    By signing up you agree to <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>
+                <!-- Carousel indicators -->
+                <ol id="e-carousel" class="carousel-indicators">
+                    <li data-target="#e-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#e-carousel" data-slide-to="1"></li>
+                    <li data-target="#e-carousel" data-slide-to="2"></li>
+                </ol>   
+                <!-- Wrapper for carousel items -->
+                <div id="e-carousel" class="carousel-inner">
+                    <div id="e-carousel" class="item carousel-item active">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <div id="e-carousel" class="thumb-wrapper">
+                                    <div id="e-carousel" class="img-box">
+                                        <img id="e-carousel" src="themes/responsiv-flat/assets/images/ipad.jpg" class="img-responsive img-fluid" alt="">
+                                    </div>
+                                    <div id="e-carousel" class="thumb-content">
+                                        <h4>Apple iPad</h4>
+                                        <p id="e-carousel" class="item-price"><strike>$400.00</strike> <span>$369.00</span></p>
+                                        <a id="e-carousel" href="#" class="btn btn-primary">Detail Barang</a>
+                                    </div>						
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="thumb-wrapper">
+                                    <div class="img-box">
+                                        <img src="themes/responsiv-flat/assets/images/headphone.jpg" class="img-responsive img-fluid" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <h4>Sony Headphone</h4>
+                                        <p class="item-price"><strike>$25.00</strike> <span>$23.99</span></p>
+                                        <a href="#" class="btn btn-primary">Detail Barang</a>
+                                    </div>						
+                                </div>
+                            </div>		
+                            <div class="col-sm-3">
+                                <div class="thumb-wrapper">
+                                    <div class="img-box">
+                                        <img src="themes/responsiv-flat/assets/images/macbook-air.jpg" class="img-responsive img-fluid" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <h4>Macbook Air</h4>
+                                        <p class="item-price"><strike>$899.00</strike> <span>$649.00</span></p>
+                                        <a href="#" class="btn btn-primary">Detail Barang</a>
+                                    </div>						
+                                </div>
+                            </div>								
+                            <div class="col-sm-3">
+                                <div class="thumb-wrapper">
+                                    <div class="img-box">
+                                        <img src="themes/responsiv-flat/assets/images/nikon.jpg" class="img-responsive img-fluid" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <h4>Nikon DSLR</h4>
+                                        <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
+                                        <a href="#" class="btn btn-primary">Detail Barang</a>
+                                    </div>						
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item carousel-item ">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <div class="thumb-wrapper">
+                                    <div class="img-box">
+                                        <img src="themes/responsiv-flat/assets/images/macbook-air.jpg" class="img-responsive img-fluid" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <h4>Macbook Air</h4>
+                                        <p class="item-price"><strike>$899.00</strike> <span>$649.00</span></p>
+                                        <a href="#" class="btn btn-primary">Detail Barang</a>
+                                    </div>						
+                                </div>
+                            </div>								
+                            <div class="col-sm-3">
+                                <div class="thumb-wrapper">
+                                    <div class="img-box">
+                                        <img src="themes/responsiv-flat/assets/images/nikon.jpg" class="img-responsive img-fluid" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <h4>Nikon DSLR</h4>
+                                        <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
+                                        <a href="#" class="btn btn-primary">Detail Barang</a>
+                                    </div>						
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="thumb-wrapper">
+                                    <div class="img-box">
+                                        <img src="themes/responsiv-flat/assets/images/ipad.jpg" class="img-responsive img-fluid" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <h4>Apple iPad</h4>
+                                        <p class="item-price"><strike>$400.00</strike> <span>$369.00</span></p>
+                                        <a href="#" class="btn btn-primary">Detail Barang</a>
+                                    </div>						
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="thumb-wrapper">
+                                    <div class="img-box">
+                                        <img src="themes/responsiv-flat/assets/images/headphone.jpg" class="img-responsive img-fluid" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <h4>Sony Headphone</h4>
+                                        <p class="item-price"><strike>$25.00</strike> <span>$23.99</span></p>
+                                        <a href="#" class="btn btn-primary">Detail Barang</a>
+                                    </div>						
+                                </div>
+                            </div>		
+                        </div>
+                    </div>
+                    <div class="item carousel-item">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <div class="thumb-wrapper">
+                                    <div class="img-box">
+                                        <img src="themes/responsiv-flat/assets/images/headphone.jpg" class="img-responsive img-fluid" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <h4>Sony Headphone</h4>
+                                        <p class="item-price"><strike>$25.00</strike> <span>$23.99</span></p>
+                                        <a href="#" class="btn btn-primary">Detail Barang</a>
+                                    </div>						
+                                </div>
+                            </div>		
+                            <div class="col-sm-3">
+                                <div class="thumb-wrapper">
+                                    <div class="img-box">
+                                        <img src="themes/responsiv-flat/assets/images/macbook-air.jpg" class="img-responsive img-fluid" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <h4>Macbook Air</h4>
+                                        <p class="item-price"><strike>$899.00</strike> <span>$649.00</span></p>
+                                        <a href="#" class="btn btn-primary">Detail Barang</a>
+                                    </div>						
+                                </div>
+                            </div>								
+                            <div class="col-sm-3">
+                                <div class="thumb-wrapper">
+                                    <div class="img-box">
+                                        <img src="themes/responsiv-flat/assets/images/nikon.jpg" class="img-responsive img-fluid" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <h4>Nikon DSLR</h4>
+                                        <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
+                                        <a href="#" class="btn btn-primary">Detail Barang</a>
+                                    </div>						
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="thumb-wrapper">
+                                    <div class="img-box">
+                                        <img src="themes/responsiv-flat/assets/images/ipad.jpg" class="img-responsive img-fluid" alt="">
+                                    </div>
+                                    <div class="thumb-content">
+                                        <h4>Apple iPad</h4>
+                                        <p class="item-price"><strike>$400.00</strike> <span>$369.00</span></p>
+                                        <a href="#" class="btn btn-primary">Detail Barang</a>
+                                    </div>						
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
                 </div>
+                <!-- Carousel controls -->
+                <a class="carousel-control left carousel-control-prev" href="#e-carousel" data-slide="prev">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                <a class="carousel-control right carousel-control-next" href="#e-carousel" data-slide="next">
+                    <i class="fa fa-angle-right"></i>
+                </a>
             </div>
-            <div class="col-sm-7 col-sm-offset-1 player-wrapper">
-                <div class="player">
-                    <iframe src="http://player.vimeo.com/video/29568236?color=3498db" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                </div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="logos">
-    <div class="container">
-        <div><img src="{{ 'assets/images/logos/mashable.png'|theme }}" alt=""></div>
-        <div><img src="{{ 'assets/images/logos/guardian.png'|theme }}" alt=""></div>
-        <div><img src="{{ 'assets/images/logos/forbes.png'|theme }}" alt=""></div>
-        <div><img src="{{ 'assets/images/logos/red-bull.png'|theme }}" alt=""></div>
-        <div><img src="{{ 'assets/images/logos/ny-times.png'|theme }}" alt=""></div>
-    </div>
-</section>
-
-<br />
-
-<div class="container">
-
-    <!-- Services -->
-    <div class="row our-services">
-        <div class="col-sm-12">
-            <h4 class="headline"><span>What we do</span></h4>
-            <p>He hasn't got a freckle my mad as a middy. Trent from punchy maccas no dramas shazza got us some ripper. As dry as a bradman flamin lets throw a cut lunch commando.</p>
-
-            {% partial 'services' %}
-        </div>
-    </div>
-
-    <div class="recent-tweets">
-        <h4 class="headline"><span>Recent tweets</span></h4>
-        <div class="tweet">
-            <i class="fa fa-twitter"></i>
-            <p>
-                Salami turkey jowl rump jerky ball tip drumstick ground round tenderloin kielbasa hamburger prosciutto.
-                <a href="#">1 day ago</a>
-            </p>
-        </div>
-        <div class="tweet">
-            <i class="fa fa-twitter"></i>
-            <p>
-                Short loin pork belly beef, tenderloin swine ribeye tri-tip doner salami rump hamburger.
-                <a href="#">2 days ago</a>
-            </p>
-        </div>
-    </div>
-
-</div>
 
 <br />
 

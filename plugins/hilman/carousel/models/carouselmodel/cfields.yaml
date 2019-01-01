@@ -1,0 +1,21 @@
+fields:
+    title:
+        label: Judul
+        span: auto
+        placeholder: 'Judul Gambar'
+        type: text
+    description:
+        label: Deskripsi
+        span: auto
+        placeholder: 'Deskripsi Gambar'
+        type: text
+    link:
+        label: 'Link URL'
+        span: auto
+        placeholder: URL
+        type: text
+    name_id:
+        label: 'Nama Carousel'
+        span: auto
+        dependsOn: {  }
+        type: dropdown
