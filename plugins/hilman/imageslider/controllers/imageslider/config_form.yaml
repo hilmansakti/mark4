@@ -1,0 +1,10 @@
+name: ImageSlider
+form: $/hilman/imageslider/models/imageslider/fields.yaml
+modelClass: Hilman\Imageslider\Models\ImageSlider
+defaultRedirect: hilman/imageslider/imageslider
+create:
+    redirect: 'hilman/imageslider/imageslider/update/:id'
+    redirectClose: hilman/imageslider/imageslider
+update:
+    redirect: hilman/imageslider/imageslider
+    redirectClose: hilman/imageslider/imageslider

@@ -1,18 +1,20 @@
 title = "Blog"
 url = "/blog"
 layout = "default"
-==
+is_hidden = 0
 
+[imagelist]
+==
 <section id="layout-title">
     <div class="container">
-        <h3>Blog</h3>
+        <h3> Blog </h3>        
     </div>
 </section>
 
 <div class="container">
     <div class="row">
         <div class="col-sm-9">
-
+        {% component 'imagelist' %}
             <!-- Blog Post #1 -->
             <div class="blog">
                 <img src="{{ 'assets/images/team/aleksey.png'|theme }}" alt="">

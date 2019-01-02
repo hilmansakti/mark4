@@ -15,6 +15,14 @@ description = "Default layout"
         <link href="{{ [
             'assets/less/theme.less'
         ]|theme }}" rel="stylesheet">
+
+        <style rel="stylesheet">
+            /*caret*/
+            .caret-up {
+                transform: rotate(180deg);
+                transition: all .25s ease-out;
+            }
+        </style>
         
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
 		<!--[if lt IE 9]>
@@ -88,6 +96,20 @@ description = "Default layout"
         </script>
         {% framework extras %}
         {% scripts %}
-
+        <script>
+            $(document).ready(function(){
+                $(".dropdown").hover(            
+                    function() {
+                        $('.dropdown-menu', this).stop( true, true ).fadeIn("fast");
+                        $(this).toggleClass('open');
+                        $('b', this).toggleClass("caret-up");                
+                    },
+                    function() {
+                        $('.dropdown-menu', this).stop( true, true ).fadeOut("fast");
+                        $(this).toggleClass('open');
+                        $('b', this).removeClass("caret-up");                
+                    });
+            });
+        </script>
     </body>
 </html>

@@ -1,0 +1,4 @@
+title: ImageSlider
+modelClass: Hilman\Imageslider\Models\ImageSlider
+toolbar:
+    buttons: reorder_toolbar

@@ -54,7 +54,7 @@
                 class="{{ link.sublinks ? 'dropdown-toggle' }}"
             >
                 {{ link.name ?: link[1] }}
-                {% if link.sublinks %}<span class="caret"></span>{% endif %}
+                {% if link.sublinks %}<b class="caret"></b>{% endif %}
             </a>
             {% if link.sublinks %}
                 <span class="dropdown-arrow"></span>
@@ -70,24 +70,21 @@
 
 <nav id="layout-nav" class="navbar navbar-static-top" role="navigation">
     <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="fa fa-bars"></span>
-            </button>
-            <a class="navbar-brand" href="{{ 'home'|page }}">Flat</a>
+        <div class="col-md-2">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="fa fa-bars"></span>
+                </button>
+                <a class="navbar-brand" href="{{ 'home'|page }}">Flat</a>
+            </div>
         </div>
-        <div class="collapse navbar-collapse navbar-main-collapse">
-            <ul class="nav navbar-nav navbar-right">
-                {{ nav.render_menu(links) }}
-                <li>
-                    <button
-                        onclick="window.location='{{ 'samples/signin'|page }}'"
-                        class="btn btn-sm navbar-btn btn-primary navbar-right hidden-sm hidden-xs">
-                        Sign in
-                    </button>
-                </li>
-            </ul>
+        <div class="col-md-8">
+            <div class="collapse navbar-collapse navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    {{ nav.render_menu(links) }}
+                </ul>
+            </div>
         </div>
     </div>
 </nav>

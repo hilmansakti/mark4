@@ -1,0 +1,24 @@
+fields:
+    title:
+        label: 'Judul Gambar'
+        span: full
+        placeholder: 'Judul Gambar'
+        hidden: 0
+        required: 1
+        type: text
+    description:
+        label: 'Deskripsi Gambar'
+        size: ''
+        span: full
+        type: textarea
+    images:
+        label: 'Unggah Gambar'
+        mode: image
+        imageWidth: '524'
+        imageHeight: '565'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload

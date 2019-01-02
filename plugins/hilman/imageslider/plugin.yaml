@@ -1,0 +1,11 @@
+plugin:
+    name: 'hilman.imageslider::lang.plugin.name'
+    description: 'hilman.imageslider::lang.plugin.description'
+    author: hilman
+    icon: oc-icon-image
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: ImageS
+        url: hilman/imageslider/imageslider
+        icon: icon-image

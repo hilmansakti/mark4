@@ -1,0 +1,11 @@
+columns:
+    title:
+        label: 'Judul Gambar'
+        type: text
+        searchable: true
+        sortable: true
+    description:
+        label: 'Deskripsi Gambar'
+        type: text
+        searchable: false
+        sortable: false

@@ -1,6 +1,0 @@
-fields:
-    name:
-        label: Nama
-        span: auto
-        placeholder: Nama...
-        type: text
