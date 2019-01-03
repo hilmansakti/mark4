@@ -1,0 +1,4 @@
+title: Kanan
+modelClass: Hilman\Imageslider\Models\Kanan
+toolbar:
+    buttons: reorder_toolbar

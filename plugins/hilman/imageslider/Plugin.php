@@ -18,7 +18,8 @@ class Plugin extends PluginBase
     public function registerComponents()
     {
         return [
-            'Hilman\Imageslider\Components\Imagelist' => 'imagelist'
+            'Hilman\Imageslider\Components\Imagelist' => 'imagelist',
+            'Hilman\Imageslider\Components\ImageKanan' => 'imagekanan'
         ];
     }
 

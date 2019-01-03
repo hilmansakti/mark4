@@ -9,3 +9,12 @@ navigation:
         label: ImageS
         url: hilman/imageslider/imageslider
         icon: icon-image
+        sideMenu:
+            side-menu-item:
+                label: 'Image Slider'
+                url: hilman/imageslider/imageslider
+                icon: icon-file-image-o
+            side-menu-item2:
+                label: 'Image Kanan'
+                url: hilman/imageslider/kanan
+                icon: icon-file-image-o

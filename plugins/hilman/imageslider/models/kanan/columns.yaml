@@ -1,0 +1,7 @@
+columns:
+    name:
+        label: Nama
+        type: text
+    position:
+        label: Posisi
+        type: text

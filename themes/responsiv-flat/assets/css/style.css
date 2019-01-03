@@ -18,6 +18,12 @@
     display: flex;
 }
 
+img#img_caros.img-responsive {
+    /*max-height: 525px;*/
+    height: 525px;
+    width: 100%;
+}
+
 .konten-bawah > a > img {
     width: 100%;
 }
@@ -128,7 +134,7 @@
 .green {background: green;}
 
 .yellow {background: yellow;}
-*/
+
 
 .crsl {
 	margin: 50px auto;

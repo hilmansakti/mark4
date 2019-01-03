@@ -1,0 +1,22 @@
+fields:
+    name:
+        label: 'Nama Gambar'
+        span: left
+        type: text
+    posistion:
+        label: Posisi
+        options:
+            atas: Atas
+            bawahkiri: 'Bawah Kiri'
+            bawahkanan: 'Bawah Kanan'
+        span: right
+        type: dropdown
+    img_kanan:
+        label: 'File upload'
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload

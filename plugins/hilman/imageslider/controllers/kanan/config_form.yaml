@@ -1,0 +1,10 @@
+name: Kanan
+form: $/hilman/imageslider/models/kanan/fields.yaml
+modelClass: Hilman\Imageslider\Models\Kanan
+defaultRedirect: hilman/imageslider/kanan
+create:
+    redirect: 'hilman/imageslider/kanan/update/:id'
+    redirectClose: hilman/imageslider/kanan
+update:
+    redirect: hilman/imageslider/kanan
+    redirectClose: hilman/imageslider/kanan

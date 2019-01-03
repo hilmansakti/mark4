@@ -3,3 +3,12 @@
 1.0.2:
     - 'Created table hilman_imageslider_'
     - builder_table_create_hilman_imageslider_.php
+1.0.3:
+    - 'Created table hilman_imageslider_kanan'
+    - builder_table_create_hilman_imageslider_kanan.php
+1.0.4:
+    - 'Updated table hilman_imageslider_kanan'
+    - builder_table_update_hilman_imageslider_kanan.php
+1.0.5:
+    - 'Updated table hilman_imageslider_kanan'
+    - builder_table_update_hilman_imageslider_kanan_2.php

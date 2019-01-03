@@ -9,7 +9,7 @@
         {% for index, caro in caros %}
         <div class="item{% if loop.first %} active{% endif %}">
             <img id="img_caros" src="{{ caro.img_caro.path }}"
-                 alt="Chania" class="img-responsive">
+                 alt="{{ caro.title }}" class="img-responsive">
             <div class="carousel-caption fadeUp">
                 <h3>{{ caro.title }}</h3>
                 <p>{{ caro.description }}</p>
