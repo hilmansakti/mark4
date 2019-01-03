@@ -26,7 +26,8 @@ class ImageList extends ComponentBase {
     }
 
     public function caros() {
-        $this->imagelist = DB::table('hilman_imageslider_')->get();
+        //$this->imagelist = DB::table('hilman_imageslider_')->find(4);
+        $this->imagelist = ImageSlider::all();
         return $this->imagelist;
     }
 

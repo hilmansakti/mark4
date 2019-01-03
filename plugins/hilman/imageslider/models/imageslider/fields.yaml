@@ -11,14 +11,14 @@ fields:
         size: ''
         span: full
         type: textarea
-    images:
-        label: 'Unggah Gambar'
+    img_caro:
+        label: 'File upload'
+        span: auto
         mode: image
-        imageWidth: '524'
-        imageHeight: '565'
         useCaption: true
         thumbOptions:
             mode: crop
             extension: auto
-        span: auto
+        imageWidth: '524'
+        imageHeight: '565'
         type: fileupload

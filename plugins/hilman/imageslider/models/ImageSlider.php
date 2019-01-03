@@ -28,6 +28,7 @@ class ImageSlider extends Model
     ];
 
     public $attachOne = [
-        'image' => 'System\Models\File'
+        'img_caro' => 'System\Models\File'
     ];
+
 }

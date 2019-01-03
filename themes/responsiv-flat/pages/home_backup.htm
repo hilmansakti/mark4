@@ -2,6 +2,8 @@ title = "Demonstration"
 url = "/"
 layout = "default"
 is_hidden = 0
+
+[imagelist]
 ==
 {% put styles %}
     <link href="themes/responsiv-flat/assets/css/style.css" rel="stylesheet">
@@ -11,13 +13,12 @@ is_hidden = 0
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <!-- Indicators -->
+            {% component 'imagelist' %}
+                <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                         <li data-target="#myCarousel" data-slide-to="1"></li>
-                    </ol>                    
-                    <!-- Wrapper for slides -->
+                    </ol>
                     <div class="carousel-inner">
                         <div class="item active">
                             <img src="https://demo.thembay.com/puca_ohio/wp-content/uploads/revslider/ohio-home-05/h5_slider_02.jpg" alt="Chania">
@@ -37,8 +38,7 @@ is_hidden = 0
                             </div>
                         </div>
                     </div>
-                    
-                    <!-- Left and right controls -->
+
                     <a class="left carousel-control car1" href="#myCarousel" data-slide="prev">
                         <span class="fa fa-arrow-left"></span>
                         <span class="sr-only">Previous</span>
@@ -47,7 +47,7 @@ is_hidden = 0
                         <span class="fa fa-arrow-right"></span>
                         <span class="sr-only">Next</span>
                     </a>
-                </div>
+                </div> -->
             </div>
             <div class="col-md-6">
                 <div class="kanan">
