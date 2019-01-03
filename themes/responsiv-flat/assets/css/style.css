@@ -12,6 +12,7 @@
 
 .konten-atas > a > img {
     height: 100%;
+    width: 100%;
 }
 
 .konten-bawah {
@@ -24,12 +25,22 @@ img#img_caros.img-responsive {
     width: 100%;
 }
 
+.konten-bawah > a {
+    width: 50%;
+}
+
 .konten-bawah > a > img {
     width: 100%;
+    height: 92%;
+}
+
+.atas {
+    padding-bottom: 10px;
 }
 
 .bawah {
     padding-top: 10px;
+    padding-bottom:40px;
 }
 
 #kiri {
