@@ -51,6 +51,16 @@ img#img_caros.img-responsive {
     padding-left: 10px;
 }
 
+.btn.btn-default.bulat {
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #4CAF50; /* Green */
+}
+
+.btn.btn-default.bulat:hover {
+    background-color: darkseagreen;
+}
+
 .bulat {
     border-radius: 50px !important;
     color: black !important;
@@ -268,7 +278,7 @@ img#img_caros.img-responsive {
     /*background-color: #000;*/
 }
 
-.carousel.control.left.crsl-prev, .carousel.control.right.crsl-next {
+a.carousel-control.left.crsl-prev, a.carousel-control.right.crsl-next {
     top: 50%;
 }
 
