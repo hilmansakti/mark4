@@ -586,4 +586,8 @@ class Post extends Model
 
         return $url;
     }
+
+    public $attachOne = [
+        'blog_image' => 'System\Models\File'
+    ];
 }

@@ -3,7 +3,13 @@ url = "/blog"
 layout = "default"
 is_hidden = 0
 
-[imagelist]
+[blogPosts]
+pageNumber = "{{ :page }}"
+postsPerPage = 10
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "blog/category"
+postPage = "blog/post"
 ==
 <section id="layout-title">
     <div class="container">
@@ -14,7 +20,7 @@ is_hidden = 0
 <div class="container">
     <div class="row">
         <div class="col-sm-9">
-            {% component 'imagelist' %}        
+            {% component 'blogPosts' %}
             <!-- Blog Post #1 -->
             <div class="blog">
                 <img src="{{ 'assets/images/team/aleksey.png'|theme }}" alt="">

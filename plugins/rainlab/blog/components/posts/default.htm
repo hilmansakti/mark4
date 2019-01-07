@@ -1,10 +1,17 @@
 {% set posts = __SELF__.posts %}
 
+{% put styles %}
+<style type="text/css">
+    ul > li {
+        list-style: none;
+    }
+</style>
+{% endput %}
 <ul class="post-list">
     {% for post in posts %}
         <li>
             <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-
+            <hr style="opacity: 0.3;">
             <p class="info">
                 Posted
                 {% if post.categories.count %} in {% endif %}
@@ -13,12 +20,14 @@
                 {% endfor %}
                 on {{ post.published_at|date('M d, Y') }}
             </p>
-
+            <img src="{{ post.blog_image.path }}" class="img-responsive" alt="">
             <p class="excerpt">{{ post.summary|raw }}</p>
+            <a href="blog/post/{{ post.slug }}" class="btn btn-default bulat">Read more...</a>
         </li>
     {% else %}
         <li class="no-data">{{ noPostsMessage }}</li>
     {% endfor %}
+    <hr style="color: lightgreen;">
 </ul>
 
 {% if posts.lastPage > 1 %}

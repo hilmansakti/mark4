@@ -6,11 +6,13 @@
     <div class="featured-images text-center">
         {% for image in post.featured_images %}
             <p>
-                <img
+                <!--<img
                     data-src="{{ image.filename }}"
                     src="{{ image.path }}"
                     alt="{{ image.description }}"
-                    style="max-width: 100%" />
+                    style="max-width: 100%" /> -->
+                <img src="{{ post.blog_image.path }}" alt="" class="img-responsive">
+                test
             </p>
         {% endfor %}
     </div>

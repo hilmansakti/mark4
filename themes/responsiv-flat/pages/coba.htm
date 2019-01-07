@@ -1,0 +1,22 @@
+title = "coba"
+url = "/coba"
+is_hidden = 0
+
+[ProductList]
+
+==
+test
+
+{% set obProductList = ProductList.make().sort(ProductList.getSorting()).active() %}
+{% if obProductList.isNotEmpty() %}
+
+<div class="product-list-wrapper">
+    <ul>
+    {% for obProduct in obProductList %}
+
+        <li>{{ obProduct.name }}</li>
+
+    {% endfor %}
+    </ul>
+</div>
+{% endif %}
