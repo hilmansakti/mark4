@@ -1,0 +1,17 @@
+fields:
+    email:
+        label: Email
+        span: full
+        type: text
+    phone:
+        label: Telpon
+        span: full
+        type: number
+    longitude:
+        label: Longitude
+        span: auto
+        type: text
+    latitude:
+        label: Latitude
+        span: auto
+        type: text

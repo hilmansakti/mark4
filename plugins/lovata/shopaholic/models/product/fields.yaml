@@ -5,7 +5,7 @@ fields:
         default: 0
         type: switch
     name:
-        label: 'lovata.toolbox::lang.field.name'
+        label: Nama
         span: left
         required: 1
         type: text
@@ -17,6 +17,10 @@ fields:
             field: name
             type: slug
         type: text
+    price:
+        label: Harga
+        span: auto
+        type: number
     link_shopee:
         label: 'Link Shopee'
         span: auto

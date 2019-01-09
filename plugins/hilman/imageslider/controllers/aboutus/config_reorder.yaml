@@ -1,0 +1,4 @@
+title: Aboutus
+modelClass: Hilman\Imageslider\Models\About
+toolbar:
+    buttons: reorder_toolbar

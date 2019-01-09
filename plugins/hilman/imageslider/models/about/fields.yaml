@@ -1,0 +1,38 @@
+fields:
+    about:
+        label: 'Tentang Toko'
+        size: ''
+        span: full
+        type: textarea
+    fb_link:
+        label: Facebook
+        span: auto
+        type: text
+    ig_link:
+        label: Instagram
+        span: auto
+        type: text
+    twitter_link:
+        label: Twitter
+        span: auto
+        type: text
+    gplus_link:
+        label: 'Google Plus'
+        span: auto
+        type: text
+    ytube_link:
+        label: YouTube
+        span: auto
+        type: text
+    shopee_link:
+        label: Shopee
+        span: auto
+        type: text
+    bl_link:
+        label: Bukalapak
+        span: auto
+        type: text
+    tokped_link:
+        label: Tokopedia
+        span: auto
+        type: text

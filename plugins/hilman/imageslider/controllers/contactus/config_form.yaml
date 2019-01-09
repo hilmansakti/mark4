@@ -1,0 +1,10 @@
+name: Contactus
+form: $/hilman/imageslider/models/contact/fields.yaml
+modelClass: Hilman\Imageslider\Models\Contact
+defaultRedirect: hilman/imageslider/contactus
+create:
+    redirect: 'hilman/imageslider/contactus/update/:id'
+    redirectClose: hilman/imageslider/contactus
+update:
+    redirect: hilman/imageslider/contactus
+    redirectClose: hilman/imageslider/contactus

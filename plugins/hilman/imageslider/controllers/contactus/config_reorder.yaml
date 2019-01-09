@@ -1,0 +1,4 @@
+title: Contactus
+modelClass: Hilman\Imageslider\Models\Contact
+toolbar:
+    buttons: reorder_toolbar

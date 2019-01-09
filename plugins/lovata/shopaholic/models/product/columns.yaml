@@ -53,3 +53,7 @@ columns:
         type: timetense
         sortable: true
         invisible: true
+    price:
+        label: Harga
+        type: number
+        searchable: true

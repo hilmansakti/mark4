@@ -1,44 +1,49 @@
 
 {# Note: Only one levels of sublinks are supported by Bootstrap 3 #}
+{# 'pages': {
+name: 'Pages',
+    sublinks: {
+        'about':         ['samples/about', 'About Us'],
+        'contact':       ['samples/contact', 'Contact Us'],
+        'pricing-table': ['samples/pricing-table', 'Pricing Table'],
+        'services':      ['samples/services', 'Services'],
+        'signin':        ['samples/signin', 'Sign In'],
+        'register':      ['samples/register', 'Register'],
+        'error':         ['error', 'Error Page'],
+        '404':           ['404', '404 Page'],
+        },
+    },
+#}
 {% set
     links = {
         'home': ['home', 'Home'],
-        'pages': {
-            name: 'Pages',
+
+        'product': {
+            name: 'Product',
             sublinks: {
-                'about':         ['samples/about', 'About Us'],
-                'contact':       ['samples/contact', 'Contact Us'],
-                'pricing-table': ['samples/pricing-table', 'Pricing Table'],
-                'services':      ['samples/services', 'Services'],
-                'signin':        ['samples/signin', 'Sign In'],
-                'register':      ['samples/register', 'Register'],
-                'error':         ['error', 'Error Page'],
-                '404':           ['404', '404 Page'],
-            },
-        },
-        'portfolio': {
-            name: 'Portfolio',
-            sublinks: {
-                'portfolio': ['portfolio/portfolio', 'Portfolio'],
-                'project': ['portfolio/project', 'Project'],
-            },
+                'aquarium': ['product/aquarium', 'Aquarium'],
+                'aquascape': ['product/aquascape', 'Aquascape'],
+                'ikan-hias': ['product/ikan-hias', 'Ikan Hias'],
+                'rak-besi': ['product/rak-besi', 'Rak Besi'],
+                'aksesoris': ['product/aksesoris', 'Aksesoris'],
+                'maintenance': ['product/maintenance', 'Maintenance'],
+
+            }
         },
         'blog': {
             name: 'Blog',
             sublinks: {
-                'blog': ['blog/blog', 'Blog'],
-                'post': ['blog/post', 'Blog Post'],
+                'blog': ['blog', 'Blog'],
+                'aquarium': ['blog/aquarium', 'Aquarium'],
+                'aquascape': ['blog/aquascape', 'Aquascape'],
+                'ikan-hias': ['blog/ikan-hias', 'Ikan Hias'],
+                'rak-besi': ['blog/rak-besi', 'Rak Besi'],
+                'aksesoris': ['blog/aksesoris', 'Aksesoris'],
+                'maintenance': ['blog/maintenance', 'Maintenance'],
             },
         },
-        'shop': {
-            name: 'Shop',
-            sublinks: {
-                'shop': ['shop/shop', 'Shop'],
-                'product': ['shop/product', 'Product'],
-                'cart': ['shop/cart', 'Cart'],
-            },
-        },
-        'ui-elements': ['ui-elements', 'UI Elements'],
+        'about-us': ['about-us', 'About Us'],
+        'contact-us': ['contact-us', 'Contact Us'],
 
     }
 %}
@@ -79,8 +84,9 @@
                 <a class="navbar-brand" href="{{ 'home'|page }}">Flat</a>
             </div>
         </div>
-        <div class="col-md-8">
-            <div class="collapse navbar-collapse navbar-main-collapse">
+        <div class="col-md-1"><span></span></div>
+        <div class="col-md-9">
+            <div class="collapse navbar-collapse navbar-main-collapse text-center">
                 <ul class="nav navbar-nav">
                     {{ nav.render_menu(links) }}
                 </ul>

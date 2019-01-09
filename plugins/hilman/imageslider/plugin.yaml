@@ -6,15 +6,23 @@ plugin:
     homepage: ''
 navigation:
     main-menu-item:
-        label: ImageS
+        label: 'Page Content'
         url: hilman/imageslider/imageslider
-        icon: icon-image
+        icon: icon-list-ul
         sideMenu:
-            side-menu-item:
+            side-menu-item1:
                 label: 'Image Slider'
                 url: hilman/imageslider/imageslider
                 icon: icon-file-image-o
             side-menu-item2:
-                label: 'Image Kanan'
+                label: Banner
                 url: hilman/imageslider/kanan
                 icon: icon-file-image-o
+            side-menu-item3:
+                label: 'About Us'
+                url: hilman/imageslider/aboutus
+                icon: icon-question-circle
+            side-menu-item4:
+                label: 'Contact Us'
+                url: hilman/imageslider/contactus
+                icon: icon-phone-square

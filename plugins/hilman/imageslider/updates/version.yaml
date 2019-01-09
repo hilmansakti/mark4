@@ -12,3 +12,9 @@
 1.0.5:
     - 'Updated table hilman_imageslider_kanan'
     - builder_table_update_hilman_imageslider_kanan_2.php
+1.0.6:
+    - 'Created table hilman_imageslider_contact_us'
+    - builder_table_create_hilman_imageslider_contact_us.php
+1.0.7:
+    - 'Created table hilman_imageslider_about_us'
+    - builder_table_create_hilman_imageslider_about_us.php

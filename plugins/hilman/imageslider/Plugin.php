@@ -19,7 +19,9 @@ class Plugin extends PluginBase
     {
         return [
             'Hilman\Imageslider\Components\ImageList' => 'imagelist',
-            'Hilman\Imageslider\Components\ImageKanan' => 'imagekanan'
+            'Hilman\Imageslider\Components\ImageKanan' => 'imagekanan',
+            'Hilman\Imageslider\Components\Contactus' => 'contactus',
+            'Hilman\Imageslider\Components\Aboutus' => 'aboutus',
         ];
     }
 

@@ -1,0 +1,28 @@
+columns:
+    about:
+        label: About
+        type: text
+    ig_link:
+        label: IG
+        type: text
+    fb_link:
+        label: FB
+        type: text
+    twitter_link:
+        label: TW
+        type: text
+    gplus_link:
+        label: G+
+        type: text
+    ytube_link:
+        label: YTube
+        type: text
+    shopee_link:
+        label: Shopee
+        type: text
+    bl_link:
+        label: BL
+        type: text
+    tokped_link:
+        label: Tokped
+        type: text

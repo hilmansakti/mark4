@@ -171,6 +171,7 @@ class Product extends ImportModel
         'description',
         'brand_id',
         'category_id',
+        'price',
     ];
 
     public $cached = [
@@ -185,6 +186,7 @@ class Product extends ImportModel
         'preview_image',
         'description',
         'images',
+        'price',
     ];
 
     public $dates = ['created_at', 'updated_at', 'deleted_at'];

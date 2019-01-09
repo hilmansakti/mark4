@@ -3,7 +3,7 @@ fields:
         label: 'Nama Gambar'
         span: left
         type: text
-    posistion:
+    position:
         label: Posisi
         options:
             atas: Atas

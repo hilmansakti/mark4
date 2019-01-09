@@ -1,17 +1,19 @@
 title = "Product"
 url = "/product/:slug"
 is_hidden = 0
+layout = "default"
 
 [ProductPage]
 slug = "{{ :slug }}"
 slug_required = 1
+smart_url_check = 0
 ==
-
 {# Get product item #}
 {% set obProduct = ProductPage.get() %}
 
 <div data-id="{{ obProduct.id }}">
     <h1>{{ obProduct.name }}</h1>
+    <h2>{{ obProduct.price }}</h2>
     <div>{{ obProduct.description|raw }}</div>
     
     {# Get first offer item #}

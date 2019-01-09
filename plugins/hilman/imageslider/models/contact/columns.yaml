@@ -1,0 +1,13 @@
+columns:
+    email:
+        label: Email
+        type: text
+    phone:
+        label: Phone
+        type: number
+    longitude:
+        label: Longitude
+        type: text
+    latitude:
+        label: Latitude
+        type: text

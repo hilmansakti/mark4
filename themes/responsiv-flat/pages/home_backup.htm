@@ -52,6 +52,8 @@ postPage = "blog/post"
     <link href="themes/responsiv-flat/assets/css/style.css" rel="stylesheet">
     <link href="themes/responsiv-flat/assets/css/animate.css" rel="stylesheet">
 {% endput %}
+
+<!-- image slider dan banner -->
 <section >
     <div class="container">
         <div class="row">
@@ -67,6 +69,7 @@ postPage = "blog/post"
 
 <br>
 
+<!-- slider our product -->
 <section>
     <div class="container">
         <div class="row">
@@ -110,6 +113,7 @@ postPage = "blog/post"
                                                 </div>
                                                 <div class="thumb-content">
                                                     <a href="product/{{ obProduct.slug }}"><h4>{{ obProduct.name }}</h4></a>
+                                                    <span>{% if obProduct.price %}Rp {{ obProduct.price }} {% else %} Hubungi Kami {% endif %}</span> <br>
                                                     <a href="product/{{ obProduct.slug }}" class="btn btn-primary bulat">Detail Barang</a>
                                                 </div>
                                             </div>
@@ -302,7 +306,7 @@ postPage = "blog/post"
                                         </div>
                                     </div>
                                 </div>
-                        {% if loop.last or in % 2 == 0 %}
+                        {% if loop.last %}
                             </div>
                         </div>
                         {% endif %}

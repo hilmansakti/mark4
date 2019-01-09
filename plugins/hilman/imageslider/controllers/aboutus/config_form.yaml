@@ -1,0 +1,10 @@
+name: Aboutus
+form: $/hilman/imageslider/models/about/fields.yaml
+modelClass: Hilman\Imageslider\Models\About
+defaultRedirect: hilman/imageslider/aboutus
+create:
+    redirect: 'hilman/imageslider/aboutus/update/:id'
+    redirectClose: hilman/imageslider/aboutus
+update:
+    redirect: hilman/imageslider/aboutus
+    redirectClose: hilman/imageslider/aboutus
