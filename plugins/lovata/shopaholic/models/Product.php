@@ -171,6 +171,9 @@ class Product extends ImportModel
         'description',
         'brand_id',
         'category_id',
+        'link_tokped',
+        'link_bukalapak',
+        'link_shopee',
         'price',
     ];
 
@@ -186,6 +189,9 @@ class Product extends ImportModel
         'preview_image',
         'description',
         'images',
+        'link_tokped',
+        'link_bukalapak',
+        'link_shopee',
         'price',
     ];
 

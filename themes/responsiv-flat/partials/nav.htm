@@ -11,23 +11,35 @@ name: 'Pages',
         'register':      ['samples/register', 'Register'],
         'error':         ['error', 'Error Page'],
         '404':           ['404', '404 Page'],
+
         },
     },
 #}
 {% set
     links = {
-        'home': ['home', 'Home'],
-
+        'home': ['home_backup', 'Home'],
+        'pages': {
+            name: 'Pages',
+            sublinks: {
+                'about':         ['samples/about', 'About Us'],
+                'contact':       ['samples/contact', 'Contact Us'],
+                'pricing-table': ['samples/pricing-table', 'Pricing Table'],
+                'services':      ['samples/services', 'Services'],
+                'signin':        ['samples/signin', 'Sign In'],
+                'register':      ['samples/register', 'Register'],
+                'error':         ['error', 'Error Page'],
+                '404':           ['404', '404 Page'],
+            },
+        },
         'product': {
             name: 'Product',
             sublinks: {
-                'aquarium': ['product/aquarium', 'Aquarium'],
-                'aquascape': ['product/aquascape', 'Aquascape'],
-                'ikan-hias': ['product/ikan-hias', 'Ikan Hias'],
-                'rak-besi': ['product/rak-besi', 'Rak Besi'],
-                'aksesoris': ['product/aksesoris', 'Aksesoris'],
-                'maintenance': ['product/maintenance', 'Maintenance'],
-
+                'aquarium': ['product/product', 'Aquarium'],
+                'aquascape': ['product/product', 'Aquascape'],
+                'product': ['product/product', 'Ikan Hias'],
+                'product': ['product/product', 'Rak Besi'],
+                'aksesoris': ['product/product', 'Aksesoris'],
+                'maintenance': ['product/:slug', 'Maintenance'],
             }
         },
         'blog': {
@@ -43,8 +55,7 @@ name: 'Pages',
             },
         },
         'about-us': ['about-us', 'About Us'],
-        'contact-us': ['contact-us', 'Contact Us'],
-
+        'contact-us': ['contact-us', 'Contact Us']
     }
 %}
 

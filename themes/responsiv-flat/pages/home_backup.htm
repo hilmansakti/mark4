@@ -109,12 +109,11 @@ postPage = "blog/post"
                                         <div class="col-sm-3">
                                             <div class="thumb-wrapper">
                                                 <div class="img-box">
-                                                    <a href="product/{{ obProduct.slug }}"><img src="{{ obProduct.preview_image.path }}" class="img-responsive img-fluid" alt=""></a>
+                                                    <a href="product/{{ obProduct.category.slug }}/{{ obProduct.slug }}"><img src="{{ obProduct.preview_image.path }}" class="img-responsive img-fluid" alt=""></a>
                                                 </div>
                                                 <div class="thumb-content">
-                                                    <a href="product/{{ obProduct.slug }}"><h4>{{ obProduct.name }}</h4></a>
+                                                    <a href="product/{{ obProduct.category.slug }}/{{ obProduct.slug }}"><h4>{{ obProduct.name }}</h4></a>
                                                     <span>{% if obProduct.price %}Rp {{ obProduct.price }} {% else %} Hubungi Kami {% endif %}</span> <br>
-                                                    <a href="product/{{ obProduct.slug }}" class="btn btn-primary bulat">Detail Barang</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -164,10 +163,13 @@ postPage = "blog/post"
 
                 <div id="crsl2" class="carousel slide crsl" data-ride="crsl2" data-interval="0">
                     <!-- crsl indicators -->
+                    {% if obCategoryList.isNotEmpty() %}
                     <ol class="carousel-indicators">
-                        <li data-target="#crsl2" data-slide-to="0" class="active"></li>
-                        <li data-target="#crsl2" data-slide-to="1"></li>
+                        {% for in, obCategory in obCategoryList %}
+                        <li data-target="#crsl2" data-slide-to="{{ in }}" class="{% if loop.first %}active{% endif %}"></li>
+                        {% endfor %}
                     </ol>
+                    {% endif %}
 
                     <br>
 
@@ -198,14 +200,76 @@ postPage = "blog/post"
                         {% endif %}
                         {% endfor %}
                     </div>
-
+                    {% if obCategoryList|length > 1 %}
                     <a class="carousel-control left crsl-prev" href="#crsl2" data-slide="prev">
                         <i class="fa fa-arrow-left black"></i>
                     </a>
                     <a class="carousel-control right crsl-next" href="#crsl2" data-slide="next">
                         <i class="fa fa-arrow-right black"></i>
                     </a>
+                    {% endif %}
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<br />
+
+<!-- blog -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-center">
+                    <h3 class="">
+                        Recent Post
+                    </h3>
+                    <p>In dapibus vel ante in auctor. Suspendisse nec nisi vel lorem vulputate elementum.</p>
+                </div>
+                <br>
+                {% if posts.isNotEmpty() %}
+                <div id="crsl4" class="carousel slide crsl" data-ride="crsl4" data-interval="0">
+                    <!-- crsl indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#crsl4" data-slide-to="0" class="active"></li>
+                        <li data-target="#crsl4" data-slide-to="1"></li>
+                        <li data-target="#crsl4" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Wrapper for crsl items -->
+                    <div class="carousel-inner">
+                        {% for in, post in posts %}
+                        {% if loop.first   %}
+                        <div class="item carousel-item{% if loop.first %} active{% endif %}">
+                            <div class="row">
+                                {% endif %}
+                                <div class="col-sm-6">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="{{ post.blog_image.path }}" class="img-responsive img-fluid" alt="img">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4><a href="">{{ post.title }}</a></h4>
+                                            <a href="blog/post/{{ post.slug }}">Read more <i class="fa fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                {% if loop.last %}
+                            </div>
+                        </div>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                    <!-- crsl controls -->
+                    <a class="carousel-control left crsl-prev" href="#crsl4" data-slide="prev">
+                        <i class="fa fa-arrow-left black"></i>
+                    </a>
+                    <a class="carousel-control right crsl-next" href="#crsl4" data-slide="next">
+                        <i class="fa fa-arrow-right black"></i>
+                    </a>
+                </div>
+                {% endif %}
             </div>
         </div>
     </div>
@@ -218,8 +282,8 @@ postPage = "blog/post"
     <p>It’s very important to us to improve your experiences, many thanks for your contributions.</p>
 </div>
 
-<br />
 
+<!-- slider brand -->
 <section>
     <div class="container">
         <div class="row">
@@ -256,71 +320,15 @@ postPage = "blog/post"
                         {% endif %}
                         {% endfor %}
                     </div>
-
+                    {% if obBrandList|length > 1 %}
                     <a class="carousel-control left crsl-prev" href="#crsl3" data-slide="prev">
                         <i class="fa fa-arrow-left black"></i>
                     </a>
                     <a class="carousel-control right crsl-next" href="#crsl3" data-slide="next">
                         <i class="fa fa-arrow-right black"></i>
                     </a>
+                    {% endif %}
                 </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="text-center">
-                    <h3 class="">
-                        Recent Post
-                    </h3>
-                    <p>In dapibus vel ante in auctor. Suspendisse nec nisi vel lorem vulputate elementum.</p>
-                </div>
-                <br>
-                {% if posts.isNotEmpty() %}
-                <div id="crsl4" class="carousel slide crsl" data-ride="crsl4" data-interval="0">
-                    <!-- crsl indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#crsl4" data-slide-to="0" class="active"></li>
-                        <li data-target="#crsl4" data-slide-to="1"></li>
-                        <li data-target="#crsl4" data-slide-to="2"></li>
-                    </ol>
-                    <!-- Wrapper for crsl items -->
-                    <div class="carousel-inner">
-                        {% for in, post in posts %}
-                        {% if loop.first   %}
-                        <div class="item carousel-item{% if loop.first %} active{% endif %}">
-                            <div class="row">
-                        {% endif %}
-                                <div class="col-sm-6">
-                                    <div class="thumb-wrapper">
-                                        <div class="img-box">
-                                            <img src="{{ post.blog_image.path }}" class="img-responsive img-fluid" alt="img">
-                                        </div>
-                                        <div class="thumb-content">
-                                            <h4><a href="">{{ post.title }}</a></h4>
-                                            <a href="blog/post/{{ post.slug }}">Read more <i class="fa fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                        {% if loop.last %}
-                            </div>
-                        </div>
-                        {% endif %}
-                        {% endfor %}
-                    </div>
-                    <!-- crsl controls -->
-                    <a class="carousel-control left crsl-prev" href="#crsl4" data-slide="prev">
-                        <i class="fa fa-arrow-left black"></i>
-                    </a>
-                    <a class="carousel-control right crsl-next" href="#crsl4" data-slide="next">
-                        <i class="fa fa-arrow-right black"></i>
-                    </a>
-                </div>
-                {% endif %}
             </div>
         </div>
     </div>
