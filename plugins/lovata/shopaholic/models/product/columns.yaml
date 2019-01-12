@@ -22,11 +22,6 @@ columns:
         sortable: true
         relation: brand
         select: name
-    code:
-        label: 'lovata.shopaholic::lang.field.vendor_code'
-        type: text
-        searchable: true
-        sortable: true
     slug:
         label: 'lovata.toolbox::lang.field.slug'
         type: text
@@ -57,3 +52,18 @@ columns:
         label: Harga
         type: number
         searchable: true
+    link_tokped:
+        label: Tokopedia
+        type: text
+        searchable: true
+        sortable: true
+    link_shopee:
+        label: Shopee
+        type: text
+        searchable: true
+        sortable: true
+    link_bukalapak:
+        label: Bukalapak
+        type: text
+        searchable: true
+        sortable: true

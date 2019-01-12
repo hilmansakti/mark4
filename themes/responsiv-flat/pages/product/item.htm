@@ -11,10 +11,17 @@ slug_required = 1
 slug = "{{ :category }}"
 slug_required = 1
 
+[ProductList]
+slug
+sorting = "new"
+
 ==
 
 {# Get product item #}
 {% set obProduct = ProductPage.get() %}
+
+{# Get product list #}
+{% set obPL = ProductList.make().sort(ProductList.getSorting()).active() %}
 
 {% put styles %}
     <link href="{{ [
@@ -72,12 +79,10 @@ slug_required = 1
                 </div>
                 <div class="col-sm-6">
 
-                    <p class="text-muted">{{ obProduct.description }}</p>
-                    <span class="text-muted reviews">(12 reviews)</span>
+                    <p class="text-muted">---------</p>
                     <div>
                         <div class="price-block">
                             <span class="price">{% if obProduct.price %}Rp {{ obProduct.price }} {% else %} Hubungi Kami {% endif %}</span>
-                            <input type="number" name="pcs" value="1" class="form-control">
                         </div>
                     </div>
                 </div>
@@ -88,51 +93,32 @@ slug_required = 1
             <div class="row">
                 <div class="col-sm-12">
                     <h4 class="headline"><span>Product details</span></h4>
-                    <p>Brisket tongue kielbasa short ribs jowl pancetta short loin tenderloin pork chop flank shank doner strip steak ground round.</p>
-                    <p>Rump capicola bacon salami chuck meatloaf swine ground round tail biltong ball tip. Pork shankle pig turducken kielbasa. Pancetta pork belly bresaola ham hock capicola strip steak beef ribs ham jowl. Shoulder drumstick short loin beef venison ribeye. Meatloaf tail ball tip capicola pork loin chuck brisket.</p>
+                    {{ obPL[0] }}
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-12">
                     <h4 class="headline"><span>Similar products</span></h4>
                     <div class="row">
-                        <div class="col-sm-4">
-                            <div class="shop-product featured">
-                                <a href="#"><img src="{{ 'assets/images/shop/imac.png'|theme }}" class="img-responsive" alt=""></a>
-                                <a href="#"><h6>Product #1</h6></a>
-                                <p class="price">
-                                    <span class="old">$80.99</span>
-                                    <span class="new">$59.99</span>
-                                </p>
-                                <a href="#" class="btn btn-sm btn-info"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="shop-product">
-                                <a href="#"><img src="{{ 'assets/images/shop/macbook.jpg'|theme }}" class="img-responsive" alt=""></a>
-                                <a href="#"><h6>Product #2</h6></a>
-                                <p>
-                                    $200.00
-                                </p>
-                                <a href="#" class="btn btn-sm btn-info"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="shop-product">
-                                <a href="#"><img src="{{ 'assets/images/shop/ipad.png'|theme }}" class="img-responsive" alt=""></a>
-                                <a href="#"><h6>Product #3</h6></a>
-                                <p>
-                                    $50.00
-                                </p>
-                                <a href="#" class="btn btn-sm btn-info"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                            </div>
-                        </div>
+                        {% if obPL.isNotEmpty() %}
+                            {% for in, obP in obPL %}
+                                <div class="col-sm-4">
+                                    <div class="shop-product featured">
+                                        <a href="#"><img src="{{ obP.preview_image.path }}" class="img-responsive" alt=""></a>
+                                        <a href="product/{{ obP.category.name }}/{{ obP.slug }}"><h6>{{ obP.name }}</h6></a>
+                                        <p class="price">
+                                            <span class="new">{{ obP.price }}</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        {% endif %}
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-sm-3">
-            {% partial 'shop/sidebar' %}
+            {% partial 'product/sidebar' %}
         </div>
     </div>
 </div>

@@ -1,0 +1,35 @@
+[CategoryList]
+
+==
+
+<!-- list category untuk sidebar -->
+{% set obCL = CategoryList.make().tree() %}
+<!-- ------ -->
+
+<!-- Search -->
+<form role="form">
+    <div class="well">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search products...">
+            <span class="input-group-btn">
+                <button class="btn btn-primary" type="button"><i class="fa fa-search"></i></button>
+            </span>
+        </div>
+    </div>
+</form>
+
+<!-- Categories -->
+<div class="panel-group" id="shopNav">
+
+    {% if obCL.isNotEmpty() %}
+        {% for ind, obC in obCL %}
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <a href="/">
+                        {{ obC.name }}
+                    </a>
+                </div>
+            </div>
+        {% endfor %}
+    {% endif %}
+</div>

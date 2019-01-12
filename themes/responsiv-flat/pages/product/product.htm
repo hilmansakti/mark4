@@ -4,11 +4,23 @@ layout = "default"
 is_hidden = 0
 
 [ProductList]
-slug
 sorting = "new"
+
+[CategoryPage]
+slug = "{{ :category }}"
+slug_required = 1
+
 ==
 <!-- untuk manggil data list produk -->
-{% set obProductList = ProductList.make().sort(ProductList.getSorting()).active() %}
+{% set obCategory = CategoryPage.get() %}
+{% set obProductList = ProductList.make().sort(ProductList.getSorting()).active().category(obCategory.id) %}
+
+{# get array with pagination button %}
+{% set iPage = Pagination.getFormRequest() %}
+{% set arPaginationList = Pagination.get(iPage, obProductList.count()) %}
+
+{# Apply pagination to product collection and get array with product items #}
+{% set arProductList = obProductList.page(iPage, Pagination.getCountPerPage()) %}
 <!-- end list produk -->
 
 <section id="layout-title">
@@ -20,7 +32,7 @@ sorting = "new"
 <div class="container">
     <div class="row">
         <div class="col-sm-4">
-            {% partial 'shop/sidebar' %}
+            {% partial 'product/sidebar' %}
         </div>
         <div class="col-sm-8">
             <!-- Filters -->
@@ -35,7 +47,7 @@ sorting = "new"
                 <div class="tab-content">
                     <!-- All-->
                     <div class="tab-pane fade in active" id="popular">
-                        {% if obProductList.isNotEmpty() %}
+                        {% if arProductList is not empty %}
                             {% for in, obProduct in obProductList %}
                                 <div class="col-sm-6 col-lg-4">
                                     <div class="shop-product featured">
@@ -171,6 +183,15 @@ sorting = "new"
                 </ul>
             </div>
 
+            <!-- pagination -->
+            {{ iPage }}
+            {{ arPaginationList }}
+            {# Render pagination buttons #}
+            {% if arPaginationList is not empty %}
+                {% for arPagination in arPaginationList %}
+                    <a href="/{{ arPagination.value }}" class="{{ arPagination.class }}">{{ arPagination.name }}</a>
+                {% endfor %}
+            {% endif %}
         </div>
     </div>
 </div>
