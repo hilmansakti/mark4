@@ -5,6 +5,9 @@
     /*background-color: #7da8c3 !important;*/
 }
 
+#sec_2 {
+    height: 75vh;
+}
 /* penyempurnaan */
 .row > .col-md-6 {
     padding-left: 5px;
@@ -163,6 +166,10 @@ img#img_caros.img-responsive {
 .green {background: green;}
 
 .yellow {background: yellow;}
+
+.carousel-indicators .car1 {
+    color: grey;
+}
 
 
 .crsl {

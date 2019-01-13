@@ -70,7 +70,7 @@ postPage = "blog/post"
 <br>
 
 <!-- slider our product -->
-<section>
+<section id="sec_2">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -94,7 +94,7 @@ postPage = "blog/post"
                     <div id="osp" class="tab-pane fade in active">
                         <div id="e-crsl" class="carousel slide crsl" data-ride="crsl" data-interval="0">
                             <!-- crsl indicators -->
-                            <ol class="carousel-indicators">
+                            <ol class="carousel-indicators car2">
                                 <li data-target="#e-crsl" data-slide-to="0" class="active"></li>
                                 <li data-target="#e-crsl" data-slide-to="1"></li>
                                 <li data-target="#e-crsl" data-slide-to="2"></li>
@@ -102,25 +102,25 @@ postPage = "blog/post"
                             <!-- Wrapper for crsl items -->
                             <div class="carousel-inner">
                                 {% for index, obProduct in obProductList %}
-                                {% if index == 1 or index == 5 or index == 9 %}
-                                <div class="item carousel-item{% if loop.first %} active{% endif %}">
-                                    <div class="row">
-                                {% endif %}
-                                        <div class="col-sm-3">
-                                            <div class="thumb-wrapper">
-                                                <div class="img-box">
-                                                    <a href="product/{{ obProduct.category.slug }}/{{ obProduct.slug }}"><img src="{{ obProduct.preview_image.path }}" class="img-responsive img-fluid" alt=""></a>
+                                    {% if index == 1 or index == 5 or index == 9 or index == 13 or index == 17 or index == 21 %}
+                                        <div class="item carousel-item{% if loop.first %} active{% endif %}">
+                                            <div class="row">
+                                    {% endif %}
+                                                <div class="col-sm-3">
+                                                    <div class="thumb-wrapper">
+                                                        <div class="img-box">
+                                                            <a href="product/{{ obProduct.category.slug }}/{{ obProduct.slug }}"><img src="{{ obProduct.preview_image.path }}" class="img-responsive img-fluid" alt=""></a>
+                                                        </div>
+                                                        <div class="thumb-content">
+                                                            <a href="product/{{ obProduct.category.slug }}/{{ obProduct.slug }}"><h4>{{ obProduct.name }}</h4></a>
+                                                            <span>{% if obProduct.price %}Rp {{ obProduct.price }} {% else %} Hubungi Kami {% endif %}</span> <br>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <div class="thumb-content">
-                                                    <a href="product/{{ obProduct.category.slug }}/{{ obProduct.slug }}"><h4>{{ obProduct.name }}</h4></a>
-                                                    <span>{% if obProduct.price %}Rp {{ obProduct.price }} {% else %} Hubungi Kami {% endif %}</span> <br>
-                                                </div>
+                                    {% if index % 4 == 0 or loop.last %}
                                             </div>
                                         </div>
-                                {% if index % 4 == 0 or loop.last %}
-                                    </div>
-                                </div>
-                                {% endif %}
+                                    {% endif %}
                                 {% endfor %}
                             </div>
                             <!-- crsl controls -->
@@ -168,7 +168,10 @@ postPage = "blog/post"
                     {% if obCategoryList.isNotEmpty() %}
                     <ol class="carousel-indicators">
                         {% for in, obCategory in obCategoryList %}
-                        <li data-target="#crsl2" data-slide-to="{{ in }}" class="{% if loop.first %}active{% endif %}"></li>
+                            {% if in % 3 == 0 %}
+                                <?php $n = 1; ?>
+                                <li data-target="#crsl2" data-slide-to="{{ n++ }}" class="{% if loop.first %}active{% endif %}"></li>
+                            {% endif %}
                         {% endfor %}
                     </ol>
                     {% endif %}
@@ -178,28 +181,28 @@ postPage = "blog/post"
                     <div class="carousel-inner">
                         {# Let's check that the list of categories is not empty #}
                         {% if obCategoryList.isEmpty() %}
-                        <h3 class="text-center" style="color: red;">Data not found</h3>
+                            <h3 class="text-center" style="color: red;">Data not found</h3>
                         {% endif %}
                         {% for i, obCategory in obCategoryList %}
-                        {% if loop.first or i == 4 or i == 7 or i == 10 %}
-                        <div class="item carousel-item{% if loop.first %} active{% endif %}">
-                            <div class="row">
-                        {% endif %}
-                                <div class="col-sm-4">
-                                    <div class="thumb-wrapper">
-                                        <div class="img-box">
-                                            <img src="{{ obCategory.preview_image.path }}" class="img-responsive img-fluid" alt="">
+                            {% if loop.first or i == 4 or i == 7 or i == 10 %}
+                                <div class="item carousel-item{% if loop.first %} active{% endif %}">
+                                    <div class="row">
+                            {% endif %}
+                                        <div class="col-sm-4">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="{{ obCategory.preview_image.path }}" class="img-responsive img-fluid" alt="">
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <a href=""><h4>{{ obCategory.name}}</h4></a>
+                                                    <a href="category/{{ obCategory.slug }}" class="btn btn-primary bulat">Lihat</a>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="thumb-content">
-                                            <a href=""><h4>{{ obCategory.name}}</h4></a>
-                                            <a href="category/{{ obCategory.slug }}" class="btn btn-primary bulat">Lihat</a>
-                                        </div>
+                            {% if i % 3 == 0 or loop.last %}
                                     </div>
                                 </div>
-                        {% if i % 3 == 0 or loop.last %}
-                            </div>
-                        </div>
-                        {% endif %}
+                            {% endif %}
                         {% endfor %}
                     </div>
                     {% if obCategoryList|length > 1 %}

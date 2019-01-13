@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbb83296-555b-496b-9866-d812cefb3fc0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/hilman/imageslider/components/imagelist/default.htm" afterPath="$PROJECT_DIR$/plugins/hilman/imageslider/components/imagelist/default.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/responsiv-flat/assets/css/style.css" afterPath="$PROJECT_DIR$/themes/responsiv-flat/assets/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/responsiv-flat/assets/vendor/bootstrap/less/carousel.less" afterPath="$PROJECT_DIR$/themes/responsiv-flat/assets/vendor/bootstrap/less/carousel.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/responsiv-flat/pages/home_backup.htm" afterPath="$PROJECT_DIR$/themes/responsiv-flat/pages/home_backup.htm" />
     </list>
     <ignored path="mark4.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,15 +26,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home_backup.htm" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home_backup.htm" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/pages/home_backup.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+            <state relative-caret-position="390">
+              <caret line="172" column="79" selection-start-line="172" selection-start-column="79" selection-end-line="172" selection-end-column="79" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#section#1;n#!!top" expanded="false" />
                 <element signature="n#section#4;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/hilman/imageslider/components/imagelist/default.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+              <folding>
+                <element signature="n#style#0;n#ol#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ol#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -40,18 +55,18 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="95" column="18" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="18" />
+            <state relative-caret-position="232">
+              <caret line="170" column="16" selection-start-line="170" selection-start-column="16" selection-end-line="170" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="carousel.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="carousel.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/assets/vendor/bootstrap/less/carousel.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="194" column="10" selection-start-line="194" selection-start-column="10" selection-end-line="194" selection-end-column="10" />
+            <state relative-caret-position="415">
+              <caret line="209" column="29" selection-start-line="209" selection-start-column="22" selection-end-line="209" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -109,7 +124,6 @@
         <option value="$PROJECT_DIR$/plugins/hilman/imageslider/components/ContactUs.php" />
         <option value="$PROJECT_DIR$/themes/responsiv-flat/pages/product.htm" />
         <option value="$PROJECT_DIR$/plugins/hilman/imageslider/Plugin.php" />
-        <option value="$PROJECT_DIR$/plugins/hilman/imageslider/components/imagelist/default.htm" />
         <option value="$PROJECT_DIR$/themes/responsiv-flat/partials/nav.htm" />
         <option value="$PROJECT_DIR$/plugins/lovata/shopaholic/models/Product.php" />
         <option value="$PROJECT_DIR$/themes/responsiv-flat/pages/blog/post.htm" />
@@ -121,9 +135,10 @@
         <option value="$PROJECT_DIR$/coba.json" />
         <option value="$PROJECT_DIR$/themes/responsiv-flat/pages/product/item.htm" />
         <option value="$PROJECT_DIR$/themes/responsiv-flat/layouts/default.htm" />
-        <option value="$PROJECT_DIR$/themes/responsiv-flat/pages/home_backup.htm" />
         <option value="$PROJECT_DIR$/themes/responsiv-flat/assets/css/style.css" />
         <option value="$PROJECT_DIR$/themes/responsiv-flat/assets/vendor/bootstrap/less/carousel.less" />
+        <option value="$PROJECT_DIR$/plugins/hilman/imageslider/components/imagelist/default.htm" />
+        <option value="$PROJECT_DIR$/themes/responsiv-flat/pages/home_backup.htm" />
       </list>
     </option>
   </component>
@@ -435,7 +450,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="carousel&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/demo/assets/vendor/bootstrap/less/carousel.less&#10;style.c&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/assets/css/style.css&#10;ho&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/home_backup.htm&#10;pro&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/product/product.htm&#10;product.php&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/lovata/shopaholic/models/Product.php&#10;item.htm&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/product/item.htm&#10;item&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/lovata/shopaholic/classes/item/ProductItem.php&#10;sidebar&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/partials/shop/sidebar.htm&#10;prod&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/product/product.htm&#10;git&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/.gitignore&#10;data&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/config/database.php&#10;Produ&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/lovata/shopaholic/models/Product.php&#10;hom&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/home_backup.htm&#10;produ&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/product/product.htm&#10;home&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/home_backup.htm&#10;nav&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/partials/nav.htm&#10;datab&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/config/database.php&#10;default&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/hilman/imageslider/components/imagelist/default.htm&#10;defaul&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/hilman/imageslider/components/imagekanan/default.htm&#10;footer&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/partials/footer.htm&#10;gitign&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/.gitignore&#10;da&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/config/database.php&#10;contact&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/contact-us.htm&#10;style.css&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/assets/css/style.css&#10;coba.htm&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/coba.htm&#10;Catalo&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/catalog.htm&#10;category&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/category.htm&#10;styl&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/assets/css/style.css&#10;imagekanan&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/hilman/imageslider/components/ImageKanan.php&#10;defa&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/hilman/imageslider/components/imagekanan/default.htm&#10;blo&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/blog/blog.htm&#10;blog&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/blog/blog.htm&#10;home_&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/home_backup.htm" />
+    <property name="SearchEverywhereHistoryKey" value="default&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/hilman/imageslider/components/imagelist/default.htm&#10;carousel&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/demo/assets/vendor/bootstrap/less/carousel.less&#10;style.c&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/assets/css/style.css&#10;ho&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/home_backup.htm&#10;pro&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/product/product.htm&#10;product.php&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/lovata/shopaholic/models/Product.php&#10;item.htm&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/product/item.htm&#10;item&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/lovata/shopaholic/classes/item/ProductItem.php&#10;sidebar&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/partials/shop/sidebar.htm&#10;prod&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/product/product.htm&#10;git&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/.gitignore&#10;data&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/config/database.php&#10;Produ&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/lovata/shopaholic/models/Product.php&#10;hom&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/home_backup.htm&#10;produ&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/product/product.htm&#10;home&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/home_backup.htm&#10;nav&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/partials/nav.htm&#10;datab&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/config/database.php&#10;defaul&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/hilman/imageslider/components/imagekanan/default.htm&#10;footer&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/partials/footer.htm&#10;gitign&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/.gitignore&#10;da&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/config/database.php&#10;contact&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/contact-us.htm&#10;style.css&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/assets/css/style.css&#10;coba.htm&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/coba.htm&#10;Catalo&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/catalog.htm&#10;category&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/category.htm&#10;styl&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/assets/css/style.css&#10;imagekanan&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/hilman/imageslider/components/ImageKanan.php&#10;defa&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/hilman/imageslider/components/imagekanan/default.htm&#10;blo&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/blog/blog.htm&#10;blog&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/blog/blog.htm&#10;home_&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/home_backup.htm" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="FullScreen" value="true" />
@@ -518,12 +533,12 @@
       <workItem from="1546909581506" duration="3544000" />
       <workItem from="1547001380212" duration="3460000" />
       <workItem from="1547100867992" duration="1543000" />
-      <workItem from="1547172233575" duration="16457000" />
+      <workItem from="1547172233575" duration="17858000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64786000" />
+    <option name="totallyTimeSpent" value="66187000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -726,14 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/hilman/imageslider/components/imagelist/default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -950,26 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/pages/home_backup.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#section#1;n#!!top" expanded="false" />
-            <element signature="n#section#4;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="95" column="18" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/demo/assets/vendor/bootstrap/less/carousel.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -978,11 +965,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="170" column="16" selection-start-line="170" selection-start-column="16" selection-end-line="170" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/assets/vendor/bootstrap/less/carousel.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="194" column="10" selection-start-line="194" selection-start-column="10" selection-end-line="194" selection-end-column="10" />
+        <state relative-caret-position="415">
+          <caret line="209" column="29" selection-start-line="209" selection-start-column="22" selection-end-line="209" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/hilman/imageslider/components/imagelist/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+          <folding>
+            <element signature="n#style#0;n#ol#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ol#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/pages/home_backup.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="172" column="79" selection-start-line="172" selection-start-column="79" selection-end-line="172" selection-end-column="79" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#section#4;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

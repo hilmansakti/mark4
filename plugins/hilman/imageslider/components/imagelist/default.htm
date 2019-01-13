@@ -1,9 +1,9 @@
 {% set caros = imagelist.caros %}
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
+    <ol class="carousel-indicators" style="left: 20%;">
         {% for in, caro in caros %}
-        <li data-target="#myCarousel" data-slide-to="{{ in }}" class="{% if loop.first %}active{% endif %}"></li>
+        <li data-target="#myCarousel" style="border: 1px solid white;" data-slide-to="{{ in }}" class="{% if loop.first %}active{% endif %}"></li>
         {% endfor %}
     </ol>
     <div class="carousel-inner">
