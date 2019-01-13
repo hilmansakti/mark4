@@ -76,10 +76,12 @@ postPage = "blog/post"
             <div class="col-md-12">
                 <h3 class="text-center">
                     <span>
-                        Our Products
+                        Produk Kami
                     </span>
                 </h3>
-
+                <p class="text-center">
+                    Kami memiliki banyak produk-produk berkualitas
+                </p>
                 <div class="text-center">
                     <ul class="list-inline">
                         <li class="active"><a class="btn btn-default bulat" data-toggle="pill" href="#osp">On Sale Product</a></li>
@@ -94,7 +96,7 @@ postPage = "blog/post"
                     <div id="osp" class="tab-pane fade in active">
                         <div id="e-crsl" class="carousel slide crsl" data-ride="crsl" data-interval="0">
                             <!-- crsl indicators -->
-                            <ol class="carousel-indicators car2">
+                            <ol class="carousel-indicators car2" style="top: 100%">
                                 <li data-target="#e-crsl" data-slide-to="0" class="active"></li>
                                 <li data-target="#e-crsl" data-slide-to="1"></li>
                                 <li data-target="#e-crsl" data-slide-to="2"></li>
@@ -148,8 +150,8 @@ postPage = "blog/post"
 
 <br>
 <!-- category -->
-<section>
-    <div class="container">
+<section id="sec_3">
+    <div class="container" style="width: 100%; margin: 20px 0px">
         <div class="row">
             <div class="col-md-12">
                 <h3 class="text-center">
@@ -157,6 +159,9 @@ postPage = "blog/post"
                         Top Categories
                     </span>
                 </h3>
+                <p class="text-center">
+                    === lorem ipssum ====
+                </p>
                 <div class="text-center">
                     <a href="" class="btn btn-default bulat">View All</a>
                 </div>
@@ -166,11 +171,10 @@ postPage = "blog/post"
                 <div id="crsl2" class="carousel slide crsl" data-ride="crsl2" data-interval="0">
                     <!-- crsl indicators -->
                     {% if obCategoryList.isNotEmpty() %}
-                    <ol class="carousel-indicators">
+                    <ol class="carousel-indicators" style="top: 100%">
                         {% for in, obCategory in obCategoryList %}
                             {% if in % 3 == 0 %}
-                                <?php $n = 1; ?>
-                                <li data-target="#crsl2" data-slide-to="{{ n++ }}" class="{% if loop.first %}active{% endif %}"></li>
+                                <li data-target="#crsl2" data-slide-to="{{ in }}" class="{% if loop.first %}active{% endif %}"></li>
                             {% endif %}
                         {% endfor %}
                     </ol>
@@ -190,12 +194,11 @@ postPage = "blog/post"
                             {% endif %}
                                         <div class="col-sm-4">
                                             <div class="thumb-wrapper">
-                                                <div class="img-box">
-                                                    <img src="{{ obCategory.preview_image.path }}" class="img-responsive img-fluid" alt="">
+                                                <div class="img-category">
+                                                    <img src="{{ obCategory.preview_image.path }}" class="img-category" alt="">
                                                 </div>
                                                 <div class="thumb-content">
-                                                    <a href=""><h4>{{ obCategory.name}}</h4></a>
-                                                    <a href="category/{{ obCategory.slug }}" class="btn btn-primary bulat">Lihat</a>
+                                                    <a href="category/{{ obCategory.slug }}"><h4>{{ obCategory.name}}</h4></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -205,14 +208,6 @@ postPage = "blog/post"
                             {% endif %}
                         {% endfor %}
                     </div>
-                    {% if obCategoryList|length > 1 %}
-                    <a class="carousel-control left crsl-prev" href="#crsl2" data-slide="prev">
-                        <i class="fa fa-arrow-left black"></i>
-                    </a>
-                    <a class="carousel-control right crsl-next" href="#crsl2" data-slide="next">
-                        <i class="fa fa-arrow-right black"></i>
-                    </a>
-                    {% endif %}
                 </div>
             </div>
         </div>
@@ -343,12 +338,12 @@ postPage = "blog/post"
 
 {% put scripts %}
 <script type="text/javascript">
-    $('.carousel').carousel({
-        interval: 3000
-    });
-    $('.crsl').carousel({
-        interval: 3000
-    });
+//    $('.carousel').carousel({
+//        interval: 3000
+//    });
+//    $('.crsl').carousel({
+//        interval: 3000
+//    });
     /*
     $('.crsl .item').each(function() {
         var next = $(this).next();

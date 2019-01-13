@@ -6,8 +6,18 @@
 }
 
 #sec_2 {
-    height: 75vh;
+    height: 100vh;
 }
+
+#sec_2 > .container {
+    width: 100%;
+}
+
+#sec_3 {
+    height: 100vh;
+    background-color: #00b3ee;
+}
+
 /* penyempurnaan */
 .row > .col-md-6 {
     padding-left: 5px;
@@ -171,7 +181,6 @@ img#img_caros.img-responsive {
     color: grey;
 }
 
-
 .crsl {
 	margin: 50px auto;
 	padding: 0 70px;
@@ -181,11 +190,24 @@ img#img_caros.img-responsive {
     text-align: center;
 	overflow: hidden;
 }
+
+.img-box.img-category {
+    height: 60vh;
+    width: 300px;
+}
+
+.img-category {
+    height: 60vh;
+    width: 300px;
+    position: relative;;
+}
+
 .crsl .item .img-box {
 	height: 160px;
 	width: 100%;
 	position: relative;
 }
+
 .crsl .item img {	
 	max-width: 100%;
 	max-height: 100%;
