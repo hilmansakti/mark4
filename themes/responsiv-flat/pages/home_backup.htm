@@ -115,7 +115,7 @@ postPage = "blog/post"
                                                         </div>
                                                         <div class="thumb-content">
                                                             <a href="product/{{ obProduct.category.slug }}/{{ obProduct.slug }}"><h4>{{ obProduct.name }}</h4></a>
-                                                            <span>{% if obProduct.price %}Rp {{ obProduct.price }} {% else %} Hubungi Kami {% endif %}</span> <br>
+                                                            <span>{% if obProduct.price %}Rp {{ obProduct.price|number_format(0, ',', '.') }} {% else %} Hubungi Kami {% endif %}</span> <br>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -247,11 +247,14 @@ postPage = "blog/post"
                             <div class="row">
                                 {% endif %}
                                 <div class="col-sm-6">
-                                    <div class="thumb-wrapper-2">
+                                    <div class="thumb-wrapper-3">
                                         <div class="img-blogs">
                                             <a href="blog/post/{{ post.slug }}"><img src="{{ post.blog_image.path }}" class="img-boc" alt="img"></a>
                                         </div>
-                                        <span class="cat-label-blog">02</span>
+                                        <span class="cat-label-blog">
+                                            <p>{{ post.published_at|date('d') }}</p>
+                                            <p style="color: orange; font-size: 10pt">{{ post.published_at|date('M') }}</p>
+                                        </span>
                                         <div class="thumb-contents">
                                             <h4><a href="">{{ post.title }}</a></h4>
                                             <a href="blog/post/{{ post.slug }}" style="font-size: 12pt; color: orange;">Selengkapnya <i class="fa fa-arrow-right"></i></a>
@@ -279,15 +282,14 @@ postPage = "blog/post"
 </section>
 
 <br>
-
-<div class="text-center">
-    <p><i class="fa fa-pen-square"></i> How‘re we doing? Give us a feedback.</p>
-    <p>It’s very important to us to improve your experiences, many thanks for your contributions.</p>
-</div>
-
+<br>
 
 <!-- slider brand -->
 <section id="sec_5">
+    <div class="text-center">
+        <p><i class="fa fa-pen-square"></i> How‘re we doing? Give us a feedback.</p>
+        <p>It’s very important to us to improve your experiences, many thanks for your contributions.</p>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-md-12">
