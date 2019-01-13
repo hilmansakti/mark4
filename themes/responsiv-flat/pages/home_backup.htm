@@ -193,12 +193,14 @@ postPage = "blog/post"
                                     <div class="row">
                             {% endif %}
                                         <div class="col-sm-4">
-                                            <div class="thumb-wrapper">
-                                                <div class="img-category">
-                                                    <img src="{{ obCategory.preview_image.path }}" class="img-category" alt="">
-                                                </div>
-                                                <div class="thumb-content">
+                                            <div class="thumb-wrapper-2">
+                                                <a href="">
+                                                    <img src="{{ obCategory.preview_image.path }}" alt="" class="img-boc">
+                                                </a>
+                                                <span class="cat-label">On Sale</span>
+                                                <div class="thumb-contents">
                                                     <a href="category/{{ obCategory.slug }}"><h4>{{ obCategory.name}}</h4></a>
+                                                    <p>lorem ipsum</p>
                                                 </div>
                                             </div>
                                         </div>

@@ -7,6 +7,7 @@
 
 #sec_2 {
     height: 100vh;
+    /*background-color: #1c9df3;*/
 }
 
 #sec_2 > .container {
@@ -14,8 +15,10 @@
 }
 
 #sec_3 {
-    height: 100vh;
-    background-color: #00b3ee;
+    /*height: 130vh;*/
+    width: 100%;
+    height: 820px;
+    /*background-color: #fffff0;*/
 }
 
 /* penyempurnaan */
@@ -182,8 +185,8 @@ img#img_caros.img-responsive {
 }
 
 .crsl {
-	margin: 50px auto;
-	padding: 0 70px;
+	margin: 10px auto;
+	padding: 0 30px;
 }
 .crsl .item {
 	min-height: 330px;
@@ -191,21 +194,34 @@ img#img_caros.img-responsive {
 	overflow: hidden;
 }
 
-.img-box.img-category {
-    height: 60vh;
-    width: 300px;
+.img-box-category {
+    /*height: 65vh;*/
+    height: 100%;
+    width: auto;
 }
 
 .img-category {
-    height: 60vh;
-    width: 300px;
-    position: relative;;
+    /*height: 65vh;*/
+    height: 100%;
+    width: auto;
+    position: relative;
+    /*left: auto;*/
 }
 
 .crsl .item .img-box {
 	height: 160px;
 	width: 100%;
 	position: relative;
+}
+
+.crsl .item .img-boc {
+    height: 450px;
+    width: 100%;
+    position: relative;
+}
+
+.img-boc > a > img {
+    height: 100%;
 }
 
 .crsl .item img {	
@@ -248,9 +264,28 @@ img#img_caros.img-responsive {
 .crsl .thumb-wrapper {
 	text-align: center;
 }
+
+.crsl .thumb-wrapper-2 {
+    /*text-align: center;*/
+    padding-left: 30px;
+}
+
+/*.thumb-wrapper-2 {*/
+    /*position: relative;*/
+    /*!*padding-left: 70px;*!*/
+    /*text-align: center;*/
+    /*height: 450px;*/
+/*}*/
+
 .crsl .thumb-content {
 	padding: 15px;
 }
+
+.crsl .thumb-contents {
+    /*padding: 15px;*/
+    text-align: left;
+}
+
 .crsl .crsl-control {
 	height: 100px;
     width: 40px;
@@ -326,4 +361,16 @@ a.carousel-control.left.crsl-prev, a.carousel-control.right.crsl-next {
 .thumb-content > .title > a {
     font-size: 20px;
     color: black;
+}
+
+.cat-label {
+    position: absolute;
+    left: 0;
+    right:auto;
+    top: 0;
+    padding-top: 60px;
+    color: #0b0;
+    text-transform: uppercase;
+    letter-spacing: .6em;
+    writing-mode: vertical-lr;
 }
