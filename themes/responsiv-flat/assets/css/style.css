@@ -21,6 +21,11 @@
     /*background-color: #fffff0;*/
 }
 
+#sec_4 {
+    height: 100vh;
+    /*background-color: #00bdef;*/
+}
+
 /* penyempurnaan */
 .row > .col-md-6 {
     padding-left: 5px;
@@ -220,6 +225,12 @@ img#img_caros.img-responsive {
     position: relative;
 }
 
+.crsl .item .img-blogs {
+    height: 325px;
+    width: 100%;
+    position: relative;
+}
+
 .img-boc > a > img {
     height: 100%;
 }
@@ -267,7 +278,7 @@ img#img_caros.img-responsive {
 
 .crsl .thumb-wrapper-2 {
     /*text-align: center;*/
-    padding-left: 30px;
+    padding-left: 60px;
 }
 
 /*.thumb-wrapper-2 {*/
@@ -283,6 +294,7 @@ img#img_caros.img-responsive {
 
 .crsl .thumb-contents {
     /*padding: 15px;*/
+    padding-top: 10px;
     text-align: left;
 }
 
@@ -365,7 +377,7 @@ a.carousel-control.left.crsl-prev, a.carousel-control.right.crsl-next {
 
 .cat-label {
     position: absolute;
-    left: 0;
+    left: 5%;
     right:auto;
     top: 0;
     padding-top: 60px;
@@ -373,4 +385,16 @@ a.carousel-control.left.crsl-prev, a.carousel-control.right.crsl-next {
     text-transform: uppercase;
     letter-spacing: .6em;
     writing-mode: vertical-lr;
+}
+
+.cat-label-blog {
+    position: absolute;
+    left: 5%;
+    right:auto;
+    top: 0;
+    /*padding-top: 60px;*/
+    color: #0b0;
+    text-transform: uppercase;
+    letter-spacing: .6em;
+    writing-mode: horizontal-tb;
 }

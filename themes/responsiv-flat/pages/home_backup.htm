@@ -194,7 +194,7 @@ postPage = "blog/post"
                             {% endif %}
                                         <div class="col-sm-4">
                                             <div class="thumb-wrapper-2">
-                                                <a href="">
+                                                <a href="category/{{ obCategory.slug }}">
                                                     <img src="{{ obCategory.preview_image.path }}" alt="" class="img-boc">
                                                 </a>
                                                 <span class="cat-label">On Sale</span>
@@ -220,7 +220,7 @@ postPage = "blog/post"
 <br />
 
 <!-- blog -->
-<section>
+<section id="sec_4">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -234,7 +234,7 @@ postPage = "blog/post"
                 {% if posts.isNotEmpty() %}
                 <div id="crsl4" class="carousel slide crsl" data-ride="crsl4" data-interval="0">
                     <!-- crsl indicators -->
-                    <ol class="carousel-indicators">
+                    <ol class="carousel-indicators" style="top: 100%;">
                         <li data-target="#crsl4" data-slide-to="0" class="active"></li>
                         <li data-target="#crsl4" data-slide-to="1"></li>
                         <li data-target="#crsl4" data-slide-to="2"></li>
@@ -242,18 +242,19 @@ postPage = "blog/post"
                     <!-- Wrapper for crsl items -->
                     <div class="carousel-inner">
                         {% for in, post in posts %}
-                        {% if loop.first   %}
+                        {% if loop.first or in % 2 == 0 %}
                         <div class="item carousel-item{% if loop.first %} active{% endif %}">
                             <div class="row">
                                 {% endif %}
                                 <div class="col-sm-6">
-                                    <div class="thumb-wrapper">
-                                        <div class="img-box">
-                                            <img src="{{ post.blog_image.path }}" class="img-responsive img-fluid" alt="img">
+                                    <div class="thumb-wrapper-2">
+                                        <div class="img-blogs">
+                                            <a href="blog/post/{{ post.slug }}"><img src="{{ post.blog_image.path }}" class="img-boc" alt="img"></a>
                                         </div>
-                                        <div class="thumb-content">
+                                        <span class="cat-label-blog">02</span>
+                                        <div class="thumb-contents">
                                             <h4><a href="">{{ post.title }}</a></h4>
-                                            <a href="blog/post/{{ post.slug }}">Read more <i class="fa fa-arrow-right"></i></a>
+                                            <a href="blog/post/{{ post.slug }}" style="font-size: 12pt; color: orange;">Selengkapnya <i class="fa fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -264,12 +265,12 @@ postPage = "blog/post"
                         {% endfor %}
                     </div>
                     <!-- crsl controls -->
-                    <a class="carousel-control left crsl-prev" href="#crsl4" data-slide="prev">
-                        <i class="fa fa-arrow-left black"></i>
-                    </a>
-                    <a class="carousel-control right crsl-next" href="#crsl4" data-slide="next">
-                        <i class="fa fa-arrow-right black"></i>
-                    </a>
+                    <!--<a class="carousel-control left crsl-prev" href="#crsl4" data-slide="prev">-->
+                        <!--<i class="fa fa-arrow-left black"></i>-->
+                    <!--</a>-->
+                    <!--<a class="carousel-control right crsl-next" href="#crsl4" data-slide="next">-->
+                        <!--<i class="fa fa-arrow-right black"></i>-->
+                    <!--</a>-->
                 </div>
                 {% endif %}
             </div>
@@ -286,7 +287,7 @@ postPage = "blog/post"
 
 
 <!-- slider brand -->
-<section>
+<section id="sec_5">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -322,14 +323,14 @@ postPage = "blog/post"
                         {% endif %}
                         {% endfor %}
                     </div>
-                    {% if obBrandList|length > 1 %}
-                    <a class="carousel-control left crsl-prev" href="#crsl3" data-slide="prev">
-                        <i class="fa fa-arrow-left black"></i>
-                    </a>
-                    <a class="carousel-control right crsl-next" href="#crsl3" data-slide="next">
-                        <i class="fa fa-arrow-right black"></i>
-                    </a>
-                    {% endif %}
+                    <!--{% if obBrandList|length > 1 %}-->
+                    <!--<a class="carousel-control left crsl-prev" href="#crsl3" data-slide="prev">-->
+                        <!--<i class="fa fa-arrow-left black"></i>-->
+                    <!--</a>-->
+                    <!--<a class="carousel-control right crsl-next" href="#crsl3" data-slide="next">-->
+                        <!--<i class="fa fa-arrow-right black"></i>-->
+                    <!--</a>-->
+                    <!--{% endif %}-->
                 </div>
             </div>
         </div>
