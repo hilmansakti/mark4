@@ -2,9 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbb83296-555b-496b-9866-d812cefb3fc0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/responsiv-flat/assets/images/bukalapak.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/responsiv-flat/assets/images/shopee.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/responsiv-flat/assets/images/tokopedia.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/rainlab/blog/models/category/fields.yaml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/responsiv-flat/assets/css/style.css" afterPath="$PROJECT_DIR$/themes/responsiv-flat/assets/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coba.json" afterPath="$PROJECT_DIR$/coba.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/hilman/imageslider/components/AboutUs.php" afterPath="$PROJECT_DIR$/plugins/hilman/imageslider/components/AboutUs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/hilman/imageslider/models/about/fields.yaml" afterPath="$PROJECT_DIR$/plugins/hilman/imageslider/models/about/fields.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/lovata/shopaholic/models/product/fields.yaml" afterPath="$PROJECT_DIR$/plugins/lovata/shopaholic/models/product/fields.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/lovata/shopaholic/plugin.yaml" afterPath="$PROJECT_DIR$/plugins/lovata/shopaholic/plugin.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/lovata/shopaholic/updates/version.yaml" afterPath="$PROJECT_DIR$/plugins/lovata/shopaholic/updates/version.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/rainlab/blog/models/Category.php" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/models/Category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/rainlab/blog/models/category/columns.yaml" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/models/category/columns.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/responsiv-flat/layouts/default.htm" afterPath="$PROJECT_DIR$/themes/responsiv-flat/layouts/default.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/responsiv-flat/pages/about-us.htm" afterPath="$PROJECT_DIR$/themes/responsiv-flat/pages/about-us.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/responsiv-flat/pages/contact-us.htm" afterPath="$PROJECT_DIR$/themes/responsiv-flat/pages/contact-us.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/responsiv-flat/pages/home_backup.htm" afterPath="$PROJECT_DIR$/themes/responsiv-flat/pages/home_backup.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/responsiv-flat/pages/product/item.htm" afterPath="$PROJECT_DIR$/themes/responsiv-flat/pages/product/item.htm" />
     </list>
     <ignored path="mark4.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,7 +39,18 @@
     <favorites_list name="mark4" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="contact-us.htm" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/pages/contact-us.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -59,9 +85,7 @@
         <option value="$PROJECT_DIR$/plugins/rainlab/blog/components/posts/default.htm" />
         <option value="$PROJECT_DIR$/plugins/rainlab/blog/components/post/default.htm" />
         <option value="$PROJECT_DIR$/plugins/hilman/imageslider/components/imagekanan/default.htm" />
-        <option value="$PROJECT_DIR$/themes/responsiv-flat/pages/about-us.htm" />
         <option value="$PROJECT_DIR$/themes/responsiv-flat/pages/contact-us.htm" />
-        <option value="$PROJECT_DIR$/plugins/hilman/imageslider/components/AboutUs.php" />
         <option value="$PROJECT_DIR$/plugins/hilman/imageslider/components/ContactUs.php" />
         <option value="$PROJECT_DIR$/themes/responsiv-flat/pages/product.htm" />
         <option value="$PROJECT_DIR$/plugins/hilman/imageslider/Plugin.php" />
@@ -73,9 +97,6 @@
         <option value="$PROJECT_DIR$/plugins/lovata/toolbox/components/Pagination.php" />
         <option value="$PROJECT_DIR$/themes/responsiv-flat/partials/product/sidebar.htm" />
         <option value="$PROJECT_DIR$/themes/responsiv-flat/pages/product/product.htm" />
-        <option value="$PROJECT_DIR$/coba.json" />
-        <option value="$PROJECT_DIR$/themes/responsiv-flat/pages/product/item.htm" />
-        <option value="$PROJECT_DIR$/themes/responsiv-flat/layouts/default.htm" />
         <option value="$PROJECT_DIR$/themes/demo/assets/css/vendor.css" />
         <option value="$PROJECT_DIR$/plugins/hilman/imageslider/components/aa.html" />
         <option value="$PROJECT_DIR$/themes/responsiv-flat/partials/footer.htm" />
@@ -83,6 +104,15 @@
         <option value="$PROJECT_DIR$/plugins/hilman/imageslider/components/imagelist/default.htm" />
         <option value="$PROJECT_DIR$/themes/responsiv-flat/assets/css/style.css" />
         <option value="$PROJECT_DIR$/themes/responsiv-flat/pages/home_backup.htm" />
+        <option value="$PROJECT_DIR$/plugins/rainlab/blog/models/Category.php" />
+        <option value="$PROJECT_DIR$/themes/responsiv-flat/pages/product/item.htm" />
+        <option value="$PROJECT_DIR$/plugins/lovata/shopaholic/models/Tag.php" />
+        <option value="$PROJECT_DIR$/plugins/lovata/shopaholic/models/ProductTag.php" />
+        <option value="$PROJECT_DIR$/plugins/hilman/imageslider/controllers/Aboutus.php" />
+        <option value="$PROJECT_DIR$/coba.json" />
+        <option value="$PROJECT_DIR$/plugins/hilman/imageslider/components/AboutUs.php" />
+        <option value="$PROJECT_DIR$/themes/responsiv-flat/layouts/default.htm" />
+        <option value="$PROJECT_DIR$/themes/responsiv-flat/pages/about-us.htm" />
       </list>
     </option>
   </component>
@@ -181,181 +211,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mark4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mark4" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="responsiv-flat" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mark4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mark4" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="responsiv-flat" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mark4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mark4" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="responsiv-flat" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mark4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mark4" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="responsiv-flat" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="samples" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mark4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mark4" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="responsiv-flat" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mark4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mark4" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="responsiv-flat" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mark4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mark4" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="responsiv-flat" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -381,93 +237,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mark4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mark4" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="responsiv-flat" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flat-ui" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mark4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mark4" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="responsiv-flat" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flat-ui" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mark4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mark4" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="responsiv-flat" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -498,6 +268,142 @@
               <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rainlab" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mark4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mark4" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mark4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mark4" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lovata" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mark4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mark4" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hilman" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imageslider" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mark4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mark4" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hilman" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imageslider" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mark4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mark4" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hilman" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imageslider" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mark4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mark4" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hilman" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imageslider" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -506,7 +412,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="defa&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/hilman/imageslider/components/imagelist/default.htm&#10;carou&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/assets/vendor/bootstrap/less/carousel.less&#10;foote&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/partials/footer.htm&#10;aa.&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/hilman/imageslider/components/aa.html&#10;defal&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/demo/assets/less/layouts/default.less&#10;nav&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/partials/nav.htm&#10;default&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/hilman/imageslider/components/imagelist/default.htm&#10;carousel&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/demo/assets/vendor/bootstrap/less/carousel.less&#10;style.c&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/assets/css/style.css&#10;ho&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/home_backup.htm&#10;pro&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/product/product.htm&#10;product.php&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/lovata/shopaholic/models/Product.php&#10;item.htm&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/product/item.htm&#10;item&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/lovata/shopaholic/classes/item/ProductItem.php&#10;sidebar&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/partials/shop/sidebar.htm&#10;prod&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/product/product.htm&#10;git&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/.gitignore&#10;data&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/config/database.php&#10;Produ&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/lovata/shopaholic/models/Product.php&#10;hom&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/home_backup.htm&#10;produ&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/product/product.htm&#10;home&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/home_backup.htm&#10;datab&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/config/database.php&#10;defaul&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/hilman/imageslider/components/imagekanan/default.htm&#10;footer&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/partials/footer.htm&#10;gitign&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/.gitignore&#10;da&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/config/database.php&#10;contact&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/contact-us.htm&#10;style.css&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/assets/css/style.css&#10;coba.htm&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/coba.htm&#10;Catalo&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/catalog.htm&#10;category&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/category.htm&#10;styl&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/assets/css/style.css&#10;imagekanan&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/hilman/imageslider/components/ImageKanan.php&#10;blo&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/blog/blog.htm&#10;blog&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/blog/blog.htm&#10;home_&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/home_backup.htm" />
+    <property name="SearchEverywhereHistoryKey" value="contac&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/contact-us.htm&#10;defaul&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/layouts/default.htm&#10;coba&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/coba.json&#10;hom&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/home_backup.htm&#10;default.htm&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/hilman/imageslider/components/imagekanan/default.htm&#10;cob&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/coba.json&#10;item&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/product/item.htm&#10;pro&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/product/product.htm&#10;defa&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/hilman/imageslider/components/imagelist/default.htm&#10;carou&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/assets/vendor/bootstrap/less/carousel.less&#10;foote&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/partials/footer.htm&#10;aa.&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/hilman/imageslider/components/aa.html&#10;defal&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/demo/assets/less/layouts/default.less&#10;nav&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/partials/nav.htm&#10;default&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/hilman/imageslider/components/imagelist/default.htm&#10;carousel&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/demo/assets/vendor/bootstrap/less/carousel.less&#10;style.c&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/assets/css/style.css&#10;ho&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/home_backup.htm&#10;product.php&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/lovata/shopaholic/models/Product.php&#10;item.htm&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/product/item.htm&#10;sidebar&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/partials/shop/sidebar.htm&#10;prod&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/product/product.htm&#10;git&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/.gitignore&#10;data&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/config/database.php&#10;Produ&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/lovata/shopaholic/models/Product.php&#10;produ&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/product/product.htm&#10;home&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/home_backup.htm&#10;datab&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/config/database.php&#10;footer&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/partials/footer.htm&#10;gitign&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/.gitignore&#10;da&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/config/database.php&#10;contact&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/contact-us.htm&#10;style.css&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/assets/css/style.css&#10;coba.htm&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/coba.htm&#10;Catalo&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/catalog.htm&#10;category&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/category.htm&#10;styl&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/assets/css/style.css&#10;imagekanan&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/hilman/imageslider/components/ImageKanan.php&#10;blo&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/blog/blog.htm&#10;blog&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/blog/blog.htm&#10;home_&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/home_backup.htm" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="FullScreen" value="true" />
@@ -514,6 +420,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/themes/responsiv-flat/assets/images" />
       <recent name="$PROJECT_DIR$/themes/responsiv-flat/pages/product" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -589,16 +496,16 @@
       <workItem from="1546909581506" duration="3544000" />
       <workItem from="1547001380212" duration="3460000" />
       <workItem from="1547100867992" duration="1543000" />
-      <workItem from="1547172233575" duration="30330000" />
+      <workItem from="1547172233575" duration="35389000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78659000" />
+    <option name="totallyTimeSpent" value="83718000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27786753" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -654,108 +561,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/pages/product.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/hilman/imageslider/components/ContactUs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/lovata/shopaholic/Plugin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/hilman/imageslider/Plugin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/hilman/imageslider/components/imagekanan/default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/theme.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/version.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/pages/samples/about.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/pages/blog/post.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/pages/catalog.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -765,14 +570,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/lovata/shopaholic/models/Settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/lovata/shopaholic/controllers/Products.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -892,34 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coba.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/pages/product/product.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="17" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/pages/product/item.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="120" column="31" selection-start-line="120" selection-start-column="31" selection-end-line="120" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/demo/assets/vendor/bootstrap/less/carousel.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1008,26 +777,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/layouts/default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/hilman/imageslider/components/aa.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3453">
           <caret line="962" column="7" selection-start-line="962" selection-start-column="7" selection-end-line="962" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/partials/footer.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1059,10 +812,102 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/pages/product/product.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315">
+          <caret line="10" column="17" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/rainlab/blog/models/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/lovata/shopaholic/models/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="90" column="51" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/pages/product/item.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="98" column="45" selection-start-line="98" selection-start-column="45" selection-end-line="98" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/lovata/shopaholic/models/Tag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/lovata/shopaholic/models/ProductTag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/lovata/shopaholic/controllers/Products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/hilman/imageslider/controllers/Aboutus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/hilman/imageslider/controllers/Kanan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/hilman/imageslider/models/Kanan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/hilman/imageslider/Plugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/pages/home_backup.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="291" column="10" selection-start-line="291" selection-start-column="10" selection-end-line="291" selection-end-column="10" />
+        <state relative-caret-position="2730">
+          <caret line="182" column="74" selection-start-line="182" selection-start-column="74" selection-end-line="182" selection-end-column="74" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ol#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
@@ -1072,6 +917,72 @@
             <element signature="n#style#0;n#p#1;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/hilman/imageslider/components/imagekanan/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/hilman/imageslider/components/ImageKanan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/hilman/imageslider/components/AboutUs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <folding>
+            <element signature="e#136#166#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coba.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/layouts/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-582">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/partials/footer.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/pages/about-us.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/pages/contact-us.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

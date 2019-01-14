@@ -1,0 +1,7 @@
+columns:
+    product_id:
+        label: 'Produk Id'
+        type: text
+    tag_id:
+        label: 'Tag Id'
+        type: text

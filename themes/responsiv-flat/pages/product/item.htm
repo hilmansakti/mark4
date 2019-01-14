@@ -81,6 +81,9 @@ sorting = "new"
 
                     <p class="text-muted">---------</p>
                     <div>
+                        {% if obProduct.link_shopee %}<p>Shopee : {{ obProduct.link_shopee }}</p>{% endif %}
+                        {% if obProduct.link_tokped %}<p>Tokopedia : <a href="https://{{ obProduct.link_tokped }}" target="_blank">Klik disini</a></p>{% endif %}
+                        {% if obProduct.link_bukalapak %}<p>Bukalapak : {{ obProduct.link_bukalapak }}</p>{% endif %}
                         <div class="price-block">
                             <span class="price">{% if obProduct.price %}Rp {{ obProduct.price }} {% else %} Hubungi Kami {% endif %}</span>
                         </div>
@@ -93,7 +96,7 @@ sorting = "new"
             <div class="row">
                 <div class="col-sm-12">
                     <h4 class="headline"><span>Product details</span></h4>
-                    {{ obPL[0] }}
+                    {{ obProduct.description }}
                 </div>
             </div>
             <div class="row">

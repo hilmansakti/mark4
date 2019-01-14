@@ -2,7 +2,6 @@ columns:
     id:
         label: ID
         type: text
-        searchable: true
     name:
-        label: Name
+        label: 'Nama Tag'
         type: text

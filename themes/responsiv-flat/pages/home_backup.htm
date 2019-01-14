@@ -166,17 +166,21 @@ postPage = "blog/post"
                     <a href="" class="btn btn-default bulat">View All</a>
                 </div>
 
-                <div class="row"></div>
+                <div class="row">
+
+                </div>
 
                 <div id="crsl2" class="carousel slide crsl" data-ride="crsl2" data-interval="0">
                     <!-- crsl indicators -->
                     {% if obCategoryList.isNotEmpty() %}
                     <ol class="carousel-indicators" style="top: 100%">
-                        {% for in, obCategory in obCategoryList %}
-                            {% if in % 3 == 0 %}
-                                <li data-target="#crsl2" data-slide-to="{{ in }}" class="{% if loop.first %}active{% endif %}"></li>
-                            {% endif %}
-                        {% endfor %}
+                        <!--{% for in, obCategory in obCategoryList %}-->
+                            <!--{% if in % 3 == 0 %}-->
+                                <!--<li data-target="#crsl2" data-slide-to="{{ in }}" class="{% if loop.first %}active{% endif %}"></li>-->
+                            <!--{% endif %}-->
+                        <!--{% endfor %}-->
+                        <li data-target="#crsl2" data-slide-to="0" class="active"></li>
+                        <li data-target="#crsl2" data-slide-to="1" class=""></li>
                     </ol>
                     {% endif %}
 

@@ -76,3 +76,9 @@
 1.19.3:
     - 'Updated table lovata_shopaholic_products'
     - builder_table_update_lovata_shopaholic_products_2.php
+1.19.4:
+    - 'Created table lovata_shopaholic_tags'
+    - builder_table_create_lovata_shopaholic_tags.php
+1.19.5:
+    - 'Created table lovata_shopaholic_product_tag'
+    - builder_table_create_lovata_shopaholic_product_tag.php

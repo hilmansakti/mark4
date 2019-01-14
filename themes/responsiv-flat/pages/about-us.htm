@@ -1,6 +1,64 @@
 title = "About Us"
 url = "/about-us"
-is_hidden = 0
 layout = "default"
+is_hidden = 0
+
+[aboutus]
+
 ==
-halaman about us
+
+{% set data = aboutus.data %}
+
+{% put styles %}
+<style type="text/css">
+    .brand-logo {
+        width: 50px;
+        height: auto;
+    }
+</style>
+{% endput %}
+
+<section id="layout-title">
+    <div class="container">
+        <h3>Tentang Kami</h3>
+    </div>
+</section>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-sm-7">
+            <h4 class="headline"><span>Selamat Datang</span></h4>
+            {{ data.about }}
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-sm-7">
+            <h4 class="headline"><span>Sosial Media</span></h4>
+            <ul class="list-inline">
+                <li><a target="_blank" href="https://{{ data.ig_link }}"><i class="fui-instagram"></i></a></li>
+                <li><a target="_blank" href="https://{{ data.fb_link }}"><i class="fui-facebook"></i></a></li>
+                <li><a target="_blank" href="https://{{ data.twitter_link }}"><i class="fui-twitter"></i></a></li>
+                <li><a target="_blank" href="https://{{ data.ytube_link }}"><i class="fui-youtube"></i></a></li>
+                <li><a target="_blank" href="https://{{ data.gplus_link }}"><i class="fui-google-plus"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-7">
+            <h4 class="headline"><span>Toko Online</span></h4>
+            <ul class="list-inline">
+                <li>
+                    <a target="_blank" href="https://{{ data.bl_link }}"><img src="themes/responsiv-flat/assets/images/bukalapak.png" alt="" class="brand-logo"></a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://{{ data.tokped_link }}"><img src="themes/responsiv-flat/assets/images/tokopedia.png" alt="" class="brand-logo"></a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://{{ data.shopee_link }}"><img src="themes/responsiv-flat/assets/images/shopee.png" alt="" class="brand-logo"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

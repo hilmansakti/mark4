@@ -13,8 +13,9 @@ class Category extends Model
     use \October\Rain\Database\Traits\Validation;
     use \October\Rain\Database\Traits\NestedTree;
 
-    public $table = 'rainlab_blog_categories';
-    public $implement = ['@RainLab.Translate.Behaviors.TranslatableModel'];
+//    public $table = 'rainlab_blog_categories';
+    public $table = 'lovata_shopaholic_categories';
+//    public $implement = ['@RainLab.Translate.Behaviors.TranslatableModel'];
 
     /*
      * Validation

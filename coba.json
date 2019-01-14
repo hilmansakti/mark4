@@ -1,46 +1,14 @@
-{
-  "id": 9,
-  "active": 1,
-  "name": "Tanaman Plastik",
-  "slug": "tanaman-plastik",
-  "code": "",
-  "category_id": 1,
-  "brand_id": null,
-  "preview_text": "",
-  "preview_image": {
-    "id": 38,
-    "disk_name": "5c2dd763030d0150528829.jpeg",
-    "file_name": "tanaman_plastik.jpeg",
-    "file_size": 20842,
-    "content_type": "image\/jpeg",
-    "title": null,
-    "description": null,
-    "field": "preview_image",
-    "sort_order": 38,
-    "created_at": "2019-01-03 09:35:31",
-    "updated_at": "2019-01-03 09:35:44",
-    "path": "http:\/\/localhost:8888\/storage\/app\/uploads\/public\/5c2\/dd7\/630\/5c2dd763030d0150528829.jpeg",
-    "extension": "jpeg"
-  },
-  "description": "<p>Tanaman Plastik Aquarium<\/p>",
-  "images": [
-    {
-      "id": 37,
-      "disk_name": "5c2dd76302f27861942628.jpeg",
-      "file_name": "tanaman_plastik.jpeg",
-      "file_size": 20842,
-      "content_type": "image\/jpeg",
-      "title": null,
-      "description": null,
-      "field": "images",
-      "sort_order": 37,
-      "created_at": "2019-01-03 09:35:31",
-      "updated_at": "2019-01-03 09:35:44",
-      "path": "http:\/\/localhost:8888\/storage\/app\/uploads\/public\/5c2\/dd7\/630\/5c2dd76302f27861942628.jpeg",
-      "extension": "jpeg"
-    }
-  ],
-  "offer_id_list": [],
-  "additional_category_id": [],
-  "trashed": false
-}
+[
+  {
+    "id": 1,
+    "about": "<p>Ini adalah toko ikan <strong>yang baru<\/strong><\/p>",
+    "fb_link": "www.facebook.com",
+    "ig_link": "www.instagram.com",
+    "twitter_link": "www.twitter.com",
+    "gplus_link": "plus.google.com",
+    "ytube_link": "www.youtube.com",
+    "bl_link": "www.bukalapak.co.id",
+    "tokped_link": "www.tokopedia.co.id",
+    "shopee_link": "www.shopee.co.id"
+  }
+]

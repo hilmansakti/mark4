@@ -10,6 +10,7 @@
 namespace Hilman\Imageslider\Components;
 
 use Cms\Classes\ComponentBase;
+use Hilman\Imageslider\Models\About;
 
 class AboutUs extends ComponentBase
 {
@@ -22,6 +23,10 @@ class AboutUs extends ComponentBase
         ];
     }
 
+    public function data() {
+        $data = About::first();
+        return $data;
+    }
 
 
 }

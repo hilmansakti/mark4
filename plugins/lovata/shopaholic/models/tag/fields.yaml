@@ -1,0 +1,5 @@
+fields:
+    name:
+        label: 'Nama Tag'
+        span: full
+        type: text

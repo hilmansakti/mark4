@@ -1,9 +1,9 @@
 fields:
     about:
         label: 'Tentang Toko'
-        size: ''
         span: full
-        type: textarea
+        size: ''
+        type: richeditor
     fb_link:
         label: Facebook
         span: auto

@@ -30,15 +30,18 @@ navigation:
                 label: 'lovata.shopaholic::lang.menu.brands'
                 url: lovata/shopaholic/brands
                 icon: icon-star-o
-                order: 300
                 permissions:
                     - shopaholic-menu-brand
+            side-menu-item:
+                label: Tags
+                url: lovata/shopaholic/tag
+                icon: icon-tags
     shopaholic-menu-promo:
         label: 'lovata.shopaholic::lang.menu.promo'
         url: lovata/shopaholic/promoblocks
         icon: oc-icon-money
         permissions:
-            - 'shopaholic-menu-promo-block'
+            - shopaholic-menu-promo-block
         sideMenu:
             shopaholic-menu-promo-block:
                 label: 'lovata.shopaholic::lang.menu.promo_block'
