@@ -2,32 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbb83296-555b-496b-9866-d812cefb3fc0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hilman/producttagextension/controllers/Tags.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hilman/producttagextension/controllers/tags/_list_toolbar.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hilman/producttagextension/controllers/tags/config_form.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/hilman/producttagextension/controllers/tags/config_list.yaml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/lovata/shopaholic/controllers/Tag.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/lovata/shopaholic/controllers/tag/_list_toolbar.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/lovata/shopaholic/controllers/tag/_reorder_toolbar.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/lovata/shopaholic/controllers/tag/config_form.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/lovata/shopaholic/controllers/tag/config_list.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/lovata/shopaholic/controllers/tag/config_reorder.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/lovata/shopaholic/controllers/tag/reorder.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/lovata/shopaholic/models/ProductTag.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/lovata/shopaholic/models/Tag.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/lovata/shopaholic/models/producttag/columns.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/lovata/shopaholic/models/tag/columns.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/lovata/shopaholic/models/tag/fields.yaml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/lovata/shopaholic/controllers/tag/create.htm" afterPath="$PROJECT_DIR$/plugins/hilman/producttagextension/controllers/tags/create.htm" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/lovata/shopaholic/controllers/tag/index.htm" afterPath="$PROJECT_DIR$/plugins/hilman/producttagextension/controllers/tags/index.htm" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/lovata/shopaholic/controllers/tag/preview.htm" afterPath="$PROJECT_DIR$/plugins/hilman/producttagextension/controllers/tags/preview.htm" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/lovata/shopaholic/controllers/tag/update.htm" afterPath="$PROJECT_DIR$/plugins/hilman/producttagextension/controllers/tags/update.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/hilman/imageslider/components/imagelist/default.htm" afterPath="$PROJECT_DIR$/plugins/hilman/imageslider/components/imagelist/default.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/lovata/shopaholic/updates/version.yaml" afterPath="$PROJECT_DIR$/plugins/lovata/shopaholic/updates/version.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/rainlab/blog/models/post/fields.yaml" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/models/post/fields.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/responsiv-flat/pages/blog/blog.htm" afterPath="$PROJECT_DIR$/themes/responsiv-flat/pages/blog/blog.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/responsiv-flat/pages/blog/post.htm" afterPath="$PROJECT_DIR$/themes/responsiv-flat/pages/blog/post.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/hilman/producttagextension/controllers/tags/config_form.yaml" afterPath="$PROJECT_DIR$/plugins/hilman/producttagextension/controllers/tags/config_form.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/hilman/producttagextension/controllers/tags/config_list.yaml" afterPath="$PROJECT_DIR$/plugins/hilman/producttagextension/controllers/tags/config_list.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/hilman/producttagextension/controllers/tags/create.htm" afterPath="$PROJECT_DIR$/plugins/hilman/producttagextension/controllers/tags/create.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/hilman/producttagextension/controllers/tags/preview.htm" afterPath="$PROJECT_DIR$/plugins/hilman/producttagextension/controllers/tags/preview.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/hilman/producttagextension/controllers/tags/update.htm" afterPath="$PROJECT_DIR$/plugins/hilman/producttagextension/controllers/tags/update.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/responsiv-flat/pages/product/item.htm" afterPath="$PROJECT_DIR$/themes/responsiv-flat/pages/product/item.htm" />
     </list>
     <ignored path="mark4.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,88 +27,58 @@
     <favorites_list name="mark4" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Plugin.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/plugins/hilman/producttagextension/Plugin.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-                  <folding>
-                    <element signature="e#45#57#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Tag.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/plugins/hilman/producttagextension/models/Tag.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-345">
-                  <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-                  <folding>
-                    <element signature="e#52#62#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Tags.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/plugins/hilman/producttagextension/controllers/Tags.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="585">
-                  <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#7#23#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="Plugin.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/plugins/bedard/blogtags/Plugin.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-735">
-                  <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-                  <folding>
-                    <element signature="e#34#46#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Tag.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/plugins/bedard/blogtags/models/Tag.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-105">
-                  <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-                  <folding>
-                    <element signature="e#41#52#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Tags.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/plugins/bedard/blogtags/controllers/Tags.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="735">
-                  <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
-                  <folding>
-                    <element signature="e#46#62#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="home_backup.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/pages/home_backup.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="477">
+              <caret line="117" column="137" selection-start-line="117" selection-start-column="112" selection-end-line="117" selection-end-column="137" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ol#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#section#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ol#0;n#div#2;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ol#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#1;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="item.htm" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/pages/product/item.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="79" column="41" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slick.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/assets/vendor/slick/slick.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-144">
+              <caret line="1" column="2" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about-us.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/pages/about-us.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="52" column="160" selection-start-line="52" selection-start-column="73" selection-end-line="52" selection-end-column="160" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -143,11 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/plugins/hilman/depan/Plugin.php" />
-        <option value="$PROJECT_DIR$/plugins/hilman/depan/components/Caro.php" />
-        <option value="$PROJECT_DIR$/plugins/hilman/depan/components/caro/default.htm" />
-        <option value="$PROJECT_DIR$/plugins/hilman/imageslider/lang/en/lang.php" />
-        <option value="$PROJECT_DIR$/plugins/mohsin/carousel/components/Carousel.php" />
         <option value="$PROJECT_DIR$/plugins/hilman/imageslider/models/ImageSlider.php" />
         <option value="$PROJECT_DIR$/plugins/hilman/imageslider/components/ImageList.php" />
         <option value="$PROJECT_DIR$/plugins/hilman/imageslider/models/Kanan.php" />
@@ -178,7 +123,6 @@
         <option value="$PROJECT_DIR$/themes/responsiv-flat/assets/css/style.css" />
         <option value="$PROJECT_DIR$/themes/responsiv-flat/pages/home_backup.htm" />
         <option value="$PROJECT_DIR$/plugins/rainlab/blog/models/Category.php" />
-        <option value="$PROJECT_DIR$/themes/responsiv-flat/pages/product/item.htm" />
         <option value="$PROJECT_DIR$/plugins/lovata/shopaholic/models/Tag.php" />
         <option value="$PROJECT_DIR$/plugins/lovata/shopaholic/models/ProductTag.php" />
         <option value="$PROJECT_DIR$/plugins/hilman/imageslider/controllers/Aboutus.php" />
@@ -194,6 +138,12 @@
         <option value="$PROJECT_DIR$/plugins/hilman/producttagextension/Plugin.php" />
         <option value="$PROJECT_DIR$/plugins/hilman/producttagextension/controllers/Tags.php" />
         <option value="$PROJECT_DIR$/plugins/hilman/producttagextension/models/Tag.php" />
+        <option value="$PROJECT_DIR$/plugins/hilman/producttagextension/controllers/tags/config_list.yaml" />
+        <option value="$PROJECT_DIR$/plugins/hilman/producttagextension/controllers/tags/config_form.yaml" />
+        <option value="$PROJECT_DIR$/plugins/hilman/producttagextension/controllers/tags/create.htm" />
+        <option value="$PROJECT_DIR$/plugins/hilman/producttagextension/controllers/tags/preview.htm" />
+        <option value="$PROJECT_DIR$/plugins/hilman/producttagextension/controllers/tags/update.htm" />
+        <option value="$PROJECT_DIR$/themes/responsiv-flat/pages/product/item.htm" />
       </list>
     </option>
   </component>
@@ -534,6 +484,36 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tag" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mark4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mark4" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hilman" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="producttagextension" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -697,7 +677,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="T&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/hilman/producttagextension/models/Tag.php&#10;post&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/blog/post.htm&#10;item&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/product/item.htm&#10;default.htm&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/hilman/imageslider/components/imagelist/default.htm&#10;home&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/home_backup.htm&#10;contac&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/contact-us.htm&#10;defaul&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/layouts/default.htm&#10;coba&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/coba.json&#10;hom&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/home_backup.htm&#10;cob&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/coba.json&#10;pro&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/product/product.htm&#10;defa&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/hilman/imageslider/components/imagelist/default.htm&#10;carou&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/assets/vendor/bootstrap/less/carousel.less&#10;foote&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/partials/footer.htm&#10;aa.&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/hilman/imageslider/components/aa.html&#10;defal&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/demo/assets/less/layouts/default.less&#10;nav&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/partials/nav.htm&#10;default&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/hilman/imageslider/components/imagelist/default.htm&#10;carousel&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/demo/assets/vendor/bootstrap/less/carousel.less&#10;style.c&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/assets/css/style.css&#10;ho&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/home_backup.htm&#10;product.php&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/lovata/shopaholic/models/Product.php&#10;item.htm&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/product/item.htm&#10;sidebar&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/partials/shop/sidebar.htm&#10;prod&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/product/product.htm&#10;git&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/.gitignore&#10;data&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/config/database.php&#10;Produ&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/lovata/shopaholic/models/Product.php&#10;produ&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/product/product.htm&#10;datab&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/config/database.php&#10;footer&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/partials/footer.htm&#10;gitign&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/.gitignore&#10;da&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/config/database.php&#10;contact&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/contact-us.htm&#10;style.css&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/assets/css/style.css&#10;coba.htm&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/coba.htm&#10;Catalo&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/catalog.htm&#10;category&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/category.htm&#10;styl&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/assets/css/style.css&#10;imagekanan&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/hilman/imageslider/components/ImageKanan.php&#10;blo&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/blog/blog.htm&#10;blog&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/blog/blog.htm&#10;home_&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/home_backup.htm" />
+    <property name="SearchEverywhereHistoryKey" value="slick.css&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/assets/vendor/slick/slick.css&#10;abou&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/about-us.htm&#10;item.&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/product/item.htm&#10;item&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/lovata/shopaholic/classes/item/ProductItem.php&#10;hom&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/home_backup.htm&#10;T&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/hilman/producttagextension/models/Tag.php&#10;post&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/blog/post.htm&#10;default.htm&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/hilman/imageslider/components/imagelist/default.htm&#10;home&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/home_backup.htm&#10;contac&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/contact-us.htm&#10;defaul&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/layouts/default.htm&#10;coba&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/coba.json&#10;cob&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/coba.json&#10;pro&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/product/product.htm&#10;defa&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/hilman/imageslider/components/imagelist/default.htm&#10;carou&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/assets/vendor/bootstrap/less/carousel.less&#10;foote&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/partials/footer.htm&#10;aa.&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/hilman/imageslider/components/aa.html&#10;defal&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/demo/assets/less/layouts/default.less&#10;nav&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/partials/nav.htm&#10;default&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/hilman/imageslider/components/imagelist/default.htm&#10;carousel&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/demo/assets/vendor/bootstrap/less/carousel.less&#10;style.c&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/assets/css/style.css&#10;ho&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/home_backup.htm&#10;product.php&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/lovata/shopaholic/models/Product.php&#10;item.htm&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/product/item.htm&#10;sidebar&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/partials/shop/sidebar.htm&#10;prod&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/product/product.htm&#10;git&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/.gitignore&#10;data&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/config/database.php&#10;Produ&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/lovata/shopaholic/models/Product.php&#10;produ&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/product/product.htm&#10;datab&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/config/database.php&#10;footer&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/partials/footer.htm&#10;gitign&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/.gitignore&#10;da&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/config/database.php&#10;contact&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/contact-us.htm&#10;style.css&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/assets/css/style.css&#10;coba.htm&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/coba.htm&#10;Catalo&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/catalog.htm&#10;category&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/category.htm&#10;styl&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/assets/css/style.css&#10;imagekanan&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/plugins/hilman/imageslider/components/ImageKanan.php&#10;blo&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/blog/blog.htm&#10;blog&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/blog/blog.htm&#10;home_&#9;FILE&#9;file:///Applications/MAMP/htdocs/mark4/themes/responsiv-flat/pages/home_backup.htm" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="FullScreen" value="true" />
@@ -782,12 +762,12 @@
       <workItem from="1546909581506" duration="3544000" />
       <workItem from="1547001380212" duration="3460000" />
       <workItem from="1547100867992" duration="1543000" />
-      <workItem from="1547172233575" duration="44403000" />
+      <workItem from="1547172233575" duration="46597000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92732000" />
+    <option name="totallyTimeSpent" value="94926000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -847,62 +827,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/demo/assets/css/vendor.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="781" column="16" selection-start-line="781" selection-start-column="16" selection-end-line="781" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/assets/less/pages/home.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
-          <caret line="160" column="6" selection-start-line="160" selection-start-column="6" selection-end-line="160" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/partials/nav.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-462">
-          <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/demo/assets/less/layouts/default.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/hilman/imageslider/components/aa.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3453">
-          <caret line="962" column="7" selection-start-line="962" selection-start-column="7" selection-end-line="962" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/assets/vendor/bootstrap/less/carousel.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="289" column="14" selection-start-line="289" selection-start-column="14" selection-end-line="289" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="285" column="19" selection-start-line="285" selection-start-column="19" selection-end-line="285" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/pages/product/product.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-315">
@@ -1021,14 +945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/pages/about-us.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/hilman/imageslider/components/ContactUs.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1074,30 +990,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/pages/product/item.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="98" column="45" selection-start-line="98" selection-start-column="45" selection-end-line="98" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/pages/home_backup.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2892">
-          <caret line="263" column="78" selection-start-line="263" selection-start-column="53" selection-end-line="263" selection-end-column="78" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ol#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#section#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ol#0;n#div#2;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ol#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/lovata/shopaholic/classes/store/ProductListStore.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1109,14 +1001,6 @@
     <entry file="file://$PROJECT_DIR$/plugins/lovata/shopaholic/controllers/Products.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/lovata/shopaholic/classes/item/ProductItem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1617">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -1159,7 +1043,7 @@
         <state relative-caret-position="600">
           <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1220,20 +1104,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/hilman/producttagextension/controllers/tags/_list_toolbar.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/bedard/blogtags/Plugin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-735">
           <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
           <folding>
-            <element signature="e#34#46#0#PHP" expanded="true" />
+            <element signature="e#34#46#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1243,7 +1119,7 @@
         <state relative-caret-position="300">
           <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
           <folding>
-            <element signature="e#45#57#0#PHP" expanded="true" />
+            <element signature="e#45#57#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1273,17 +1149,123 @@
         <state relative-caret-position="-105">
           <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
           <folding>
-            <element signature="e#41#52#0#PHP" expanded="true" />
+            <element signature="e#41#52#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/hilman/producttagextension/models/Tag.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-345">
+        <state relative-caret-position="-330">
           <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
           <folding>
             <element signature="e#52#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/hilman/producttagextension/controllers/tags/_list_toolbar.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/hilman/producttagextension/controllers/tags/config_form.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/hilman/producttagextension/controllers/tags/config_list.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/hilman/producttagextension/controllers/tags/create.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="45" column="60" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/hilman/producttagextension/controllers/tags/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/hilman/producttagextension/controllers/tags/preview.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/hilman/producttagextension/controllers/tags/update.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="53" column="65" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/lovata/shopaholic/classes/item/ProductItem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/pages/home_backup.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="117" column="137" selection-start-line="117" selection-start-column="112" selection-end-line="117" selection-end-column="137" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ol#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ol#0;n#div#2;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ol#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/pages/about-us.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="52" column="160" selection-start-line="52" selection-start-column="73" selection-end-line="52" selection-end-column="160" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/assets/vendor/slick/slick.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/pages/product/item.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="79" column="41" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

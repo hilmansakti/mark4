@@ -6,25 +6,25 @@
 name: Tag
 
 # Model Form Field configuration
-form: $/bedard/blogtags/models/tag/fields.yaml
+form: $/hilman/producttagextension/models/tag/fields.yaml
 
 # Model Class name
-modelClass: Bedard\BlogTags\Models\Tag
+modelClass: Hilman\ProductTagExtension\Models\Tag
 
 # Default redirect location
-defaultRedirect: bedard/blogtags/tags
+defaultRedirect: hilman/producttagextension/tags
 
 # Create page
 create:
     title: Create Tag
-    redirect: bedard/blogtags/tags/update/:id
-    redirectClose: bedard/blogtags/tags
+    redirect: hilman/producttagextension/tags/update/:id
+    redirectClose: hilman/producttagextension/tags
 
 # Update page
 update:
     title: Edit Tag
-    redirect: bedard/blogtags/tags
-    redirectClose: bedard/blogtags/tags
+    redirect: hilman/producttagextension/tags
+    redirectClose: hilman/producttagextension/tags
 
 # Preview page
 preview:

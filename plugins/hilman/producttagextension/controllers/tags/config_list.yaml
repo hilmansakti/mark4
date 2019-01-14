@@ -3,16 +3,16 @@
 # ===================================
 
 # Model List Column configuration
-list: $/bedard/blogtags/models/tag/columns.yaml
+list: $/hilman/producttagextension/models/tag/columns.yaml
 
 # Model Class name
-modelClass: Bedard\BlogTags\Models\Tag
+modelClass: Hilman\ProductTagExtension\Models\Tag
 
 # List Title
 title: Manage Tags
 
 # Link URL for each record
-recordUrl: bedard/blogtags/tags/update/:id
+recordUrl: hilman/producttagextension/tags/update/:id
 
 # Message to display if the list is empty
 noRecordsMessage: backend::lang.list.no_records
