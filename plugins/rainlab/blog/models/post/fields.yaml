@@ -17,16 +17,13 @@ fields:
         path: post_toolbar
         cssClass: collapse-visible
     blog_image:
-        label: 'File upload'
+        label: Gambar
+        span: auto
         mode: image
-        imageWidth: '600'
-        imageHeight: '400'
         useCaption: true
         thumbOptions:
             mode: crop
             extension: auto
-        span: right
-        cssClass: img-responsive
         type: fileupload
 secondaryTabs:
     fields:

@@ -1,7 +1,0 @@
-columns:
-    id:
-        label: ID
-        type: text
-    name:
-        label: 'Nama Tag'
-        type: text

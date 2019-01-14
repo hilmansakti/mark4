@@ -1,6 +1,6 @@
 {% set caros = imagelist.caros %}
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<div id="myCarousel" class="carousel slide fadeInLeft" data-ride="carousel">
     <ol class="carousel-indicators" style="left: 20%;">
         {% for in, caro in caros %}
         <li data-target="#myCarousel" style="border: 1px solid white;" data-slide-to="{{ in }}" class="{% if loop.first %}active{% endif %}"></li>
@@ -11,7 +11,7 @@
         <div class="item{% if loop.first %} active{% endif %}">
             <img id="img_caros" src="{{ caro.img_caro.path }}"
                  alt="{{ caro.title }}" class="img-responsive">
-            <div class="carousel-caption fadeUp">
+            <div class="carousel-caption fadeInUp">
                 <h3>{{ caro.title }}</h3>
                 <p>{{ caro.description }}</p>
                 <a href="" class="btn btn-primary bulat">Cek Sekarang!</a>

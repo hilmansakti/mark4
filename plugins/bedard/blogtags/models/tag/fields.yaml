@@ -1,0 +1,12 @@
+fields:
+    name:
+        label: Tag
+        span: left
+        type: text
+    products:
+        label: Produk
+        nameFrom: title
+        descriptionFrom: description
+        emptyOption: 'No posts available.'
+        span: right
+        type: relation

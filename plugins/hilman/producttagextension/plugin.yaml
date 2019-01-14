@@ -1,0 +1,6 @@
+plugin:
+    name: 'hilman.producttagextension::lang.plugin.name'
+    description: 'hilman.producttagextension::lang.plugin.description'
+    author: hilman
+    icon: oc-icon-tag
+    homepage: ''

@@ -1,4 +1,0 @@
-title: Tag
-modelClass: Lovata\Shopaholic\Models\Tag
-toolbar:
-    buttons: reorder_toolbar

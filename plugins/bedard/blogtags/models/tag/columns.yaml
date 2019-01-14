@@ -1,0 +1,16 @@
+columns:
+    name:
+        label: Tag
+        type: text
+    posts:
+        label: Posts
+        type: text
+        select: "(\n    select count(*)\n    from bedard_blogtags_post_tag\n    where bedard_blogtags_post_tag.tag_id = bedard_blogtags_tags.id\n)\n"
+    created_at:
+        label: 'rainlab.blog::lang.post.created'
+        type: date
+        invisible: true
+    updated_at:
+        label: 'rainlab.blog::lang.post.updated'
+        type: date
+        invisible: true

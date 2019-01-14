@@ -1,0 +1,11 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table hilman_producttagextension_product_tags'
+    - builder_table_create_hilman_producttagextension_product_tags.php
+1.0.3:
+    - 'Updated table hilman_producttagextension_product_tags'
+    - builder_table_update_hilman_producttagextension_tags.php
+1.0.4:
+    - 'Created table hilman_producttagextension_product_tag'
+    - builder_table_create_hilman_producttagextension_product_tag.php

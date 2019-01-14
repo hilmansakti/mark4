@@ -82,3 +82,9 @@
 1.19.5:
     - 'Created table lovata_shopaholic_product_tag'
     - builder_table_create_lovata_shopaholic_product_tag.php
+1.19.6:
+    - 'Created table lovata_shopaholic_product_tag_'
+    - builder_table_create_lovata_shopaholic_product_tag_.php
+1.19.7:
+    - 'Drop table lovata_shopaholic_product_tag_'
+    - builder_table_delete_lovata_shopaholic_product_tag_.php

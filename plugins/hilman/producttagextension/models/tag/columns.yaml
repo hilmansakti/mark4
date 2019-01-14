@@ -1,0 +1,16 @@
+columns:
+    name:
+        label: Tag
+        type: text
+    products:
+        label: Produk
+        type: text
+        select: '( select count(*)    from hilman_producttagextension_product_tag where hilman_producttagextension_product_tag.tag_id = hilman_producttagextension_tags.id )'
+    created_at:
+        label: created_at
+        type: date
+        invisible: true
+    updated_at:
+        label: updated_at
+        type: date
+        invisible: true

@@ -1,0 +1,11 @@
+fields:
+    tag_id:
+        label: Tag
+        span: auto
+        type: text
+    product_id:
+        label: Produk
+        span: auto
+        nameFrom: name
+        descriptionFrom: description
+        type: relation
