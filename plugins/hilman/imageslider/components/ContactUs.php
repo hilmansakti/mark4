@@ -9,6 +9,7 @@
 namespace Hilman\Imageslider\Components;
 
 use Cms\Classes\ComponentBase;
+use Hilman\Imageslider\Models\Contact;
 
 class ContactUs extends ComponentBase {
 
@@ -19,6 +20,11 @@ class ContactUs extends ComponentBase {
             'name' => 'Contact Us',
             'description' => 'Contact Us'
         ];
+    }
+
+    public function data() {
+        $data = Contact::first();
+        return $data;
     }
 
 

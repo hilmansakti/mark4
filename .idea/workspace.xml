@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbb83296-555b-496b-9866-d812cefb3fc0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/responsiv-flat/assets/images/bukalapak.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/responsiv-flat/assets/images/shopee.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/responsiv-flat/assets/images/tokopedia.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/rainlab/blog/models/category/fields.yaml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coba.json" afterPath="$PROJECT_DIR$/coba.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/hilman/imageslider/components/AboutUs.php" afterPath="$PROJECT_DIR$/plugins/hilman/imageslider/components/AboutUs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/hilman/imageslider/models/about/fields.yaml" afterPath="$PROJECT_DIR$/plugins/hilman/imageslider/models/about/fields.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/lovata/shopaholic/models/product/fields.yaml" afterPath="$PROJECT_DIR$/plugins/lovata/shopaholic/models/product/fields.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/lovata/shopaholic/plugin.yaml" afterPath="$PROJECT_DIR$/plugins/lovata/shopaholic/plugin.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/lovata/shopaholic/updates/version.yaml" afterPath="$PROJECT_DIR$/plugins/lovata/shopaholic/updates/version.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/rainlab/blog/models/Category.php" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/models/Category.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/rainlab/blog/models/category/columns.yaml" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/models/category/columns.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/responsiv-flat/layouts/default.htm" afterPath="$PROJECT_DIR$/themes/responsiv-flat/layouts/default.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/responsiv-flat/pages/about-us.htm" afterPath="$PROJECT_DIR$/themes/responsiv-flat/pages/about-us.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/hilman/imageslider/components/ContactUs.php" afterPath="$PROJECT_DIR$/plugins/hilman/imageslider/components/ContactUs.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/responsiv-flat/pages/contact-us.htm" afterPath="$PROJECT_DIR$/themes/responsiv-flat/pages/contact-us.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/responsiv-flat/pages/home_backup.htm" afterPath="$PROJECT_DIR$/themes/responsiv-flat/pages/home_backup.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/responsiv-flat/pages/product/item.htm" afterPath="$PROJECT_DIR$/themes/responsiv-flat/pages/product/item.htm" />
     </list>
     <ignored path="mark4.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,8 +27,8 @@
       <file leaf-file-name="contact-us.htm" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/pages/contact-us.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="483">
+              <caret line="71" column="123" selection-start-line="71" selection-start-column="123" selection-end-line="71" selection-end-column="123" />
               <folding />
             </state>
           </provider>
@@ -85,8 +69,6 @@
         <option value="$PROJECT_DIR$/plugins/rainlab/blog/components/posts/default.htm" />
         <option value="$PROJECT_DIR$/plugins/rainlab/blog/components/post/default.htm" />
         <option value="$PROJECT_DIR$/plugins/hilman/imageslider/components/imagekanan/default.htm" />
-        <option value="$PROJECT_DIR$/themes/responsiv-flat/pages/contact-us.htm" />
-        <option value="$PROJECT_DIR$/plugins/hilman/imageslider/components/ContactUs.php" />
         <option value="$PROJECT_DIR$/themes/responsiv-flat/pages/product.htm" />
         <option value="$PROJECT_DIR$/plugins/hilman/imageslider/Plugin.php" />
         <option value="$PROJECT_DIR$/themes/responsiv-flat/partials/nav.htm" />
@@ -113,6 +95,8 @@
         <option value="$PROJECT_DIR$/plugins/hilman/imageslider/components/AboutUs.php" />
         <option value="$PROJECT_DIR$/themes/responsiv-flat/layouts/default.htm" />
         <option value="$PROJECT_DIR$/themes/responsiv-flat/pages/about-us.htm" />
+        <option value="$PROJECT_DIR$/plugins/hilman/imageslider/components/ContactUs.php" />
+        <option value="$PROJECT_DIR$/themes/responsiv-flat/pages/contact-us.htm" />
       </list>
     </option>
   </component>
@@ -496,12 +480,12 @@
       <workItem from="1546909581506" duration="3544000" />
       <workItem from="1547001380212" duration="3460000" />
       <workItem from="1547100867992" duration="1543000" />
-      <workItem from="1547172233575" duration="35389000" />
+      <workItem from="1547172233575" duration="36076000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83718000" />
+    <option name="totallyTimeSpent" value="84405000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -561,14 +545,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/pages/catalog.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/lovata/shopaholic/models/Settings.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -978,10 +954,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/hilman/imageslider/components/ContactUs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding>
+            <element signature="e#135#165#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/pages/contact-us.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="483">
+          <caret line="71" column="123" selection-start-line="71" selection-start-column="123" selection-end-line="71" selection-end-column="123" />
           <folding />
         </state>
       </provider>
