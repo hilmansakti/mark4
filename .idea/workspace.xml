@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbb83296-555b-496b-9866-d812cefb3fc0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/responsiv-flat/assets/images/bukalapak-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/responsiv-flat/assets/images/shopee-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/responsiv-flat/assets/images/tokopedia-icon.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/hilman/imageslider/components/aa.html" afterPath="$PROJECT_DIR$/plugins/hilman/imageslider/components/aa.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/hilman/imageslider/components/imagelist/default.htm" afterPath="$PROJECT_DIR$/plugins/hilman/imageslider/components/imagelist/default.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/lovata/shopaholic/models/Product.php" afterPath="$PROJECT_DIR$/plugins/lovata/shopaholic/models/Product.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/lovata/shopaholic/models/category/fields.yaml" afterPath="$PROJECT_DIR$/plugins/lovata/shopaholic/models/category/fields.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/lovata/shopaholic/models/product/columns.yaml" afterPath="$PROJECT_DIR$/plugins/lovata/shopaholic/models/product/columns.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/lovata/shopaholic/models/product/fields.yaml" afterPath="$PROJECT_DIR$/plugins/lovata/shopaholic/models/product/fields.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/lovata/shopaholic/updates/version.yaml" afterPath="$PROJECT_DIR$/plugins/lovata/shopaholic/updates/version.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/demo/assets/vendor/bootstrap/less/carousel.less" afterPath="$PROJECT_DIR$/themes/demo/assets/vendor/bootstrap/less/carousel.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/responsiv-flat/assets/vendor/bootstrap/less/carousel.less" afterPath="$PROJECT_DIR$/themes/responsiv-flat/assets/vendor/bootstrap/less/carousel.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/responsiv-flat/pages/home_backup.htm" afterPath="$PROJECT_DIR$/themes/responsiv-flat/pages/home_backup.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/responsiv-flat/pages/product/item.htm" afterPath="$PROJECT_DIR$/themes/responsiv-flat/pages/product/item.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/responsiv-flat/pages/product/product.htm" afterPath="$PROJECT_DIR$/themes/responsiv-flat/pages/product/product.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/responsiv-flat/partials/nav.htm" afterPath="$PROJECT_DIR$/themes/responsiv-flat/partials/nav.htm" />
     </list>
     <ignored path="mark4.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,8 +39,8 @@
       <file leaf-file-name="product.htm" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/pages/product/product.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="420">
+              <caret line="48" column="63" selection-start-line="48" selection-start-column="63" selection-end-line="48" selection-end-column="63" />
               <folding>
                 <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
@@ -719,12 +704,12 @@
       <workItem from="1546909581506" duration="3544000" />
       <workItem from="1547001380212" duration="3460000" />
       <workItem from="1547100867992" duration="1543000" />
-      <workItem from="1547172233575" duration="58761000" />
+      <workItem from="1547172233575" duration="59312000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107090000" />
+    <option name="totallyTimeSpent" value="107641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -1246,8 +1231,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/pages/product/product.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="420">
+          <caret line="48" column="63" selection-start-line="48" selection-start-column="63" selection-end-line="48" selection-end-column="63" />
           <folding>
             <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
