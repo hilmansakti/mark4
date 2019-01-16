@@ -124,11 +124,11 @@
   }
 
   &.left.car1 {
-    margin-left:70%;
+    margin-left:77%;
   }
 
   &.right.car1 {
-    margin-right: 13%;
+    margin-right: 8%;
   }
 
   // Hover/focus state
@@ -240,9 +240,10 @@
   position: absolute;
   left: 15%;
   right: 15%;
-  bottom: 20px;
+  //bottom: 20px;
+  top: 5;
   z-index: 10;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 20px;
   color: @carousel-caption-color;
   text-align: center;
@@ -252,7 +253,23 @@
   }
 }
 
+.carousel-button {
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  bottom: 10px;
+  //top: 0;
+  z-index: 10;
+  //padding-top: 10px;
+  padding-bottom: 10px;
+  color: @carousel-caption-color;
+  text-align: center;
+  text-shadow: @carousel-text-shadow;
+}
 
+.carousel-button > .bulat {
+
+}
 
 // Scale up controls for tablets and up
 @media screen and (min-width: @screen-sm-min) {

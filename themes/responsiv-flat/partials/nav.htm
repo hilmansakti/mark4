@@ -1,88 +1,10 @@
+[CategoryList]
 
-{# Note: Only one levels of sublinks are supported by Bootstrap 3 #}
-{# 'pages': {
-name: 'Pages',
-    sublinks: {
-        'about':         ['samples/about', 'About Us'],
-        'contact':       ['samples/contact', 'Contact Us'],
-        'pricing-table': ['samples/pricing-table', 'Pricing Table'],
-        'services':      ['samples/services', 'Services'],
-        'signin':        ['samples/signin', 'Sign In'],
-        'register':      ['samples/register', 'Register'],
-        'error':         ['error', 'Error Page'],
-        '404':           ['404', '404 Page'],
+==
 
-        },
-    },
-#}
-{% set
-    links = {
-        'home': ['home_backup', 'Home'],
-        'pages': {
-            name: 'Pages',
-            sublinks: {
-                'about':         ['samples/about', 'About Us'],
-                'contact':       ['samples/contact', 'Contact Us'],
-                'pricing-table': ['samples/pricing-table', 'Pricing Table'],
-                'services':      ['samples/services', 'Services'],
-                'signin':        ['samples/signin', 'Sign In'],
-                'register':      ['samples/register', 'Register'],
-                'error':         ['error', 'Error Page'],
-                '404':           ['404', '404 Page'],
-            },
-        },
-        'product': {
-            name: 'Product',
-            sublinks: {
-                'aquarium': ['product/product', 'Aquarium'],
-                'aquascape': ['product/product', 'Aquascape'],
-                'product': ['product/product', 'Ikan Hias'],
-                'product': ['product/product', 'Rak Besi'],
-                'aksesoris': ['product/product', 'Aksesoris'],
-                'maintenance': ['product/:slug', 'Maintenance'],
-            }
-        },
-        'blog': {
-            name: 'Blog',
-            sublinks: {
-                'blog': ['blog', 'Blog'],
-                'aquarium': ['blog/aquarium', 'Aquarium'],
-                'aquascape': ['blog/aquascape', 'Aquascape'],
-                'ikan-hias': ['blog/ikan-hias', 'Ikan Hias'],
-                'rak-besi': ['blog/rak-besi', 'Rak Besi'],
-                'aksesoris': ['blog/aksesoris', 'Aksesoris'],
-                'maintenance': ['blog/maintenance', 'Maintenance'],
-            },
-        },
-        'about-us': ['about-us', 'About Us'],
-        'contact-us': ['contact-us', 'Contact Us']
-    }
-%}
-
-{% macro render_menu(links) %}
-    {% import _self as subnav %}
-
-    {% for code, link in links %}
-        <li class="{{ code == currentPage ? 'active' }} {{ link.sublinks ? 'dropdown' }}">
-            <a
-                href="{{ link.sublinks ? '#' : (link.page ?: link[0])|page }}"
-                {% if link.sublinks %}data-toggle="dropdown"{% endif %}
-                class="{{ link.sublinks ? 'dropdown-toggle' }}"
-            >
-                {{ link.name ?: link[1] }}
-                {% if link.sublinks %}<b class="caret"></b>{% endif %}
-            </a>
-            {% if link.sublinks %}
-                <span class="dropdown-arrow"></span>
-                <ul class="dropdown-menu">
-                    {{ subnav.render_menu(link.sublinks) }}
-                </ul>
-            {% endif %}
-        </li>
-    {% endfor %}
-{% endmacro %}
-
-{% import _self as nav %}
+<!-- list category untuk sidebar -->
+{% set obCL = CategoryList.make().tree() %}
+<!-- ------ -->
 
 <nav id="layout-nav" class="navbar navbar-static-top" role="navigation">
     <div class="container">
@@ -92,14 +14,49 @@ name: 'Pages',
                     <span class="sr-only">Toggle navigation</span>
                     <span class="fa fa-bars"></span>
                 </button>
-                <a class="navbar-brand" href="{{ 'home'|page }}">Flat</a>
+                <a class="navbar-brand" href="">Flat</a>
             </div>
         </div>
         <div class="col-md-1"><span></span></div>
         <div class="col-md-9">
             <div class="collapse navbar-collapse navbar-main-collapse text-center">
                 <ul class="nav navbar-nav">
-                    {{ nav.render_menu(links) }}
+
+                    <li class=" ">
+                        <a href="/" class="">
+                            Home
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                            Produk
+                            <b class="caret"></b> </a>
+                        <span class="dropdown-arrow"></span>
+                        <ul class="dropdown-menu">
+                            {% for i, obC in obCL %}
+                            <li class="">
+                                <a href="/product/{{ obC.slug }}" class="">
+                                    {{ obC.name }}
+                                </a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                    <li class=" ">
+                        <a href="/blog" class="">
+                            About Us
+                        </a>
+                    </li>
+                    <li class=" ">
+                        <a href="/about-us" class="">
+                            Tentang Kami
+                        </a>
+                    </li>
+                    <li class=" ">
+                        <a href="/contact-us" class="">
+                            Hubungi Kami
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>

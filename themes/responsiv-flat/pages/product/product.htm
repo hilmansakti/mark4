@@ -9,7 +9,7 @@ sorting = "new"
 [CategoryPage]
 slug = "{{ :category }}"
 slug_required = 1
-
+smart_url_check = 0
 ==
 <!-- untuk manggil data list produk -->
 {% set obCategory = CategoryPage.get() %}
@@ -43,6 +43,9 @@ slug_required = 1
                 <li class="hidden-sm"><a href="#last" data-toggle="tab">Last Chance</a></li>
             </ul>
 
+            <div>
+                ini buat menu sort
+            </div>
             <div class="row">
                 <div class="tab-content">
                     <!-- All-->

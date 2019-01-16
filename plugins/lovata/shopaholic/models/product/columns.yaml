@@ -67,3 +67,6 @@ columns:
         type: text
         searchable: true
         sortable: true
+    pre_order:
+        label: 'Pre Order'
+        type: text

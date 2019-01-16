@@ -35,6 +35,11 @@ fields:
         type: text
 tabs:
     fields:
+        pre_order:
+            label: 'Pre Order'
+            span: auto
+            type: checkbox
+            tab: 'lovata.toolbox::lang.tab.settings'
         category:
             label: 'lovata.toolbox::lang.field.category'
             nameFrom: name
@@ -108,8 +113,3 @@ tabs:
             type: partial
             path: ~/plugins/lovata/shopaholic/controllers/products/_offer.htm
             tab: 'lovata.shopaholic::lang.tab.offer'
-        'tag[]':
-            label: aa
-            span: auto
-            type: checkbox
-            tab: Tags

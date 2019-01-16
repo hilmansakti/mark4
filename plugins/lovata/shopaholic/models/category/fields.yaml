@@ -29,12 +29,6 @@ tabs:
             span: left
             type: text
             tab: 'lovata.toolbox::lang.tab.settings'
-        preview_text:
-            label: 'lovata.toolbox::lang.field.preview_text'
-            size: large
-            span: full
-            type: textarea
-            tab: 'lovata.toolbox::lang.tab.description'
         description:
             label: 'lovata.toolbox::lang.field.description'
             size: giant

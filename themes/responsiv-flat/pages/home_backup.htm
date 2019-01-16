@@ -24,6 +24,14 @@ categoryPage = "blog/category"
 postPage = "blog/post"
 
 ==
+
+<?
+function onStart() {
+    $this['n'] = 1;
+}
+?>
+
+==
 {# Get CategoryItem class object #}
 {# 1 - category ID #}
 {% set obCategory = CategoryData.get(1) %}
@@ -46,6 +54,10 @@ postPage = "blog/post"
 
 <!-- untuk out post -->
 {% set posts = posts %}
+<!-- ------ -->
+
+<!-- untuk indocator -->
+
 <!-- ------ -->
 
 {% put styles %}
@@ -80,7 +92,7 @@ postPage = "blog/post"
                     </span>
                 </h3>
                 <p class="text-center">
-                    Kami memiliki banyak produk-produk berkualitas
+                    Kami memiliki banyak produk-produk berkualita
                 </p>
                 <div class="text-center">
                     <ul class="list-inline">
@@ -97,14 +109,19 @@ postPage = "blog/post"
                         <div id="e-crsl" class="carousel slide crsl" data-ride="crsl" data-interval="0">
                             <!-- crsl indicators -->
                             <ol class="carousel-indicators car2" style="top: 100%">
-                                <li data-target="#e-crsl" data-slide-to="0" class="active"></li>
-                                <li data-target="#e-crsl" data-slide-to="1"></li>
-                                <li data-target="#e-crsl" data-slide-to="2"></li>
+                                {% set n = 0 %}
+                                {% for index, obProduct in obProductList %}
+                                    {% if loop.first or (index - 1) is divisible by(4) %}
+                                        <li data-target="#e-crsl" data-slide-to="{{ n }}" class="{% if loop.first %}active{% endif %}"></li>
+                                        {% set n = n+1 %}
+                                    {% endif %}
+                                {% endfor %}
+
                             </ol>
                             <!-- Wrapper for crsl items -->
                             <div class="carousel-inner">
                                 {% for index, obProduct in obProductList %}
-                                    {% if index == 1 or index == 5 or index == 9 or index == 13 or index == 17 or index == 21 %}
+                                    {% if index.first or (index - 1) is divisible by(4) %}
                                         <div class="item carousel-item{% if loop.first %} active{% endif %}">
                                             <div class="row">
                                     {% endif %}
@@ -160,27 +177,23 @@ postPage = "blog/post"
                     </span>
                 </h3>
                 <p class="text-center">
-                    === lorem ipssum ====
+                    <!-- blm ada isi -->
                 </p>
                 <div class="text-center">
                     <a href="" class="btn btn-default bulat">View All</a>
                 </div>
 
-                <div class="row">
-
-                </div>
-
                 <div id="crsl2" class="carousel slide crsl" data-ride="crsl2" data-interval="0">
                     <!-- crsl indicators -->
                     {% if obCategoryList.isNotEmpty() %}
+                    {% set n = 0 %}
                     <ol class="carousel-indicators" style="top: 100%">
-                        <!--{% for in, obCategory in obCategoryList %}-->
-                            <!--{% if in % 3 == 0 %}-->
-                                <!--<li data-target="#crsl2" data-slide-to="{{ in }}" class="{% if loop.first %}active{% endif %}"></li>-->
-                            <!--{% endif %}-->
-                        <!--{% endfor %}-->
-                        <li data-target="#crsl2" data-slide-to="0" class="active"></li>
-                        <li data-target="#crsl2" data-slide-to="1" class=""></li>
+                        {% for index, obC in obCategoryList %}
+                            {% if index.first or (index - 1) is divisible by(3) %}
+                                <li data-target="#crsl2" data-slide-to="{{ n }}" class="{% if loop.first %}active{% endif %}"></li>
+                                {% set n = n+1 %}
+                            {% endif %}
+                        {% endfor %}
                     </ol>
                     {% endif %}
 
@@ -192,23 +205,23 @@ postPage = "blog/post"
                             <h3 class="text-center" style="color: red;">Data not found</h3>
                         {% endif %}
                         {% for i, obCategory in obCategoryList %}
-                            {% if loop.first or i == 4 or i == 7 or i == 10 %}
+                            {% if loop.first or (i - 1) is divisible by(3) %}
                                 <div class="item carousel-item{% if loop.first %} active{% endif %}">
                                     <div class="row">
                             {% endif %}
                                         <div class="col-sm-4">
                                             <div class="thumb-wrapper-2">
-                                                <a href="category/{{ obCategory.slug }}">
+                                                <a href="/product/{{ obCategory.slug }}">
                                                     <img src="{{ obCategory.preview_image.path }}" alt="" class="img-boc">
                                                 </a>
                                                 <span class="cat-label">On Sale</span>
                                                 <div class="thumb-contents">
-                                                    <a href="category/{{ obCategory.slug }}"><h4>{{ obCategory.name}}</h4></a>
-                                                    <p>lorem ipsum</p>
+                                                    <a href="/product/{{ obCategory.slug }}"><h4>{{ obCategory.name}}</h4></a>
+                                                    <p style="font-size: 12pt; line-height: 12pt;" class="">{{ obCategory.description }}</p>
                                                 </div>
                                             </div>
                                         </div>
-                            {% if i % 3 == 0 or loop.last %}
+                            {% if i % 3 == 0 %}
                                     </div>
                                 </div>
                             {% endif %}
@@ -219,7 +232,6 @@ postPage = "blog/post"
         </div>
     </div>
 </section>
-
 
 <br />
 
@@ -232,16 +244,20 @@ postPage = "blog/post"
                     <h3 class="">
                         Recent Post
                     </h3>
-                    <p>In dapibus vel ante in auctor. Suspendisse nec nisi vel lorem vulputate elementum.</p>
+                    <p>-------</p>
                 </div>
                 <br>
                 {% if posts.isNotEmpty() %}
                 <div id="crsl4" class="carousel slide crsl" data-ride="crsl4" data-interval="0">
                     <!-- crsl indicators -->
                     <ol class="carousel-indicators" style="top: 100%;">
-                        <li data-target="#crsl4" data-slide-to="0" class="active"></li>
-                        <li data-target="#crsl4" data-slide-to="1"></li>
-                        <li data-target="#crsl4" data-slide-to="2"></li>
+                        {% set n = 0 %}
+                        {% for i, post in posts %}
+                            {% if loop.first or (i - 1) is divisible by(2) %}
+                                <li data-target="#crsl4" data-slide-to="{{ n }}" class="{% if loop.first %}active{% endif %}"></li>
+                                {% set n = n+1 %}
+                            {% endif %}
+                        {% endfor %}
                     </ol>
                     <!-- Wrapper for crsl items -->
                     <div class="carousel-inner">
@@ -253,7 +269,7 @@ postPage = "blog/post"
                                 <div class="col-sm-6">
                                     <div class="thumb-wrapper-3">
                                         <div class="img-blogs">
-                                            <a href="blog/post/{{ post.slug }}"><img src="{{ post.blog_image.path }}" class="img-boc" alt="img"></a>
+                                            <a href="/blog/post/{{ post.slug }}"><img src="{{ post.blog_image.path }}" class="img-boc" alt="img"></a>
                                         </div>
                                         <span class="cat-label-blog">
                                             <p>{{ post.published_at|date('d') }}</p>
@@ -261,11 +277,11 @@ postPage = "blog/post"
                                         </span>
                                         <div class="thumb-contents">
                                             <h4><a href="">{{ post.title }}</a></h4>
-                                            <a href="blog/post/{{ post.slug }}" style="font-size: 12pt; color: orange;">Selengkapnya <i class="fa fa-arrow-right"></i></a>
+                                            <a href="/blog/post/{{ post.slug }}" style="font-size: 12pt; color: orange;">Selengkapnya <i class="fa fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
-                                {% if loop.last %}
+                                {% if loop.last or in % 2 != 0 %}
                             </div>
                         </div>
                         {% endif %}
@@ -304,8 +320,11 @@ postPage = "blog/post"
                     <div id="crsl3" class="carousel slide crsl" data-ride="crsl3" data-interval="0">
                     <!-- crsl indicators -->
                     <ol class="carousel-indicators">
-                        <li data-target="#crsl3" data-slide-to="0" class="active"></li>
-                        <li data-target="#crsl3" data-slide-to="1"></li>
+                        {% set n = 0 %}
+                        {% for i, obBL in obBrandList %}
+                            <li data-target="#crsl3" data-slide-to="{{ n }}" class="{% if loop.first %}active{% endif %}"></li>
+                            {% set n = n + 1 %}
+                        {% endfor %}
                     </ol>
 
                     <br>

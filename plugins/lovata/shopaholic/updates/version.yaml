@@ -88,3 +88,6 @@
 1.19.7:
     - 'Drop table lovata_shopaholic_product_tag_'
     - builder_table_delete_lovata_shopaholic_product_tag_.php
+1.19.8:
+    - 'Updated table lovata_shopaholic_products'
+    - builder_table_update_lovata_shopaholic_products_3.php

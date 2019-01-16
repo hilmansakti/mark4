@@ -15,6 +15,8 @@ slug_required = 1
 slug
 sorting = "new"
 
+[contactus]
+
 ==
 
 {# Get product item #}
@@ -23,6 +25,9 @@ sorting = "new"
 {# Get product list #}
 {% set obPL = ProductList.make().sort(ProductList.getSorting()).active() %}
 
+{# Get Contact number #}
+{% set data = contactus.data %}
+
 {% put styles %}
     <link href="{{ [
         'assets/vendor/slick/slick.css',
@@ -30,8 +35,8 @@ sorting = "new"
 
 <style type="text/css">
     .brand-icon {
-        width: 30px;
-        height: auto;
+        width: auto;
+        height: 35px;
     }
 </style>
 {% endput %}
@@ -88,9 +93,10 @@ sorting = "new"
 
                     <p class="text-muted">---------</p>
                     <div>
-                        {% if obProduct.link_shopee %}<p> <a href="https://{{ obProduct.link_shopee }}" target="_blank"><img src="/themes/responsiv-flat/assets/images/shopee.png" alt="" class="brand-icon"></a></p>{% endif %}
-                        {% if obProduct.link_tokped %}<p> <a href="https://{{ obProduct.link_tokped }}" target="_blank"><img src="/themes/responsiv-flat/assets/images/tokopedia.png" alt="" class="brand-icon"></a></p>{% endif %}
-                        {% if obProduct.link_bukalapak %}<p> <a href="https://{{ obProduct.link_bukalapak }}" target="_blank"><img src="/themes/responsiv-flat/assets/images/bukalapak.png" alt="" class="brand-icon"></a></p>{% endif %}
+                        {% if obProduct.link_shopee %}<p> <a href="https://{{ obProduct.link_shopee }}" target="_blank"><img src="/themes/responsiv-flat/assets/images/shopee-icon.png" alt="" class="brand-icon"></a></p>{% endif %}
+                        {% if obProduct.link_tokped %}<p> <a href="https://{{ obProduct.link_tokped }}" target="_blank"><img src="/themes/responsiv-flat/assets/images/tokopedia-icon.png" alt="" class="brand-icon"></a></p>{% endif %}
+                        {% if obProduct.link_bukalapak %}<p> <a href="https://{{ obProduct.link_bukalapak }}" target="_blank"><img src="/themes/responsiv-flat/assets/images/bukalapak-icon.png" alt="" class="brand-icon"></a></p>{% endif %}
+                        {% if obProduct.pre_order == 1 %} <p>Hubungi : {{ data.phone }}</p> {% endif %}
                         <div class="price-block">
                             <span class="price">{% if obProduct.price %}Rp {{ obProduct.price|number_format(0, ',', '.') }} {% else %} Hubungi Kami {% endif %}</span>
                         </div>

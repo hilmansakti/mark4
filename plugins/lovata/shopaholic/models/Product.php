@@ -175,6 +175,7 @@ class Product extends ImportModel
         'link_bukalapak',
         'link_shopee',
         'price',
+        'pre_order',
     ];
 
     public $cached = [
@@ -193,6 +194,7 @@ class Product extends ImportModel
         'link_bukalapak',
         'link_shopee',
         'price',
+        'pre_order',
     ];
 
     public $dates = ['created_at', 'updated_at', 'deleted_at'];
