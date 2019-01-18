@@ -1,25 +1,44 @@
-<!-- Search -->
-<form role="form">
-    <div class="well">
-        <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search posts...">
-            <span class="input-group-btn">
-                <button class="btn btn-primary" type="button"><i class="fa fa-search"></i></button>
-            </span>
-        </div>
-    </div>
-</form>
+<!--[CategoryList]-->
 
-<!-- Categories -->
-<div class="panel panel-default">
-    <div class="panel-heading">
-        Categories
-    </div>
-    <ul class="list-group filter-list-group">
-        <li class="list-group-item"><a href="#">Databases</a> <span class="badge">13</span></li>
-        <li class="list-group-item"><a href="#">Design</a> <span class="badge">24</span></li>
-        <li class="list-group-item"><a href="#">Hardware</a> <span class="badge">12</span></li>
-        <li class="list-group-item"><a href="#">Management</a> <span class="badge">18</span></li>
-        <li class="list-group-item"><a href="#">Security</a> <span class="badge">2</span></li>
-    </ul>
-</div>
+<!--==-->
+
+<!--&lt;!&ndash; list category untuk sidebar &ndash;&gt;-->
+<!--{% set obCL = CategoryList.make().tree() %}-->
+<!--&lt;!&ndash; &#45;&#45;&#45;&#45;&#45;&#45; &ndash;&gt;-->
+
+<!--&lt;!&ndash; Search &ndash;&gt;-->
+<!--<form role="form">-->
+    <!--<div class="well">-->
+        <!--<div class="input-group">-->
+            <!--<input type="text" class="form-control" placeholder="Search posts...">-->
+            <!--<span class="input-group-btn">-->
+                <!--<button class="btn btn-primary" type="button"><i class="fa fa-search"></i></button>-->
+            <!--</span>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</form>-->
+
+<!--&lt;!&ndash; Categories &ndash;&gt;-->
+<!--&lt;!&ndash;<div class="panel panel-default">&ndash;&gt;-->
+    <!--&lt;!&ndash;<div class="panel-heading">&ndash;&gt;-->
+        <!--&lt;!&ndash;Categories&ndash;&gt;-->
+    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+    <!--{% if obCL.isNotEmpty() %}-->
+    <!--{% for ind, obC in obCL %}-->
+    <!--<div class="panel panel-default">-->
+        <!--<div class="panel-heading">-->
+            <!--<a href="/">-->
+                <!--{{ obC.name }}-->
+            <!--</a>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--{% endfor %}-->
+    <!--{% endif %}-->
+    <!--&lt;!&ndash;<ul class="list-group filter-list-group">&ndash;&gt;-->
+        <!--&lt;!&ndash;<li class="list-group-item"><a href="#">Databases</a> <span class="badge">13</span></li>&ndash;&gt;-->
+        <!--&lt;!&ndash;<li class="list-group-item"><a href="#">Design</a> <span class="badge">24</span></li>&ndash;&gt;-->
+        <!--&lt;!&ndash;<li class="list-group-item"><a href="#">Hardware</a> <span class="badge">12</span></li>&ndash;&gt;-->
+        <!--&lt;!&ndash;<li class="list-group-item"><a href="#">Management</a> <span class="badge">18</span></li>&ndash;&gt;-->
+        <!--&lt;!&ndash;<li class="list-group-item"><a href="#">Security</a> <span class="badge">2</span></li>&ndash;&gt;-->
+    <!--&lt;!&ndash;</ul>&ndash;&gt;-->
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
