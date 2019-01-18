@@ -78,9 +78,9 @@ smart_url_check = 0
                         <div class="col-sm-6 col-lg-4 item-brg" data-price="{{ obProduct.price }}"
                              data-name="{{ obProduct.name }}">
                             <div class="shop-product featured">
-                                <a href="product/{{ obProduct.category.slug }}/{{ obProduct.slug }}"><img src="{{ obProduct.preview_image.path }}"
+                                <a href="/product/{{ obProduct.category.slug }}/{{ obProduct.slug }}"><img src="{{ obProduct.preview_image.path }}"
                                                                     class="img-responsive" alt=""></a>
-                                <a href="product/{{ obProduct.category.slug }}/{{ obProduct.slug }}" id=""><h6 class="alpha">{{ obProduct.name }}</h6></a>
+                                <a href="/product/{{ obProduct.category.slug }}/{{ obProduct.slug }}" id=""><h6 class="alpha">{{ obProduct.name }}</h6></a>
                                 <p class="price">
                                     <span class="new price">{% if obProduct.price %}Rp {{ obProduct.price }}{% else %} Hubungi Kami {% endif %}</span>
                                 </p>

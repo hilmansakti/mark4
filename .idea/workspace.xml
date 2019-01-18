@@ -27,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/pages/product/product.htm">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="82" column="99" selection-start-line="82" selection-start-column="99" selection-end-line="82" selection-end-column="99" />
+              <caret line="82" column="42" selection-start-line="82" selection-start-column="42" selection-end-line="82" selection-end-column="42" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -370,12 +370,12 @@
       <workItem from="1547172233575" duration="62404000" />
       <workItem from="1547694911480" duration="4072000" />
       <workItem from="1547776711354" duration="2464000" />
-      <workItem from="1547790878925" duration="572000" />
+      <workItem from="1547790878925" duration="632000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117841000" />
+    <option name="totallyTimeSpent" value="117901000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -781,7 +781,7 @@
     <entry file="file://$PROJECT_DIR$/themes/responsiv-flat/pages/product/product.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="82" column="99" selection-start-line="82" selection-start-column="99" selection-end-line="82" selection-end-column="99" />
+          <caret line="82" column="42" selection-start-line="82" selection-start-column="42" selection-end-line="82" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
