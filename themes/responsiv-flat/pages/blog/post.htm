@@ -6,8 +6,12 @@ is_hidden = 0
 [blogPost]
 slug = "{{ :slug }}"
 categoryPage = "blog/category"
+
+[blogTags]
+results = 5
+direction = "desc"
 ==
-<?
+<?php
 use RainLab\Blog\Models\Post;
 
 function onStart() {
@@ -19,7 +23,6 @@ function onStart() {
     $this['desc'] = $desc;
 }
 ?>
-
 ==
 <section id="layout-title">
     <div class="container">
@@ -38,7 +41,6 @@ function onStart() {
                     <p class="text-muted">{{ post.published_at|date('d F Y') }}</p>
                     <a href="#"><img class="img-responsive" src="{{ post.blog_image.path }}" alt="" style="width: 100%; height: auto;"></a>
                     {{ post.content }}
-                    {{ desc }}
 
                 </div>
             </div>

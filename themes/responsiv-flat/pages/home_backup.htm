@@ -276,7 +276,7 @@ function onStart() {
                                             <p style="color: orange; font-size: 10pt">{{ post.published_at|date('M') }}</p>
                                         </span>
                                         <div class="thumb-contents">
-                                            <h4><a href="">{{ post.title }}</a></h4>
+                                            <h4><a href="/blog/post/{{ post.slug }}">{{ post.title }}</a></h4>
                                             <a href="/blog/post/{{ post.slug }}" style="font-size: 12pt; color: orange;">Selengkapnya <i class="fa fa-arrow-right"></i></a>
                                         </div>
                                     </div>
