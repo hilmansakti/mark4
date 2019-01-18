@@ -43,31 +43,50 @@ smart_url_check = 0
                 <li class="hidden-sm"><a href="#last" data-toggle="tab">Last Chance</a></li>
             </ul>
 
+            <!--<div id="sort-menu">-->
+            <!--<div class="row" style="margin: 0;">-->
+            <!--<span>Urut Berdasarkan : </span>-->
+            <!--<button id="price" data-isotop-option='{ "sortBy": "price" }'-->
+            <!--class="btn btn-sm btn-default btn-sort">Harga Terendah-->
+            <!--</button>-->
+            <!--&lt;!&ndash;<button id="price-up" class="btn btn-sm btn-default btn-sort">Harga Tertinggi</button>&ndash;&gt;-->
+            <!--<button id="alpha" data-isotop-option='{ "sortBy": "alpha" }'-->
+            <!--class="btn btn-sm btn-default btn-sort">A-Z-->
+            <!--</button>-->
+            <!--&lt;!&ndash;<button id="alpa-up" class="btn btn-sm btn-default btn-sort">Z-A</button>&ndash;&gt;-->
+            <!--</div>-->
+            <!--</div>-->
             <div id="sort-menu">
-                <div class="row">
-                    <p>Urutkan Berdasarkan : </p>
-                    <button class="btn btn-sm btn-default">Harga Terendah</button>
-                    <button class="btn btn-sm btn-default">Harga Tertinggi</button>
-                    <button class="btn btn-sm btn-default">A-Z</button>
-                    <button class="btn btn-sm btn-default">Z-A</button>
+                <div class="row" style="margin: 0; float: right;">
+                    <span>Urutkan : </span>
+                    <select name="price-sorting" class="price-sorting type-regular" id="">
+                        <option selected value="" disable>default</option>
+                        <option value="a-z">A-Z</option>
+                        <option value="z-a">Z-A</option>
+                        <option value="hR">Harga Terendah</option>
+                        <option value="hT">Harga Tertinggi</option>
+                    </select>
                 </div>
             </div>
+            <br>
             <div class="row">
                 <div class="tab-content">
                     <!-- All-->
                     <div class="tab-pane fade in active" id="popular">
                         {% if arProductList is not empty %}
-                            {% for in, obProduct in obProductList %}
-                                <div class="col-sm-6 col-lg-4">
-                                    <div class="shop-product featured">
-                                        <a href="{{ obProduct.slug }}"><img src="{{ obProduct.preview_image.path }}" class="img-responsive" alt=""></a>
-                                        <a href="{{ obProduct.slug }}"><h6>{{ obProduct.name }}</h6></a>
-                                        <p class="price">
-                                            <span class="new">{% if obProduct.price %}Rp {{ obProduct.price }}{% else %} Hubungi Kami {% endif %}</span>
-                                        </p>
-                                    </div>
-                                </div>
-                            {% endfor %}
+                        {% for in, obProduct in obProductList %}
+                        <div class="col-sm-6 col-lg-4 item-brg" data-price="{{ obProduct.price }}"
+                             data-name="{{ obProduct.name }}">
+                            <div class="shop-product featured">
+                                <a href="{{ obProduct.slug }}"><img src="{{ obProduct.preview_image.path }}"
+                                                                    class="img-responsive" alt=""></a>
+                                <a href="{{ obProduct.slug }}" id=""><h6 class="alpha">{{ obProduct.name }}</h6></a>
+                                <p class="price">
+                                    <span class="new price">{% if obProduct.price %}Rp {{ obProduct.price }}{% else %} Hubungi Kami {% endif %}</span>
+                                </p>
+                            </div>
+                        </div>
+                        {% endfor %}
                         {% endif %}
                     </div>
 
@@ -75,7 +94,8 @@ smart_url_check = 0
                     <div class="tab-pane fade" id="recommended">
                         <div class="col-sm-6 col-lg-4">
                             <div class="shop-product featured">
-                                <a href="{{ 'shop/product'|page }}"><img src="{{ 'assets/images/shop/imac.png'|theme }}" class="img-responsive" alt=""></a>
+                                <a href="{{ 'shop/product'|page }}"><img src="{{ 'assets/images/shop/imac.png'|theme }}"
+                                                                         class="img-responsive" alt=""></a>
                                 <a href="{{ 'shop/product'|page }}"><h6>Product #1</h6></a>
                                 <p class="price">
                                     <span class="old">$80.99</span>
@@ -86,7 +106,9 @@ smart_url_check = 0
                         </div>
                         <div class="col-sm-6 col-lg-4">
                             <div class="shop-product">
-                                <a href="{{ 'shop/product'|page }}"><img src="{{ 'assets/images/shop/macbook.jpg'|theme }}" class="img-responsive" alt=""></a>
+                                <a href="{{ 'shop/product'|page }}"><img
+                                        src="{{ 'assets/images/shop/macbook.jpg'|theme }}" class="img-responsive"
+                                        alt=""></a>
                                 <a href="{{ 'shop/product'|page }}"><h6>Product #2</h6></a>
                                 <p>
                                     $200.00
@@ -100,7 +122,8 @@ smart_url_check = 0
                     <div class="tab-pane fade" id="recent">
                         <div class="col-sm-6 col-lg-4">
                             <div class="shop-product">
-                                <a href="{{ 'shop/product'|page }}"><img src="{{ 'assets/images/shop/ipad.png'|theme }}" class="img-responsive" alt=""></a>
+                                <a href="{{ 'shop/product'|page }}"><img src="{{ 'assets/images/shop/ipad.png'|theme }}"
+                                                                         class="img-responsive" alt=""></a>
                                 <a href="{{ 'shop/product'|page }}"><h6>Product #3</h6></a>
                                 <p>
                                     $50.00
@@ -110,7 +133,8 @@ smart_url_check = 0
                         </div>
                         <div class="col-sm-6 col-lg-4">
                             <div class="shop-product">
-                                <a href="{{ 'shop/product'|page }}"><img src="{{ 'assets/images/shop/imac.png'|theme }}" class="img-responsive" alt=""></a>
+                                <a href="{{ 'shop/product'|page }}"><img src="{{ 'assets/images/shop/imac.png'|theme }}"
+                                                                         class="img-responsive" alt=""></a>
                                 <a href="{{ 'shop/product'|page }}"><h6>Product #1</h6></a>
                                 <p>
                                     $200.00
@@ -120,7 +144,9 @@ smart_url_check = 0
                         </div>
                         <div class="col-sm-6 col-lg-4">
                             <div class="shop-product">
-                                <a href="{{ 'shop/product'|page }}"><img src="{{ 'assets/images/shop/macbook.jpg'|theme }}" class="img-responsive" alt=""></a>
+                                <a href="{{ 'shop/product'|page }}"><img
+                                        src="{{ 'assets/images/shop/macbook.jpg'|theme }}" class="img-responsive"
+                                        alt=""></a>
                                 <a href="{{ 'shop/product'|page }}"><h6>Product #2</h6></a>
                                 <p>
                                     $200.00
@@ -134,7 +160,8 @@ smart_url_check = 0
                     <div class="tab-pane fade" id="last">
                         <div class="col-sm-6 col-lg-4">
                             <div class="shop-product">
-                                <a href="{{ 'shop/product'|page }}"><img src="{{ 'assets/images/shop/ipad.png'|theme }}" class="img-responsive" alt=""></a>
+                                <a href="{{ 'shop/product'|page }}"><img src="{{ 'assets/images/shop/ipad.png'|theme }}"
+                                                                         class="img-responsive" alt=""></a>
                                 <a href="{{ 'shop/product'|page }}"><h6>Product #3</h6></a>
                                 <p>
                                     $50.00
@@ -144,7 +171,8 @@ smart_url_check = 0
                         </div>
                         <div class="col-sm-6 col-lg-4">
                             <div class="shop-product">
-                                <a href="{{ 'shop/product'|page }}"><img src="{{ 'assets/images/shop/ipad.png'|theme }}" class="img-responsive" alt=""></a>
+                                <a href="{{ 'shop/product'|page }}"><img src="{{ 'assets/images/shop/ipad.png'|theme }}"
+                                                                         class="img-responsive" alt=""></a>
                                 <a href="{{ 'shop/product'|page }}"><h6>Product #3</h6></a>
                                 <p>
                                     $50.00
@@ -154,7 +182,8 @@ smart_url_check = 0
                         </div>
                         <div class="col-sm-6 col-lg-4">
                             <div class="shop-product">
-                                <a href="{{ 'shop/product'|page }}"><img src="{{ 'assets/images/shop/imac.png'|theme }}" class="img-responsive" alt=""></a>
+                                <a href="{{ 'shop/product'|page }}"><img src="{{ 'assets/images/shop/imac.png'|theme }}"
+                                                                         class="img-responsive" alt=""></a>
                                 <a href="{{ 'shop/product'|page }}"><h6>Product #1</h6></a>
                                 <p>
                                     $200.00
@@ -164,7 +193,9 @@ smart_url_check = 0
                         </div>
                         <div class="col-sm-6 col-lg-4">
                             <div class="shop-product">
-                                <a href="{{ 'shop/product'|page }}"><img src="{{ 'assets/images/shop/macbook.jpg'|theme }}" class="img-responsive" alt=""></a>
+                                <a href="{{ 'shop/product'|page }}"><img
+                                        src="{{ 'assets/images/shop/macbook.jpg'|theme }}" class="img-responsive"
+                                        alt=""></a>
                                 <a href="{{ 'shop/product'|page }}"><h6>Product #2</h6></a>
                                 <p>
                                     $200.00
@@ -197,10 +228,68 @@ smart_url_check = 0
             {{ arPaginationList }}
             {# Render pagination buttons #}
             {% if arPaginationList is not empty %}
-                {% for arPagination in arPaginationList %}
-                    <a href="/{{ arPagination.value }}" class="{{ arPagination.class }}">{{ arPagination.name }}</a>
-                {% endfor %}
+            {% for arPagination in arPaginationList %}
+            <a href="/{{ arPagination.value }}" class="{{ arPagination.class }}">{{ arPagination.name }}</a>
+            {% endfor %}
             {% endif %}
         </div>
     </div>
 </div>
+
+{% put scripts %}
+<!--<script-->
+<!--src="https://code.jquery.com/jquery-1.7.1.min.js"-->
+<!--integrity="sha256-iBcUE/x23aI6syuqF7EeT/+JFBxjPs5zeFJEXxumwb0="-->
+<!--crossorigin="anonymous"></script>-->
+<!--<script src="https://rawgithub.com/desandro/isotope/v1.5.25/jquery.isotope.js" type="text/javascript"></script>-->
+<!--<script-->
+        <!--src="https://code.jquery.com/jquery-1.6.4.min.js"-->
+        <!--integrity="sha256-lR1rrjnrFy9XqIvWhvepIc8GD9IfWWSPDSC2qPmPxaU="-->
+        <!--crossorigin="anonymous"></script>-->
+<script type="text/javascript">
+    function sortByNameAscending() {
+        var products = $('.item-brg');
+        products.sort(function (a, b) {
+            return $(a).data("name") - $(b).data("name")
+        });
+        $("#popular").html(products);
+    }
+    function sortByNameDescending() {
+        var products = $('.item-brg');
+        products.sort(function (a, b) {
+            return $(b).data("name") - $(a).data("name")
+        });
+        $("#popular").html(products);
+    }
+    function sortByPriceAscending() {
+        var products = $('.item-brg');
+        products.sort(function (a, b) {
+            return $(a).data("price") - $(b).data("price")
+        });
+        $("#popular").html(products);
+    }
+    function sortByPriceDescending() {
+        var products = $('.item-brg');
+        products.sort(function (a, b) {
+            return $(b).data("price") - $(a).data("price")
+        });
+        $("#popular").html(products);
+    }
+
+    $('.price-sorting').change(function () {
+        var sortingMethod = $(this).val();
+
+        if (sortingMethod == 'a-z') {
+            sortByNameAscending();
+        } else if (sortingMethod == 'z-a') {
+            sortByNameDescending();
+        } else if (sortingMethod == 'hR') {
+            sortByPriceAscending();
+        } else if (sortingMethod == 'hT') {
+            sortByPriceDescending();
+        }
+    });
+
+
+</script>
+{% endput %}
